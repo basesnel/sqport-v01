@@ -2,7 +2,7 @@ import Banner from "../../components/Banner/Banner";
 
 import styles from "./styles.module.css";
 
-const Header = () => {
+const Main = () => {
   return (
     <main className={styles.main}>
       <Banner />
@@ -10,4 +10,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Main;

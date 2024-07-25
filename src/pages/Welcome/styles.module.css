@@ -1,0 +1,32 @@
+.wrapper {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  background-color: #202020;
+  color: #f0f0f0;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.button {
+  padding: 15px 40px;
+  border: 1px solid #f0f0f0;
+  border-radius: 20px;
+  color: #f0f0f0;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #f0f0f0;
+  color: #202020;
+}

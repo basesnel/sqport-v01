@@ -4,3 +4,8 @@
   flex-direction: column;
   gap: 32px;
 }
+
+.container {
+  padding: 24px;
+  min-height: 100vh;
+}

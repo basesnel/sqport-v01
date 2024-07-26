@@ -1,11 +1,20 @@
 import Welcome from "./pages/Welcome/Welcome";
-// import Header from "./components/Header/Header";
-// import Main from "./pages/Main/Main";
+import Main from "./pages/Main/Main";
+import { Route, Routes } from "react-router-dom";
+import NotFound from "./pages/NotFound/NotFound";
+import SharedLayout from "./components/SharedLayout/SharedLayout";
 
 const App = () => {
   return (
     <>
-      <Welcome />
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<Welcome />} />
+          <Route path="/main" element={<Main />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+
       {/* <Header />
       <div className="container">
         <Main />

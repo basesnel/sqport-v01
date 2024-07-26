@@ -11,6 +11,9 @@ const Welcome = () => {
         <Link to="/main" className={styles.button}>
           start
         </Link>
+        <p>
+          Welcome to <span>sgport</span> app!
+        </p>
       </header>
     </div>
   );

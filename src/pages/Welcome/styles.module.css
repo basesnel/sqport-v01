@@ -25,25 +25,26 @@
   border: 1px solid #f0f0f0;
   border-radius: 20px;
   text-transform: uppercase;
+  font-weight: bold;
   background: linear-gradient(
-    135deg,
+    110deg,
     #202020 20%,
-    #f0f0f0 40%,
-    #f0f0f0 60%,
+    #f0f0f0 48%,
+    #f0f0f0 52%,
     #202020 80%
   );
-  background-size: 200% 200%;
+  background-size: 300% 300%;
   background-position: top left;
   background-repeat: no-repeat;
   color: #f0f0f0;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   animation: buttonAnimation 5000ms cubic-bezier(0.4, 0, 0.2, 1) 1000ms
     alternate infinite;
 }
 
 .button:hover,
 .button:focus {
-  background-color: #f0f0f0;
-  color: #202020;
+  transform: scale(1.1);
 }
 
 @keyframes buttonAnimation {

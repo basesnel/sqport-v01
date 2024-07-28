@@ -7,7 +7,9 @@ const Welcome = () => {
   return (
     <div className={styles.wrapper}>
       <header className={styles.header}>
-        <img src={sqportLogo} className={styles.logo} alt="sqport logo" />
+        <div className={styles.thumb}>
+          <img src={sqportLogo} className={styles.logo} alt="sqport logo" />
+        </div>
         <Link to="/main" className={styles.button}>
           start
         </Link>

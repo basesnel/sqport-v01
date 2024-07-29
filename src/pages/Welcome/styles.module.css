@@ -26,16 +26,16 @@
   height: 1vmin;
   background: linear-gradient(
     110deg,
-    #202020 20%,
+    #202020 40%,
     #f0f0f0 48%,
     #f0f0f0 52%,
-    #202020 80%
+    #202020 60%
   );
   background-size: 300% 300%;
   background-position: 160% 160%;
   background-repeat: no-repeat;
   transform: translateY(3vmin);
-  animation: buttonAnimation 5000ms cubic-bezier(0.4, 0, 0.2, 1) 1000ms
+  animation: gradientAnimation 5000ms cubic-bezier(0.4, 0, 0.2, 1) 1000ms
     alternate infinite;
 }
 
@@ -65,7 +65,7 @@
   color: #f0f0f0;
   transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms,
     box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-  animation: buttonAnimation 5000ms cubic-bezier(0.4, 0, 0.2, 1) 1000ms
+  animation: gradientAnimation 5000ms cubic-bezier(0.4, 0, 0.2, 1) 1000ms
     alternate infinite;
 }
 
@@ -77,7 +77,7 @@
     0 100px 80px #f0f0f0;
 }
 
-@keyframes buttonAnimation {
+@keyframes gradientAnimation {
   0% {
     background-position: 160% 160%;
     color: #f0f0f0;

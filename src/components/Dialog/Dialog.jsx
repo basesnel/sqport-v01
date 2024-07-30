@@ -7,28 +7,29 @@ const Dialog = () => {
   return (
     <Section>
       <Container>
-        <form>
-          <fieldset className={styles.fieldset}>
-            <legend>select an category</legend>
-            <div>
-              <label htmlFor="category">Please choose an category</label>
-              <br />
-              <select name="category" id="category">
-                <option value=""></option>
-                <option value="administration">Administration</option>
-                <option value="cyber">Cyber defense</option>
-                <option value="network">Network administration</option>
-              </select>
-            </div>
-          </fieldset>
-          <fieldset className={styles.fieldset}>
-            <legend>ask a question</legend>
-            <div>
-              <label htmlFor="question">Please ask a question</label>
-              <br />
-              <textarea name="question" id="question"></textarea>
-            </div>
-          </fieldset>
+        <h2 className={styles.tytle2}>Dialog</h2>
+        <form className={styles.form}>
+          <h3 className={styles.tytle3}>select an category</h3>
+          <div className={styles.field}>
+            <label htmlFor="category">Please choose an category</label>
+            <select name="category" id="category" className={styles.select}>
+              <option value=""></option>
+              <option value="administration">Administration</option>
+              <option value="cyber">Cyber defense</option>
+              <option value="network">Network administration</option>
+            </select>
+          </div>
+        </form>
+        <form className={styles.form}>
+          <h3 className={styles.tytle3}>ask a question</h3>
+          <div className={styles.field}>
+            <label htmlFor="question">Please ask a question</label>
+            <textarea
+              name="question"
+              id="question"
+              className={styles.textarea}
+            ></textarea>
+          </div>
         </form>
       </Container>
     </Section>

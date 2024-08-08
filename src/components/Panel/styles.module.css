@@ -1,0 +1,9 @@
+.panel {
+  padding: 1em;
+  border: 1px solid #202020;
+}
+
+.title {
+  margin-bottom: 0.6em;
+  font-size: 1.2em;
+}

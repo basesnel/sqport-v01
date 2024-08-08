@@ -1,9 +1,9 @@
 .form {
   margin-bottom: 12px;
-  border: 1px solid #808080;
-  border-radius: 12px;
+  border: 1px solid #202020;
+  border-radius: 8px;
   padding: 12px;
-  background-color: #e0e0e0;
+  background-color: #f0f0f0;
 }
 
 .tytle2 {
@@ -24,6 +24,7 @@
 
 .select,
 .textarea {
-  border-radius: 4px;
-  padding: 4px;
+  border: 1px solid #202020;
+  border-radius: 2px;
+  padding: 6px;
 }

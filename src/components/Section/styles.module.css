@@ -2,18 +2,22 @@
 @value mobile, smartphone from sizes;
 
 .section {
-  padding: 12px 0;
+  padding: 16px 0;
+}
+
+.section.highlighted {
+  background-color: #e8ebed;
 }
 
 @media mobile {
   .section {
-    padding: 18px 0;
+    padding: 22px 0;
   }
 }
 
 @media smartphone {
   .section {
-    padding: 24px 0;
+    padding: 28px 0;
   }
 }
 

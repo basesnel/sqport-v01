@@ -3,7 +3,22 @@
   font-size: 1.4em;
 }
 
-.extra {
+.out {
   font-size: 1.2em;
-  color: #6c7072;
+}
+
+.out::after {
+  content: "|";
+  color: #202020;
+  padding: 0 1px;
+  animation-name: cursor1;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-iteration-count: infinite;
+}
+
+@keyframes cursor1 {
+  50% {
+    color: #f0f0f0;
+  }
 }

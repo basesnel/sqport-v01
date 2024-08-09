@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 const Dialog = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <Section>
+    <Section highlight={true}>
       <Container>
         <h2 className={styles.tytle2}>Dialog</h2>
 

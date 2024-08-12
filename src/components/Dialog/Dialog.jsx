@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 const Dialog = () => {
   const out = useRef(null);
 
-  const str = "Please, choose the way how can I help you!";
+  const str = "Please choose how I can help you!";
 
   let position = 0;
 

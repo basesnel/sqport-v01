@@ -9,7 +9,7 @@ const Banner = () => {
   const out = useRef(null);
 
   const str =
-    "Congratulations! I am sqport-service. My task - to help and guide you with self-service.";
+    "Greetings! I am sqport-service. My task is to help and guide you in self-service issues.";
 
   let position = 0;
 

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Section from "../Section/Section";
 import Container from "../Container/Container";
 import Panel from "../Panel/Panel";
@@ -6,11 +6,47 @@ import Panel from "../Panel/Panel";
 import styles from "./styles.module.css";
 
 const Dialog = () => {
+  const out = useRef(null);
+
+  const str = "Please, choose the way how can I help you!";
+
+  let position = 0;
+
+  const typeText = () => {
+    if (position === str.length) return;
+
+    const v = getRandomInt(0, 100);
+
+    if (v > 97 && position !== 0) {
+      out.current.textContent += str[getRandomInt(0, str.length - 2)];
+      setTimeout(removeLastChar, 1000);
+    } else {
+      out.current.textContent += str[position];
+      position++;
+      setTimeout(typeText, getRandomInt());
+    }
+  };
+
+  const getRandomInt = (min = 50, max = 750) => {
+    const rand = min + Math.random() * (max + 1 - min);
+    return Math.floor(rand);
+  };
+
+  const removeLastChar = () => {
+    out.current.textContent = str.substring(0, position);
+    setTimeout(typeText, getRandomInt());
+  };
+
+  useEffect(() => {
+    setTimeout(typeText, 15000);
+  }, []);
+
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <Section highlight={true}>
       <Container>
         <h2 className={styles.tytle2}>Dialog</h2>
+        <p className={styles.text} ref={out}></p>
 
         <Panel
           title="select an category"

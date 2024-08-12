@@ -8,7 +8,8 @@ import styles from "./styles.module.css";
 const Banner = () => {
   const out = useRef(null);
 
-  const str = "Congratulations! How can I help you?";
+  const str =
+    "Congratulations! I am sqport-service. My task - to help and guide you with self-service.";
 
   let position = 0;
 
@@ -38,14 +39,14 @@ const Banner = () => {
   };
 
   useEffect(() => {
-    setTimeout(typeText, 2000);
+    setTimeout(typeText, 1000);
   }, []);
 
   return (
     <Section>
       <Container>
         <h2 className={styles.tytle2}>Congrats</h2>
-        <p className={styles.out} ref={out}></p>
+        <p className={styles.text} ref={out}></p>
       </Container>
     </Section>
   );

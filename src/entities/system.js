@@ -3,6 +3,7 @@ class System {
     entity,
     developer,
     name,
+    logo,
     family,
     version,
     release,
@@ -15,6 +16,7 @@ class System {
     this.entity = entity;
     this.developer = developer;
     this.name = name;
+    this.logo = logo;
     this.family = family;
     this.version = version;
     this.release = release;

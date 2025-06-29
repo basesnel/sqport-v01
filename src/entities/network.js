@@ -17,9 +17,10 @@ class Network {
     Network.#overlayNetworks.includes(network);
   }
 
-  constructor({ entity, name, topology, geoScale, isOverlay }) {
+  constructor({ entity, name, logo, topology, geoScale, isOverlay }) {
     this.entity = entity;
     this.name = name;
+    this.logo = logo;
     this.topology = topology;
     this.geoScale = geoScale;
     this.isOverlay = isOverlay;

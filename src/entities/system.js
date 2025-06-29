@@ -12,6 +12,7 @@ class System {
     kernel,
     defaultInterface,
     license,
+    site,
   }) {
     this.entity = entity;
     this.developer = developer;
@@ -25,6 +26,7 @@ class System {
     this.kernel = kernel;
     this.defaultInterface = defaultInterface;
     this.license = license;
+    this.site = site;
   }
 }
 

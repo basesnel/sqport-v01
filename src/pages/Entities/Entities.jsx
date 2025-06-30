@@ -1,7 +1,7 @@
+import { useEffect } from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import { useEffect } from "react";
-
+// import jsonSystems from "./jsons/systems.json";
 // import styles from "./styles.module.css";
 
 // const systems =
@@ -10,7 +10,7 @@ import { useEffect } from "react";
 const Main = () => {
   useEffect(() => {
     try {
-      fetch("src/jsons/systems.json")
+      fetch("/jsons/systems.json")
         .then((response) => response.json())
         .then((value) => console.log(value));
     } catch (error) {

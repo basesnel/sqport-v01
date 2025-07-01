@@ -22,26 +22,26 @@
     "version": "1.02",
     "editions": null,
     "build number": null,
-    "architecture": "x86-16, IA-32",
+    "architecture": "x86-16",
     "endOfSupport": "December 31, 2001",
     "license": "Commercial software",
     "entity": "system",
     "developer": "Microsoft",
-    "logo": "W1.01-logo"
+    "logo": "W1.02-logo"
   },
   {
+    "id": 3,
+    "name": "Windows 1.03",
+    "codename": null,
+    "release": "August 21, 1986",
+    "version": "1.03",
+    "editions": null,
+    "build number": null,
+    "architecture": "x86-16",
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
     "entity": "system",
     "developer": "Microsoft",
-    "name": "Windows 95",
-    "logo": "W95-logo",
-    "family": "Windows 9x",
-    "version": "4.00.950",
-    "release": "August 24, 1995",
-    "packageManager": "Program manager",
-    "platforms": "IA-32",
-    "kernel": "Monolithic",
-    "defaultInterface": "Desktop, taskbar, Start menu and Windows Explorer file manager",
-    "license": "Proprietary commercial software",
-    "site": "Windows 95 (archived at Wayback Machine)"
+    "logo": "W1.03-logo"
   }
 ]

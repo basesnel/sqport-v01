@@ -163,5 +163,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W3.1-logo"
+  },
+  {
+    "id": 12,
+    "name": "Windows NT 3.1",
+    "codename": "Razzle",
+    "release": "July 27, 1993",
+    "version": "NT 3.1",
+    "editions": "Windows NT 3.1",
+    "build number": 528,
+    "architecture": ["IA-32", "Alpha", "MIPS"],
+    "endOfSupport": "December 31, 2000",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WNT3.1-logo"
   }
 ]

@@ -88,5 +88,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W2.03-logo"
+  },
+  {
+    "id": 7,
+    "name": "Windows 2.1",
+    "codename": null,
+    "release": "May 27, 1988",
+    "version": "2.10",
+    "editions": null,
+    "build number": null,
+    "architecture": ["x86-16", "IA-32"],
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "W2.10-logo"
   }
 ]

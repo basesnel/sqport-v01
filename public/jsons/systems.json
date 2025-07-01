@@ -118,5 +118,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W2.11-logo"
+  },
+  {
+    "id": 9,
+    "name": "Windows 3.00",
+    "codename": null,
+    "release": "May 22, 1990",
+    "version": "3.00",
+    "editions": ["Windows 3.00a", "Windows 3.00 with Multimedia Extensions"],
+    "build number": null,
+    "architecture": ["x86-16", "IA-32"],
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "W3.00-logo"
   }
 ]

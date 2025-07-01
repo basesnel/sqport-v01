@@ -15,19 +15,19 @@
     "logo": "W1.01-logo"
   },
   {
+    "id": 2,
+    "name": "Windows 1.02",
+    "codename": null,
+    "release": "May 14, 1986",
+    "version": "1.02",
+    "editions": null,
+    "build number": null,
+    "architecture": "x86-16, IA-32",
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
     "entity": "system",
     "developer": "Microsoft",
-    "name": "Windows 3.1",
-    "logo": "W3.1-logo",
-    "family": "Microsoft Windows",
-    "version": "3.1",
-    "release": "April 6, 1992",
-    "packageManager": "Program manager",
-    "platforms": "IBM PC",
-    "kernel": "Monolithic",
-    "defaultInterface": "Graphical user interface (GUI)",
-    "license": "Commercial software",
-    "site": "Windows 95 (archived at Wayback Machine)"
+    "logo": "W1.01-logo"
   },
   {
     "entity": "system",

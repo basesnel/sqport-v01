@@ -43,5 +43,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W1.03-logo"
+  },
+  {
+    "id": 4,
+    "name": "Windows 1.04",
+    "codename": null,
+    "release": "April 10, 1987",
+    "version": "1.04",
+    "editions": null,
+    "build number": null,
+    "architecture": "x86-16",
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "W1.04-logo"
   }
 ]

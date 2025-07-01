@@ -178,5 +178,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WNT3.1-logo"
+  },
+  {
+    "id": 13,
+    "name": "Windows 3.11",
+    "codename": null,
+    "release": "November 8, 1993",
+    "version": "3.11",
+    "editions": "Windows 3.11",
+    "build number": null,
+    "architecture": ["x86-16", "IA-32"],
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WNT3.1-logo"
   }
 ]

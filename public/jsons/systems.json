@@ -193,5 +193,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WNT3.1-logo"
+  },
+  {
+    "id": 14,
+    "name": "Windows 3.11",
+    "codename": "Snowball",
+    "release": "November 8, 1993",
+    "version": "3.11",
+    "editions": "Windows for Workgroups 3.11",
+    "build number": 300,
+    "architecture": "IA-32",
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WNT3.1-logo"
   }
 ]

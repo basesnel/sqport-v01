@@ -208,5 +208,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WNT3.1-logo"
+  },
+  {
+    "id": 15,
+    "name": "Windows 3.2",
+    "codename": null,
+    "release": "November 22, 1993",
+    "version": "3.2",
+    "editions": "Windows 3.2",
+    "build number": 153,
+    "architecture": ["x86-16", "IA-32"],
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WNT3.2-logo"
   }
 ]

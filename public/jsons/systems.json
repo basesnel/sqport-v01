@@ -237,6 +237,21 @@
     "license": "Commercial software",
     "entity": "system",
     "developer": "Microsoft",
-    "logo": "WNT3.2-logo"
+    "logo": "WNT3.5-logo"
+  },
+  {
+    "id": 17,
+    "name": "Windows NT 3.51",
+    "codename": "Daytona",
+    "release": "May 30, 1995",
+    "version": "NT 3.51",
+    "editions": "Windows NT 3.51 Workstation",
+    "build number": 1057,
+    "architecture": ["IA-32", "Alpha", "MIPS", "PowerPC"],
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WNT3.51-logo"
   }
 ]

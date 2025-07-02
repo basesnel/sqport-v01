@@ -364,6 +364,21 @@
     "logo": "WXP-logo"
   },
   {
+    "id": 25,
+    "name": "Windows XP",
+    "codename": "Whistler",
+    "release": "October 25, 2001",
+    "version": "NT 5.1",
+    "editions": "Windows XP 64-bit Edition",
+    "build number": 2600,
+    "architecture": "Itanium",
+    "endOfSupport": "April 8, 2014",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WXP-logo"
+  },
+  {
     "id": 26,
     "name": "Windows XP",
     "codename": "Freestyle",

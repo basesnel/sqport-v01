@@ -223,5 +223,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WNT3.2-logo"
+  },
+  {
+    "id": 16,
+    "name": "Windows NT 3.5",
+    "codename": "Daytona",
+    "release": "September 21, 1994",
+    "version": "NT 3.5",
+    "editions": "Windows NT 3.5 Workstation",
+    "build number": 807,
+    "architecture": ["IA-32", "Alpha", "MIPS", "PowerPC"],
+    "endOfSupport": "December 31, 2001",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WNT3.2-logo"
   }
 ]

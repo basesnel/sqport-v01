@@ -313,5 +313,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W98-logo"
+  },
+  {
+    "id": 22,
+    "name": "Windows 2000",
+    "codename": "Windows NT 5.0",
+    "release": "February 17, 2000",
+    "version": "NT 5.0",
+    "editions": "Windows 2000 Professional",
+    "build number": 2195,
+    "architecture": "IA-32",
+    "endOfSupport": "July 13, 2010",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "W2000-logo"
   }
 ]

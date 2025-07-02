@@ -328,5 +328,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W2000-logo"
+  },
+  {
+    "id": 23,
+    "name": "Windows ME",
+    "codename": "Millennium",
+    "release": "September 14, 2000",
+    "version": "4.90",
+    "editions": "Windows Me",
+    "build number": 3000,
+    "architecture": "IA-32",
+    "endOfSupport": "July 11, 2006",
+    "license": "Commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WME-logo"
   }
 ]

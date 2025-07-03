@@ -264,7 +264,7 @@
     "build number": 950,
     "architecture": "IA-32",
     "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
+    "license": "Proprietary commercial software",
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W95-logo"
@@ -279,7 +279,7 @@
     "build number": 1381,
     "architecture": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "endOfSupport": "June 30, 2004",
-    "license": "Commercial software",
+    "license": "Commercial proprietary software",
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WNT4.0-logo"

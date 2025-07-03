@@ -500,23 +500,16 @@
   {
     "id": 33,
     "name": "Windows 8",
-    "codename": "Longhorn",
-    "release": "January 30, 2007",
-    "version": "NT 6.0",
-    "editions": [
-      "Windows 7 Starter",
-      "Windows 7 Home Basic",
-      "Windows 7 Home Premium",
-      "Windows 7 Business",
-      "Windows 7 Enterprise",
-      "Windows 7 Ultimate"
-    ],
-    "build number": 7601,
+    "codename": "Windows 8",
+    "release": "October 26, 2012",
+    "version": "NT 6.2",
+    "editions": ["Windows 8", "Windows 8 Pro", "Windows 8 Enterprise"],
+    "build number": 9200,
     "architecture": ["IA-32", "x86-64"],
-    "endOfSupport": "January 14, 2020",
+    "endOfSupport": "January 12, 2016",
     "license": "Proprietary commercial software",
     "entity": "system",
     "developer": "Microsoft",
-    "logo": "W7-logo"
+    "logo": "W8-logo"
   }
 ]

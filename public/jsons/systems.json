@@ -452,5 +452,27 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WXP-logo"
+  },
+  {
+    "id": 31,
+    "name": "Windows Vista",
+    "codename": "Longhorn",
+    "release": "January 30, 2007",
+    "version": "NT 6.0",
+    "editions": [
+      "Windows Vista Starter",
+      "Windows Vista Home Basic",
+      "Windows Vista Home Premium",
+      "Windows Vista Business",
+      "Windows Vista Enterprise",
+      "Windows Vista Ultimate"
+    ],
+    "build number": 6002,
+    "architecture": ["IA-32", "x86-64"],
+    "endOfSupport": "April 11, 2017",
+    "license": "Proprietary commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WVista-logo"
   }
 ]

@@ -511,5 +511,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W8-logo"
+  },
+  {
+    "id": 34,
+    "name": "Windows 8.1",
+    "codename": "Blue",
+    "release": "October 17, 2013",
+    "version": "NT 6.3",
+    "editions": ["Windows 8.1", "Windows 8.1 Pro", "Windows 8.1 Enterprise"],
+    "build number": 9600,
+    "architecture": ["IA-32", "x86-64"],
+    "endOfSupport": "January 10, 2023",
+    "license": "Proprietary commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "W81-logo"
   }
 ]

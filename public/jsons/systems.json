@@ -422,5 +422,20 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WXP-logo"
+  },
+  {
+    "id": 29,
+    "name": "Windows XP",
+    "codename": "Emerald",
+    "release": "October 14, 2005",
+    "version": "NT 5.1",
+    "editions": "Windows XP Media Center Edition 2005 Update Rollup 2",
+    "build number": 2710,
+    "architecture": "IA-32",
+    "endOfSupport": "April 8, 2014",
+    "license": "Proprietary commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "WXP-logo"
   }
 ]

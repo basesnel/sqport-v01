@@ -474,5 +474,27 @@
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WVista-logo"
+  },
+  {
+    "id": 32,
+    "name": "Windows 7",
+    "codename": "Longhorn",
+    "release": "January 30, 2007",
+    "version": "NT 6.0",
+    "editions": [
+      "Windows 7 Starter",
+      "Windows 7 Home Basic",
+      "Windows 7 Home Premium",
+      "Windows 7 Business",
+      "Windows 7 Enterprise",
+      "Windows 7 Ultimate"
+    ],
+    "build number": 7601,
+    "architecture": ["IA-32", "x86-64"],
+    "endOfSupport": "January 14, 2020",
+    "license": "Proprietary commercial software",
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "W7-logo"
   }
 ]

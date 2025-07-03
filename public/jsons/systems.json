@@ -234,7 +234,7 @@
     "build number": 807,
     "architecture": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
+    "license": "Commercial proprietary software",
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WNT3.5-logo"
@@ -249,7 +249,7 @@
     "build number": 1057,
     "architecture": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
+    "license": "Commercial proprietary software",
     "entity": "system",
     "developer": "Microsoft",
     "logo": "WNT3.51-logo"

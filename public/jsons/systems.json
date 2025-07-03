@@ -507,7 +507,13 @@
     "build number": 9200,
     "architecture": ["IA-32", "x86-64"],
     "endOfSupport": "January 12, 2016",
-    "license": "Proprietary commercial software",
+    "license": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine",
+      "DreamSpark"
+    ],
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W8-logo"
@@ -522,7 +528,12 @@
     "build number": 9600,
     "architecture": ["IA-32", "x86-64"],
     "endOfSupport": "January 10, 2023",
-    "license": "Proprietary commercial software",
+    "license": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W81-logo"
@@ -537,9 +548,43 @@
     "build number": 9600,
     "architecture": ["IA-32", "x86-64"],
     "endOfSupport": "January 10, 2023",
-    "license": "Proprietary commercial software",
+    "license": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W81-logo"
+  },
+  {
+    "id": 36,
+    "name": "Windows 10",
+    "codename": "Threshold",
+    "release": "July 29, 2015",
+    "version": "NT 10.0 1507 (retroactively)",
+    "editions": [
+      "Windows 10 Home",
+      "Windows 10 Professional",
+      "Windows 10 Education",
+      "Windows 10 Enterprise",
+      "Windows 10 Workstations",
+      "Windows 10 Pro Education",
+      "Windows 10 S",
+      "Windows 10 Enterprise LTSC"
+    ],
+    "build number": 10240,
+    "architecture": ["IA-32", "x86-64", "ARM64"],
+    "endOfSupport": "May 9, 2017",
+    "license": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "entity": "system",
+    "developer": "Microsoft",
+    "logo": "W10-logo"
   }
 ]

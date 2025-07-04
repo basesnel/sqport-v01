@@ -58,12 +58,10 @@
     "release": "December 9, 1987",
     "version": "2.01",
     "editions": null,
-    "build number": null,
-    "architecture": ["x86-16", "IA-32"],
-    "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "build": null,
+    "architectures": ["x86-16", "IA-32"],
+    "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
     "logo": "W2.01-logo"
   },
   {
@@ -73,12 +71,10 @@
     "release": "December 9, 1987",
     "version": "2.03",
     "editions": null,
-    "build number": null,
-    "architecture": ["x86-16", "IA-32"],
-    "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "build": null,
+    "architectures": ["x86-16", "IA-32"],
+    "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
     "logo": "W2.03-logo"
   },
   {

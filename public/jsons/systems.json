@@ -187,13 +187,11 @@
     "codename": null,
     "release": "November 22, 1993",
     "version": "3.2",
-    "editions": "Windows 3.2",
+    "editions": ["Windows 3.2"],
     "build": 153,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software"],
     "logo": "WNT3.2-logo"
   },
   {
@@ -202,13 +200,11 @@
     "codename": "Daytona",
     "release": "September 21, 1994",
     "version": "NT 3.5",
-    "editions": "Windows NT 3.5 Workstation",
+    "editions": ["Windows NT 3.5 Workstation"],
     "build": 807,
     "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "obsolete": "December 31, 2001",
-    "licenses": "Commercial proprietary software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WNT3.5-logo"
   },
   {

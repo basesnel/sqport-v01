@@ -84,12 +84,10 @@
     "release": "May 27, 1988",
     "version": "2.10",
     "editions": null,
-    "build number": null,
-    "architecture": ["x86-16", "IA-32"],
-    "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "build": null,
+    "architectures": ["x86-16", "IA-32"],
+    "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
     "logo": "W2.10-logo"
   },
   {
@@ -99,12 +97,10 @@
     "release": "March 13, 1989",
     "version": "2.11",
     "editions": null,
-    "build number": null,
-    "architecture": ["x86-16", "IA-32"],
-    "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "build": null,
+    "architectures": ["x86-16", "IA-32"],
+    "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
     "logo": "W2.11-logo"
   },
   {
@@ -117,7 +113,7 @@
     "build number": null,
     "architecture": ["x86-16", "IA-32"],
     "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
+    "license": ["Commercial software"],
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W3.0-logo"
@@ -132,7 +128,7 @@
     "build number": 103,
     "architecture": ["x86-16", "IA-32"],
     "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
+    "license": ["Commercial software"],
     "entity": "system",
     "developer": "Microsoft",
     "logo": "W3.1-logo"

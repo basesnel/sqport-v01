@@ -291,13 +291,11 @@
     "codename": "Millennium",
     "release": "September 14, 2000",
     "version": "4.90",
-    "editions": "Windows Me",
+    "editions": ["Windows Me"],
     "build": 3000,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "July 11, 2006",
-    "licenses": "Proprietary software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Proprietary software"],
     "logo": "WME-logo"
   },
   {
@@ -312,11 +310,9 @@
       "Windows XP Professional"
     ],
     "build": 2600,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "April 8, 2014",
-    "licenses": "Proprietary commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WXP-logo"
   },
   {

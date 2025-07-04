@@ -8,7 +8,7 @@
     "editions": null,
     "build": null,
     "architectures": ["x86-16"],
-    "retirement": "December 31, 2001",
+    "obsolete": "December 31, 2001",
     "licenses": ["Commercial software"],
     "logo": "W1.01-logo"
   },
@@ -19,12 +19,10 @@
     "release": "May 14, 1986",
     "version": "1.02",
     "editions": null,
-    "build number": null,
-    "architecture": "x86-16",
-    "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "build": null,
+    "architectures": ["x86-16"],
+    "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
     "logo": "W1.02-logo"
   },
   {
@@ -34,12 +32,10 @@
     "release": "August 21, 1986",
     "version": "1.03",
     "editions": null,
-    "build number": null,
-    "architecture": "x86-16",
-    "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "build": null,
+    "architectures": ["x86-16"],
+    "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
     "logo": "W1.03-logo"
   },
   {

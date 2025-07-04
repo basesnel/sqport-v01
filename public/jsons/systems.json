@@ -228,7 +228,7 @@
     "version": "NT 3.51",
     "editions": ["Windows 95"],
     "build": 950,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W95-logo"
@@ -239,13 +239,11 @@
     "codename": "Shell Update Release (Tukwila)",
     "release": "August 24, 1996",
     "version": "NT 4.0",
-    "editions": "Windows NT 4.0 Workstation",
+    "editions": ["Windows NT 4.0 Workstation"],
     "build": 1381,
     "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "obsolete": "June 30, 2004",
-    "licenses": "Commercial proprietary software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WNT4.0-logo"
   },
   {
@@ -254,13 +252,11 @@
     "codename": "Memphis",
     "release": "June 25, 1998",
     "version": "4.10",
-    "editions": "Windows 98",
+    "editions": ["Windows 98"],
     "build": 1998,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "July 11, 2006",
-    "licenses": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software"],
     "logo": "W98-logo"
   },
   {

@@ -265,13 +265,11 @@
     "codename": null,
     "release": "June 10, 1999",
     "version": "4.10",
-    "editions": "Windows 98 Second Edition",
+    "editions": ["Windows 98 Second Edition"],
     "build": "2222A",
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "July 11, 2006",
-    "licenses": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software"],
     "logo": "W98-logo"
   },
   {
@@ -280,13 +278,11 @@
     "codename": "Windows NT 5.0",
     "release": "February 17, 2000",
     "version": "NT 5.0",
-    "editions": "Windows 2000 Professional",
+    "editions": ["Windows 2000 Professional"],
     "build": 2195,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "July 13, 2010",
-    "licenses": "Proprietary commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W2000-logo"
   },
   {

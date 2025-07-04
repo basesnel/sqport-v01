@@ -110,12 +110,10 @@
     "release": "May 22, 1990",
     "version": "3.0",
     "editions": ["Windows 3.00a", "Windows 3.0 with Multimedia Extensions"],
-    "build number": null,
-    "architecture": ["x86-16", "IA-32"],
-    "endOfSupport": "December 31, 2001",
-    "license": ["Commercial software"],
-    "entity": "system",
-    "developer": "Microsoft",
+    "build": null,
+    "architectures": ["x86-16", "IA-32"],
+    "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
     "logo": "W3.0-logo"
   },
   {
@@ -125,12 +123,10 @@
     "release": "April 6, 1992",
     "version": "3.10",
     "editions": "Windows 3.1",
-    "build number": 103,
-    "architecture": ["x86-16", "IA-32"],
-    "endOfSupport": "December 31, 2001",
-    "license": ["Commercial software"],
-    "entity": "system",
-    "developer": "Microsoft",
+    "build": 103,
+    "architectures": ["x86-16", "IA-32"],
+    "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
     "logo": "W3.1-logo"
   },
   {

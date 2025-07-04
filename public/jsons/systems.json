@@ -161,13 +161,11 @@
     "codename": null,
     "release": "November 8, 1993",
     "version": "3.11",
-    "editions": "Windows 3.11",
+    "editions": ["Windows 3.11"],
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software"],
     "logo": "WNT3.1-logo"
   },
   {
@@ -176,13 +174,11 @@
     "codename": "Snowball",
     "release": "November 8, 1993",
     "version": "3.11",
-    "editions": "Windows for Workgroups 3.11",
+    "editions": ["Windows for Workgroups 3.11"],
     "build": 300,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software"],
     "logo": "WNT3.1-logo"
   },
   {

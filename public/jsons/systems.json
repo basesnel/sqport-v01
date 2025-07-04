@@ -6,12 +6,10 @@
     "release": "November 20, 1985",
     "version": "1.01",
     "editions": null,
-    "build number": null,
-    "architecture": "x86-16",
-    "endOfSupport": "December 31, 2001",
-    "license": "Commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "build": null,
+    "architectures": ["x86-16"],
+    "retirement": "December 31, 2001",
+    "licenses": ["Commercial software"],
     "logo": "W1.01-logo"
   },
   {

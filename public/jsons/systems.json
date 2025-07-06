@@ -516,7 +516,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 36,
+    "id": 37,
     "name": "Windows 10 version 1511",
     "codename": "Threshold 2",
     "release": "November 10, 2015",
@@ -534,6 +534,33 @@
     "build": 10586,
     "architectures": ["IA-32", "x86-64", "ARM64"],
     "obsolete": "October 10, 2017",
+    "licenses": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W10-logo"
+  },
+  {
+    "id": 38,
+    "name": "Windows 10 version 1607",
+    "codename": "Redstone 1",
+    "release": "August 2, 2016",
+    "version": "1607",
+    "editions": [
+      "Windows 10 Home",
+      "Windows 10 Professional",
+      "Windows 10 Education",
+      "Windows 10 Enterprise",
+      "Windows 10 Workstations",
+      "Windows 10 Pro Education",
+      "Windows 10 S",
+      "Windows 10 Enterprise LTSC"
+    ],
+    "build": 14393,
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "obsolete": "April 10, 2018",
     "licenses": [
       "Trialware",
       "Microsoft Software Assurance",

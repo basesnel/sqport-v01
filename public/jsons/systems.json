@@ -676,5 +676,32 @@
       "Microsoft Imagine"
     ],
     "logo": "W10-logo"
+  },
+  {
+    "id": 43,
+    "name": "Windows 10 version 1903",
+    "codename": "19H1",
+    "release": "May 21, 2019",
+    "version": "1903",
+    "editions": [
+      "Windows 10 Home",
+      "Windows 10 Professional",
+      "Windows 10 Education",
+      "Windows 10 Enterprise",
+      "Windows 10 Workstations",
+      "Windows 10 Pro Education",
+      "Windows 10 S",
+      "Windows 10 Enterprise LTSC"
+    ],
+    "build": 18362,
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "obsolete": "December 8, 2020",
+    "licenses": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W10-logo"
   }
 ]

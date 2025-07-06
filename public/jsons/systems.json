@@ -347,13 +347,11 @@
     "codename": "Harmony",
     "release": "September 30, 2003",
     "version": "NT 5.1",
-    "editions": "Windows XP Media Center Edition 2004",
+    "editions": ["Windows XP Media Center Edition 2004"],
     "build": 2600,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "April 8, 2014",
-    "licenses": "Proprietary commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WXP-logo"
   },
   {
@@ -362,13 +360,11 @@
     "codename": "Symphony",
     "release": "October 12, 2004",
     "version": "NT 5.1",
-    "editions": "Windows XP Media Center Edition 2005",
+    "editions": ["Windows XP Media Center Edition 2005"],
     "build": 2700,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "April 8, 2014",
-    "licenses": "Proprietary commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WXP-logo"
   },
   {

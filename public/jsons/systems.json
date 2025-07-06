@@ -649,5 +649,32 @@
       "Microsoft Imagine"
     ],
     "logo": "W10-logo"
+  },
+  {
+    "id": 42,
+    "name": "Windows 10 version 1809",
+    "codename": "Redstone 5",
+    "release": "November 13, 2018",
+    "version": "1809",
+    "editions": [
+      "Windows 10 Home",
+      "Windows 10 Professional",
+      "Windows 10 Education",
+      "Windows 10 Enterprise",
+      "Windows 10 Workstations",
+      "Windows 10 Pro Education",
+      "Windows 10 S",
+      "Windows 10 Enterprise LTSC"
+    ],
+    "build": 17763,
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "obsolete": "November 10, 2020",
+    "licenses": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W10-logo"
   }
 ]

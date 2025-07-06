@@ -476,7 +476,7 @@
     "codename": "Blue",
     "release": "May 23, 2014",
     "version": "NT 6.3",
-    "editions": "Windows 8.1 with Bing",
+    "editions": ["Windows 8.1 with Bing"],
     "build": 9600,
     "architectures": ["IA-32", "x86-64"],
     "obsolete": "January 10, 2023",
@@ -486,8 +486,6 @@
       "MSDN subscription",
       "Microsoft Imagine"
     ],
-    "entity": "system",
-    "developer": "Microsoft",
     "logo": "W81-logo"
   },
   {
@@ -515,8 +513,6 @@
       "MSDN subscription",
       "Microsoft Imagine"
     ],
-    "entity": "system",
-    "developer": "Microsoft",
     "logo": "W10-logo"
   }
 ]

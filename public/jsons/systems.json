@@ -373,13 +373,11 @@
     "codename": "Emerald",
     "release": "October 14, 2005",
     "version": "NT 5.1",
-    "editions": "Windows XP Media Center Edition 2005 Update Rollup 2",
+    "editions": ["Windows XP Media Center Edition 2005 Update Rollup 2"],
     "build": 2710,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "April 8, 2014",
-    "licenses": "Proprietary commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WXP-logo"
   },
   {
@@ -388,13 +386,11 @@
     "codename": "Anvil",
     "release": "April 25, 2005",
     "version": "NT 5.2",
-    "editions": "Windows XP Professional x64 Edition",
+    "editions": ["Windows XP Professional x64 Edition"],
     "build": 3790,
-    "architectures": "x86-64",
+    "architectures": ["x86-64"],
     "obsolete": "April 8, 2014",
-    "licenses": "Proprietary commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WXP-logo"
   },
   {

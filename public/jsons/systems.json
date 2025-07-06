@@ -321,13 +321,11 @@
     "codename": "Whistler",
     "release": "October 25, 2001",
     "version": "NT 5.1",
-    "editions": "Windows XP 64-bit Edition",
+    "editions": ["Windows XP 64-bit Edition"],
     "build": 2600,
-    "architectures": "Itanium",
+    "architectures": ["Itanium"],
     "obsolete": "April 8, 2014",
-    "licenses": "Proprietary commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WXP-logo"
   },
   {
@@ -336,13 +334,11 @@
     "codename": "Freestyle",
     "release": "October 29, 2002",
     "version": "NT 5.1",
-    "editions": "Windows XP Media Center Edition",
+    "editions": ["Windows XP Media Center Edition"],
     "build": 2600,
-    "architectures": "IA-32",
+    "architectures": ["IA-32"],
     "obsolete": "April 8, 2014",
-    "licenses": "Proprietary commercial software",
-    "entity": "system",
-    "developer": "Microsoft",
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WXP-logo"
   },
   {

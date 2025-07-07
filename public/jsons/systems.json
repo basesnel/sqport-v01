@@ -12,7 +12,7 @@
     "licenses": ["Commercial software"],
     "logo": "W1.01-logo",
     "requirements": {
-      "cpu": "8088 processor",
+      "cpu": ["8088 processor"],
       "memory": "256 KB of memory",
       "storage": "Two double-sided floppy disk drives or a hard disk",
       "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
@@ -32,7 +32,7 @@
     "licenses": ["Commercial software"],
     "logo": "W1.02-logo",
     "requirements": {
-      "cpu": "8088 processor",
+      "cpu": ["8088 processor"],
       "memory": "256 KB of memory",
       "storage": "Two double-sided floppy disk drives or a hard disk",
       "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],

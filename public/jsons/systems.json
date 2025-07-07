@@ -52,7 +52,7 @@
     "licenses": ["Commercial software"],
     "logo": "W1.03-logo",
     "requirements": {
-      "cpu": "8088 processor",
+      "cpu": ["8088 processor"],
       "memory": "320 KB of memory",
       "storage": "Two double-sided floppy disk drives or a hard disk",
       "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],

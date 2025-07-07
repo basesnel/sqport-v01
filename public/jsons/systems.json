@@ -730,5 +730,32 @@
       "Microsoft Imagine"
     ],
     "logo": "W10-logo"
+  },
+  {
+    "id": 45,
+    "name": "Windows 10 version 2004",
+    "codename": "Vibranium",
+    "release": "May 27, 2020",
+    "version": "2004",
+    "editions": [
+      "Windows 10 Home",
+      "Windows 10 Professional",
+      "Windows 10 Education",
+      "Windows 10 Enterprise",
+      "Windows 10 Workstations",
+      "Windows 10 Pro Education",
+      "Windows 10 S",
+      "Windows 10 Enterprise LTSC"
+    ],
+    "build": 19041,
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "obsolete": "December 14, 2021",
+    "licenses": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W10-logo"
   }
 ]

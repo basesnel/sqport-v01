@@ -10,7 +10,14 @@
     "architectures": ["x86-16"],
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software"],
-    "logo": "W1.01-logo"
+    "logo": "W1.01-logo",
+    "requirements": {
+      "cpu": "8088 processor",
+      "memory": ["256 KB of memory", "320 KB of memory"],
+      "storage": "Two double-sided floppy disk drives or a hard disk",
+      "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
+      "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+    }
   },
   {
     "id": 2,

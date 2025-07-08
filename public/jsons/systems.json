@@ -83,13 +83,17 @@
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software"],
     "logo": "W1.04-logo",
-    "requirements": {
-      "cpu": ["8088 processor"],
-      "memory": "320 KB of memory",
-      "storage": "Two double-sided floppy disk drives or a hard disk",
-      "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
-      "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
-    }
+    "requirements": [
+      {
+        "name": "Windows 1.04",
+        "cpu": ["8088 processor"],
+        "ram": "320 KB of memory",
+        "storage": "Two double-sided floppy disk drives or a hard disk",
+        "medium": null,
+        "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 5,

@@ -229,8 +229,9 @@
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software"],
     "logo": "W3.0-logo",
-    "requirements": {
-      "a": {
+    "requirements": [
+      {
+        "name": "Windows 3.0",
         "cpu": ["8086 processor", "8088 processor"],
         "ram": "1 MB of memory (640 KB and 384 KB of conventional and extended memory, respectively) (Work with only 640Kb - Real Mode)",
         "storage": "Hard drive with 6-8 MB of free space",
@@ -243,7 +244,8 @@
         ],
         "mouse": "A Microsoft-compatible pointing device is recommended"
       },
-      "me": {
+      {
+        "name": "Windows 3.0 with Multimedia Extensions",
         "cpu": ["80286 processor running at 10 MHz"],
         "ram": "2 MB of memory",
         "storage": "Hard drive with 30 MB of total space",
@@ -251,7 +253,7 @@
         "vga": ["VGA adapters"],
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
-    }
+    ]
   },
   {
     "id": 10,

@@ -196,8 +196,9 @@
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software"],
     "logo": "W2.11-logo",
-    "requirements": {
-      "286": {
+    "requirements": [
+      {
+        "name": "Windows/286",
         "cpu": ["8088 processor", "80286 processor recommended"],
         "ram": "512 KB of memory",
         "storage": "A hard disk",
@@ -205,15 +206,16 @@
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
-      "386": {
-        "cpu": ["8088 processor", "80386 processor recommended"],
+      {
+        "name": "Windows/386",
+        "cpu": ["80386 processor"],
         "ram": "1 MB of memory",
         "storage": "2 MB of hard disk space",
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
-    }
+    ]
   },
   {
     "id": 9,

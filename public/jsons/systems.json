@@ -97,8 +97,9 @@
         "80286 processor recommended",
         "80386 processor recommended"
       ],
-      "memory": "512 KB of memory",
+      "ram": "512 KB of memory",
       "storage": "Two double-sided floppy disk drives or a hard disk",
+      "medium": null,
       "vga": ["EGA adapters", "VGA adapters"],
       "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
     }
@@ -121,8 +122,9 @@
         "80286 processor recommended",
         "80386 processor recommended"
       ],
-      "memory": "512 KB of memory",
+      "ram": "512 KB of memory",
       "storage": "Two double-sided floppy disk drives or a hard disk",
+      "medium": null,
       "vga": ["EGA adapters", "VGA adapters"],
       "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
     }

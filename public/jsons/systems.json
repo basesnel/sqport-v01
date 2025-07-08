@@ -140,17 +140,19 @@
     "licenses": ["Commercial software"],
     "logo": "W2.10-logo",
     "requirements": {
-      "Windows286": {
+      "286": {
         "cpu": ["8088 processor", "80286 processor recommended"],
-        "memory": "512 KB of memory",
+        "ram": "512 KB of memory",
         "storage": "A hard disk",
+        "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
-      "Windows386": {
+      "386": {
         "cpu": ["8088 processor", "80386 processor recommended"],
-        "memory": "1 MB of memory",
+        "ram": "1 MB of memory",
         "storage": "2 MB of hard disk space",
+        "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -169,17 +171,19 @@
     "licenses": ["Commercial software"],
     "logo": "W2.11-logo",
     "requirements": {
-      "Windows286": {
+      "286": {
         "cpu": ["8088 processor", "80286 processor recommended"],
-        "memory": "512 KB of memory",
+        "ram": "512 KB of memory",
         "storage": "A hard disk",
+        "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
-      "Windows386": {
+      "386": {
         "cpu": ["8088 processor", "80386 processor recommended"],
-        "memory": "1 MB of memory",
+        "ram": "1 MB of memory",
         "storage": "2 MB of hard disk space",
+        "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }

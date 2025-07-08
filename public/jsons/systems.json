@@ -202,7 +202,7 @@
     "licenses": ["Commercial software"],
     "logo": "W3.0-logo",
     "requirements": {
-      "windows30": {
+      "a": {
         "cpu": ["8086 processor", "8088 processor"],
         "ram": "1 MB of memory (640 KB and 384 KB of conventional and extended memory, respectively) (Work with only 640Kb - Real Mode)",
         "storage": "Hard drive with 6-8 MB of free space",
@@ -215,8 +215,8 @@
         ],
         "mouse": "A Microsoft-compatible pointing device is recommended"
       },
-      "windows30withME": {
-        "cpu": ["8088 processor", "80386 processor recommended"],
+      "me": {
+        "cpu": ["80286 processor running at 10 MHz"],
         "ram": "2 MB of memory",
         "storage": "Hard drive with 30 MB of total space",
         "medium": "A CD-ROM drive is essential for performing numerous multimedia operations.",

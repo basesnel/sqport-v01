@@ -356,7 +356,27 @@
     "architectures": ["IA-32", "Alpha", "MIPS"],
     "obsolete": "December 31, 2000",
     "licenses": ["Commercial software"],
-    "logo": "WNT3.1-logo"
+    "logo": "WNT3.1-logo",
+    "requirements": [
+      {
+        "name": "Windows NT 3.1",
+        "cpu": [
+          "Minimum 25 MHz 80386 processor",
+          " MIPS (R4000 and R4400) processors"
+        ],
+        "ram": [
+          "at least 12 megabytes of memory",
+          " RISC systems require 16 megabytes of memory"
+        ],
+        "storage": [
+          "75 megabytes of hard drive space",
+          "RISC systems require 92 megabytes of hard drive space"
+        ],
+        "medium": "RISC systems require CD-ROM drive",
+        "vga": ["VGA adapters"],
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 13,

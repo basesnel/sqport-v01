@@ -242,6 +242,7 @@
           "VGA adapters",
           "Work with CGA adaptersand Hercules"
         ],
+        "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended"
       },
       {
@@ -251,6 +252,7 @@
         "storage": "Hard drive with 30 MB of total space",
         "medium": "A CD-ROM drive is essential for performing numerous multimedia operations.",
         "vga": ["VGA adapters"],
+        "network": null,
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
     ]

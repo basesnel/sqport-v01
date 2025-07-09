@@ -386,7 +386,7 @@
         ],
         "medium": "RISC systems require CD-ROM drive",
         "vga": ["VGA adapters"],
-        "network": null,
+        "network": "The Remote Access Service (RAS) allows a client from outside the network to connect to the network using a modem, ISDN or X.25 and access its resources. While the workstation allows one RAS connection at a time, the server supports 64",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]

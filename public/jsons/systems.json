@@ -91,6 +91,7 @@
         "storage": "Two double-sided floppy disk drives or a hard disk",
         "medium": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
+        "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]
@@ -119,6 +120,7 @@
         "storage": "Two double-sided floppy disk drives or a hard disk",
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters"],
+        "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]

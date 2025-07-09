@@ -374,6 +374,7 @@
         ],
         "medium": "RISC systems require CD-ROM drive",
         "vga": ["VGA adapters"],
+        "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]

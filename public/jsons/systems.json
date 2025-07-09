@@ -266,7 +266,28 @@
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software"],
-    "logo": "W3.1-logo"
+    "logo": "W3.1-logo",
+    "requirements": [
+      {
+        "name": "Windows 3.1",
+        "cpu": ["80286 processor for standard mode", "80386 for enhanced mode"],
+        "ram": "1 MB of memory (640 KB of conventional memory)",
+        "storage": "A hard disk with at least 6.5 MB of free space (8 MB for enhanced mode users), and at least one floppy disk drive",
+        "medium": null,
+        "vga": ["VGA adapters"],
+        "network": "Optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem if user wants to connect to a network",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      },
+      {
+        "name": "Windows 3.0 with Multimedia Extensions",
+        "cpu": ["80286 processor running at 10 MHz"],
+        "ram": "2 MB of memory",
+        "storage": "Hard drive with 30 MB of total space",
+        "medium": "A CD-ROM drive is essential for performing numerous multimedia operations.",
+        "vga": ["VGA adapters"],
+        "mouse": "A mouse is required to perform many of the multimedia operations"
+      }
+    ]
   },
   {
     "id": 11,

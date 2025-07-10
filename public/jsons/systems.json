@@ -247,7 +247,7 @@
           "1 MB of memory (640 KB and 384 KB of conventional and extended memory, respectively) (Work with only 640Kb - Real Mode)"
         ],
         "storage": ["Hard drive with 6-8 MB of free space"],
-        "medium": "At least one floppy drive for the installation disks",
+        "medium": ["At least one floppy drive for the installation disks"],
         "vga": [
           "EGA adapters",
           "MCGA adapters",

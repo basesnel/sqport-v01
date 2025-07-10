@@ -119,8 +119,8 @@
           "80286 processor recommended",
           "80386 processor recommended"
         ],
-        "ram": "512 KB of memory",
-        "storage": "Two double-sided floppy disk drives or a hard disk",
+        "ram": ["512 KB of memory"],
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters"],
         "network": null,
@@ -148,8 +148,8 @@
           "80286 processor recommended",
           "80386 processor recommended"
         ],
-        "ram": "512 KB of memory",
-        "storage": "Two double-sided floppy disk drives or a hard disk",
+        "ram": ["512 KB of memory"],
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters"],
         "network": null,
@@ -173,8 +173,8 @@
       {
         "name": "Windows/286",
         "cpu": ["8088 processor", "80286 processor recommended"],
-        "ram": "512 KB of memory",
-        "storage": "A hard disk",
+        "ram": ["512 KB of memory"],
+        "storage": ["A hard disk"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "network": null,
@@ -183,8 +183,8 @@
       {
         "name": "Windows/386",
         "cpu": ["80386 processor"],
-        "ram": "1 MB of memory",
-        "storage": "2 MB of hard disk space",
+        "ram": ["1 MB of memory"],
+        "storage": ["2 MB of hard disk space"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "network": null,
@@ -208,8 +208,8 @@
       {
         "name": "Windows/286",
         "cpu": ["8088 processor", "80286 processor recommended"],
-        "ram": "512 KB of memory",
-        "storage": "A hard disk",
+        "ram": ["512 KB of memory"],
+        "storage": ["A hard disk"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "network": null,
@@ -218,8 +218,8 @@
       {
         "name": "Windows/386",
         "cpu": ["80386 processor"],
-        "ram": "1 MB of memory",
-        "storage": "2 MB of hard disk space",
+        "ram": ["1 MB of memory"],
+        "storage": ["2 MB of hard disk space"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "network": null,
@@ -243,8 +243,10 @@
       {
         "name": "Windows 3.0",
         "cpu": ["8086 processor", "8088 processor"],
-        "ram": "1 MB of memory (640 KB and 384 KB of conventional and extended memory, respectively) (Work with only 640Kb - Real Mode)",
-        "storage": "Hard drive with 6-8 MB of free space",
+        "ram": [
+          "1 MB of memory (640 KB and 384 KB of conventional and extended memory, respectively) (Work with only 640Kb - Real Mode)"
+        ],
+        "storage": ["Hard drive with 6-8 MB of free space"],
         "medium": "At least one floppy drive for the installation disks",
         "vga": [
           "EGA adapters",
@@ -258,8 +260,8 @@
       {
         "name": "Windows 3.0 with Multimedia Extensions",
         "cpu": ["80286 processor running at 10 MHz"],
-        "ram": "2 MB of memory",
-        "storage": "Hard drive with 30 MB of total space",
+        "ram": ["2 MB of memory"],
+        "storage": ["Hard drive with 30 MB of total space"],
         "medium": "A CD-ROM drive is essential for performing numerous multimedia operations.",
         "vga": ["VGA adapters"],
         "network": null,

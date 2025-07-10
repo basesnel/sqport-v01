@@ -15,8 +15,8 @@
       {
         "name": "Windows 1.01",
         "cpu": ["8088 processor"],
-        "ram": "256 KB of memory",
-        "storage": "Two double-sided floppy disk drives or a hard disk",
+        "ram": ["256 KB of memory"],
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "medium": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
         "network": null,
@@ -40,8 +40,8 @@
       {
         "name": "Windows 1.02",
         "cpu": ["8088 processor"],
-        "ram": "256 KB of memory",
-        "storage": "Two double-sided floppy disk drives or a hard disk",
+        "ram": ["256 KB of memory"],
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "medium": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
         "network": null,
@@ -65,8 +65,8 @@
       {
         "name": "Windows 1.03",
         "cpu": ["8088 processor"],
-        "ram": "320 KB of memory",
-        "storage": "Two double-sided floppy disk drives or a hard disk",
+        "ram": ["320 KB of memory"],
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "medium": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
         "network": null,
@@ -90,8 +90,8 @@
       {
         "name": "Windows 1.04",
         "cpu": ["8088 processor"],
-        "ram": "320 KB of memory",
-        "storage": "Two double-sided floppy disk drives or a hard disk",
+        "ram": ["320 KB of memory"],
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "medium": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
         "network": null,

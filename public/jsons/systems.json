@@ -316,26 +316,6 @@
     "logo": "W3.1-logo",
     "requirements": [
       {
-        "name": "Windows 3.1",
-        "cpu": ["80286 processor for standard mode", "80386 for enhanced mode"],
-        "ram": "1 MB of memory (640 KB of conventional memory)",
-        "storage": "A hard disk with at least 6.5 MB of free space (8 MB for enhanced mode users), and at least one floppy disk drive",
-        "medium": null,
-        "vga": ["VGA adapters"],
-        "network": "Optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem if user wants to connect to a network",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
-      },
-      {
-        "name": "Modular Windows",
-        "cpu": ["80386 processor"],
-        "ram": "4 MB of memory",
-        "storage": "A hard disk with at least 20 MB of free space",
-        "medium": null,
-        "vga": ["VGA-NTSC adapter"],
-        "network": "Optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem if user wants to connect to a network",
-        "mouse": "A mouse is required to perform many of the multimedia operations"
-      },
-      {
         "name": "Windows for Workgroups",
         "cpu": ["386SX processor"],
         "ram": "3 MB of memory (640 KB of conventional memory)",

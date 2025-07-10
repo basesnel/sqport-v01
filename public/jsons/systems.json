@@ -474,12 +474,44 @@
     "codename": "Daytona",
     "release": "September 21, 1994",
     "version": "NT 3.5",
-    "editions": ["Windows NT 3.5 Workstation"],
+    "editions": ["Windows NT 3.5 Workstation", "Windows NT 3.5 Server"],
     "build": 807,
     "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WNT3.5-logo"
+    "logo": "WNT3.5-logo",
+    "requirements": [
+      {
+        "name": "Windows NT 3.5 Workstation",
+        "cpu": [
+          "Minimum 25 MHz 80386 processor",
+          "Minimum 25 MHz 80486 processor",
+          "DEC Alpha or MIPS processors were also supported",
+          "A computer with multiple processors was also supported"
+        ],
+        "ram": ["at least 12 megabytes of memory"],
+        "storage": ["90 megabytes of hard drive space"],
+        "medium": "CD-ROM drive recomended",
+        "vga": ["VGA adapters or better"],
+        "network": "Network interface card (for networking)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      },
+      {
+        "name": "Windows NT 3.5 Server",
+        "cpu": [
+          "Minimum 25 MHz 80386 processor",
+          "Minimum 25 MHz 80486 processor",
+          "DEC Alpha or MIPS processors were also supported",
+          "A computer with multiple processors was also supported"
+        ],
+        "ram": ["at least 16 megabytes of memory"],
+        "storage": ["90 megabytes of hard drive space"],
+        "medium": "CD-ROM drive recomended",
+        "vga": ["VGA adapters or better"],
+        "network": "Network interface card (for networking)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 17,

@@ -524,7 +524,51 @@
     "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WNT3.51-logo"
+    "logo": "WNT3.51-logo",
+    "requirements": [
+      {
+        "name": "Windows NT 3.5 Workstation",
+        "cpu": [
+          "Minimum 25 MHz 80386 processor",
+          "Minimum 25 MHz 80486 processor"
+        ],
+        "ram": ["at least 12 megabytes of memory"],
+        "storage": [
+          "IDE hard drive",
+          "EIDE hard drive",
+          "SCSI hard drive",
+          "ESDI hard drive"
+        ],
+        "medium": [
+          "CD-ROM drive recomended",
+          "1.44 MB or 1.2 MB floppy disk drive"
+        ],
+        "vga": ["VGA adapters or better"],
+        "network": "Network interface card (for networking)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      },
+      {
+        "name": "Windows NT 3.5 Server",
+        "cpu": [
+          "Minimum 25 MHz 80386 processor",
+          "Minimum 25 MHz 80486 processor"
+        ],
+        "ram": ["at least 16 megabytes of memory"],
+        "storage": [
+          "IDE hard drive",
+          "EIDE hard drive",
+          "SCSI hard drive",
+          "ESDI hard drive"
+        ],
+        "medium": [
+          "CD-ROM drive recomended",
+          "1.44 MB or 1.2 MB floppy disk drive"
+        ],
+        "vga": ["VGA adapters or better"],
+        "network": "Network interface card (for networking)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 18,

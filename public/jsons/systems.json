@@ -583,7 +583,24 @@
     "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W95-logo"
+    "logo": "W95-logo",
+    "requirements": [
+      {
+        "name": "Windows 95",
+        "cpu": [
+          "Minimum Intel 386DX processor",
+          "Recpmended Intel 486 (i486) processor"
+        ],
+        "ram": ["Minimum 4 MB of memory", "Recomended 8 MB of memory"],
+        "storage": [
+          "50-55 MB of hard disk space depending on features selected"
+        ],
+        "medium": ["One 3.5-inch high-density floppy disk drive"],
+        "vga": ["VGA adapters or better (256-color SVGA recommended)"],
+        "network": "A network interface card (NIC) compatible with Windows 95 and a suitable cabling system (coax or twisted pair with a hub)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 19,

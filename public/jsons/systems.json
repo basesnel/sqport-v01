@@ -619,7 +619,29 @@
     "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "obsolete": "June 30, 2004",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WNT4.0-logo"
+    "logo": "WNT4.0-logo",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": ["Intel 486 at 33 MHz"],
+        "ram": ["16 MB"],
+        "storage": ["IDE, EIDE, SCSI or ESDI with 128 MB free spice"],
+        "medium": ["CD-ROM drive"],
+        "vga": ["VGA adapters"],
+        "network": "Network Interface Card (NIC) needed",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": ["Pentium or Pentium Pro"],
+        "ram": ["32 MB or higher"],
+        "storage": ["IDE, EIDE, SCSI or ESDI with 256 MB free spice"],
+        "medium": ["CD-ROM drive"],
+        "vga": ["SVGA adapters"],
+        "network": "Network Interface Card (NIC) needed",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      }
+    ]
   },
   {
     "id": 20,

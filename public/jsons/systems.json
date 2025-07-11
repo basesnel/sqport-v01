@@ -578,7 +578,13 @@
     "codename": "Chicago",
     "release": "August 24, 1995",
     "version": "NT 3.51",
-    "editions": ["Windows 95"],
+    "editions": [
+      "Windows 95 (retail and OEM) (codename - Chicago)",
+      "Microsoft Plus! for Windows 95 (codename - Frosting)",
+      "Service Pack 1 (OEM Service Release 1 and OEM Service Release 2)",
+      "OEM Service Release 2.1 (codename - Detroit)",
+      "OEM Service Release 2.5"
+    ],
     "build": 950,
     "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",

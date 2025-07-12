@@ -212,7 +212,7 @@
         "storage": ["A hard disk"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "network": null,
+        "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
       {
@@ -222,7 +222,7 @@
         "storage": ["2 MB of hard disk space"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "network": null,
+        "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]

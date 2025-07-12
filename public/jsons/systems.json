@@ -177,7 +177,7 @@
         "storage": ["A hard disk"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "network": null,
+        "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
       {
@@ -187,7 +187,7 @@
         "storage": ["2 MB of hard disk space"],
         "medium": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "network": null,
+        "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]

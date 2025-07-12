@@ -693,7 +693,33 @@
     "architectures": ["IA-32"],
     "obsolete": "July 11, 2006",
     "licenses": ["Commercial software"],
-    "logo": "W98-logo"
+    "logo": "W98-logo",
+    "requirements": [
+      {
+        "name": "Second Edition",
+        "cpu": [
+          "Intel 80486 66 MHz or higher",
+          "Pentium processor recommended"
+        ],
+        "ram": [
+          "24 MB",
+          "24 MB recommended; it is possible to run on 8 MB machines with /nm option used during the installation process"
+        ],
+        "storage": [
+          "Upgrading from Windows 3.1 or 95: 120-295 MB (typically 195 MB)",
+          "New installation (FAT16): 165-355 MB (typically 225 MB)",
+          "New installation (FAT32): 140-255 MB (typically 175 MB)",
+          "The amount of space required depends on the installation method and the components selected, but virtual memory and system utilities as well as drivers should be taken into consideration."
+        ],
+        "medium": [
+          "CD-ROM or DVD-ROM drive",
+          "Floppy install is possible but slow"
+        ],
+        "vga": ["VGA or higher resolution monitor (640x480)"],
+        "network": "A network card (Ethernet, etc.) compatible with Windows 98 is necessary to physically connect to a network",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 22,

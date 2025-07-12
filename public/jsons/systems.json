@@ -254,7 +254,7 @@
           "VGA adapters",
           "Work with CGA adaptersand Hercules"
         ],
-        "network": null,
+        "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A Microsoft-compatible pointing device is recommended"
       },
       {
@@ -266,7 +266,7 @@
           "A CD-ROM drive is essential for performing numerous multimedia operations."
         ],
         "vga": ["VGA adapters"],
-        "network": null,
+        "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
     ]

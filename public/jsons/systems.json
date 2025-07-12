@@ -17,7 +17,7 @@
         "cpu": ["8088 processor"],
         "ram": ["256 KB of memory"],
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "medium": null,
+        "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -42,7 +42,7 @@
         "cpu": ["8088 processor"],
         "ram": ["256 KB of memory"],
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "medium": null,
+        "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -67,7 +67,7 @@
         "cpu": ["8088 processor"],
         "ram": ["320 KB of memory"],
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "medium": null,
+        "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -92,7 +92,7 @@
         "cpu": ["8088 processor"],
         "ram": ["320 KB of memory"],
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "medium": null,
+        "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -121,7 +121,7 @@
         ],
         "ram": ["512 KB of memory"],
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "medium": null,
+        "media": null,
         "vga": ["EGA adapters", "VGA adapters"],
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -150,7 +150,7 @@
         ],
         "ram": ["512 KB of memory"],
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "medium": null,
+        "media": null,
         "vga": ["EGA adapters", "VGA adapters"],
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -175,7 +175,7 @@
         "cpu": ["8088 processor", "80286 processor recommended"],
         "ram": ["512 KB of memory"],
         "storage": ["A hard disk"],
-        "medium": null,
+        "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -185,7 +185,7 @@
         "cpu": ["80386 processor"],
         "ram": ["1 MB of memory"],
         "storage": ["2 MB of hard disk space"],
-        "medium": null,
+        "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -210,7 +210,7 @@
         "cpu": ["8088 processor", "80286 processor recommended"],
         "ram": ["512 KB of memory"],
         "storage": ["A hard disk"],
-        "medium": null,
+        "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -220,7 +220,7 @@
         "cpu": ["80386 processor"],
         "ram": ["1 MB of memory"],
         "storage": ["2 MB of hard disk space"],
-        "medium": null,
+        "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
         "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -247,7 +247,7 @@
           "1 MB of memory (640 KB and 384 KB of conventional and extended memory, respectively) (Work with only 640Kb - Real Mode)"
         ],
         "storage": ["Hard drive with 6-8 MB of free space"],
-        "medium": ["At least one floppy drive for the installation disks"],
+        "media": ["At least one floppy drive for the installation disks"],
         "vga": [
           "EGA adapters",
           "MCGA adapters",
@@ -262,7 +262,7 @@
         "cpu": ["80286 processor running at 10 MHz"],
         "ram": ["2 MB of memory"],
         "storage": ["Hard drive with 30 MB of total space"],
-        "medium": [
+        "media": [
           "A CD-ROM drive is essential for performing numerous multimedia operations."
         ],
         "vga": ["VGA adapters"],
@@ -291,7 +291,7 @@
         "storage": [
           "A hard disk with at least 6.5 MB of free space (8 MB for enhanced mode users), and at least one floppy disk drive"
         ],
-        "medium": null,
+        "media": null,
         "vga": ["VGA adapters"],
         "network": "If necessary, use a compatible network interface card (NIC) and its corresponding drivers for the chosen network protocol",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -301,7 +301,7 @@
         "cpu": ["80386 processor"],
         "ram": ["4 MB of memory"],
         "storage": ["A hard disk with at least 20 MB of free space"],
-        "medium": null,
+        "media": null,
         "vga": ["VGA-NTSC adapter"],
         "network": "If necessary, use a compatible network interface card (NIC) and its corresponding drivers for the chosen network protocol",
         "mouse": "A mouse is required to perform many of the multimedia operations"
@@ -328,7 +328,7 @@
         "storage": [
           "A hard disk with at least 8 MB of free space (14 MB needed for a complete installation), and at least one floppy disk drive"
         ],
-        "medium": null,
+        "media": null,
         "vga": ["VGA adapter"],
         "network": "An adapter card with Network Device Interface Specification (NDIS) driver, optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem",
         "mouse": "A mouse is required to perform many of the multimedia operations"
@@ -362,7 +362,7 @@
           "75 megabytes of hard drive space",
           "RISC systems require 92 megabytes of hard drive space"
         ],
-        "medium": ["RISC systems require CD-ROM drive"],
+        "media": ["RISC systems require CD-ROM drive"],
         "vga": ["VGA adapters"],
         "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -389,7 +389,7 @@
         "storage": [
           "A hard disk with at least 6.5 MB of free space (8 MB for enhanced mode users), and at least one floppy disk drive"
         ],
-        "medium": null,
+        "media": null,
         "vga": ["VGA adapters"],
         "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -399,7 +399,7 @@
         "cpu": ["80386 processor"],
         "ram": ["4 MB of memory"],
         "storage": ["A hard disk with at least 20 MB of free space"],
-        "medium": null,
+        "media": null,
         "vga": ["VGA-NTSC adapter"],
         "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
         "mouse": "A mouse is required to perform many of the multimedia operations"
@@ -426,7 +426,7 @@
         "storage": [
           "A hard disk with at least 8 MB of free space (14 MB needed for a complete installation), and at least one floppy disk drive"
         ],
-        "medium": null,
+        "media": null,
         "vga": ["VGA adapter"],
         "network": "If necessary, you need a network card that is compatible with your computer's architecture (ISA, PCI, etc.) and card-specific drivers",
         "mouse": "A mouse is required to perform many of the multimedia operations"
@@ -453,7 +453,7 @@
         "storage": [
           "A hard disk with at least 6.5 MB of free space (8 MB for enhanced mode users), and at least one floppy disk drive"
         ],
-        "medium": null,
+        "media": null,
         "vga": ["VGA adapters"],
         "network": "A compatible NIC is required to connect the computer to the network and for multiple network protocols: NetBIOS over TCP/IP or NetBEUI. Additionally, it utilizes SMB",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -463,7 +463,7 @@
         "cpu": ["80386 processor"],
         "ram": ["4 MB of memory"],
         "storage": ["A hard disk with at least 20 MB of free space"],
-        "medium": null,
+        "media": null,
         "vga": ["VGA-NTSC adapter"],
         "network": "A compatible NIC is required to connect the computer to the network and for multiple network protocols: NetBIOS over TCP/IP or NetBEUI. Additionally, it utilizes SMB",
         "mouse": "A mouse is required to perform many of the multimedia operations"
@@ -493,7 +493,7 @@
         ],
         "ram": ["at least 12 megabytes of memory"],
         "storage": ["90 megabytes of hard drive space"],
-        "medium": ["CD-ROM drive recomended"],
+        "media": ["CD-ROM drive recomended"],
         "vga": ["VGA adapters or better"],
         "network": "A 16- or 32-bit Ethernet or Token Ring NIC was necessary for network connectivity. This release introduced significant enhancements to the TCP/IP stack, including support for NetBIOS over TCP/IP (NetBT) and Microsoft's DHCP and WINS clients and servers.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -508,7 +508,7 @@
         ],
         "ram": ["at least 16 megabytes of memory"],
         "storage": ["90 megabytes of hard drive space"],
-        "medium": ["CD-ROM drive recomended"],
+        "media": ["CD-ROM drive recomended"],
         "vga": ["VGA adapters or better"],
         "network": "A 16- or 32-bit Ethernet or Token Ring NIC was necessary for network connectivity. This release introduced significant enhancements to the TCP/IP stack, including support for NetBIOS over TCP/IP (NetBT) and Microsoft's DHCP and WINS clients and servers.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -541,7 +541,7 @@
           "SCSI hard drive",
           "ESDI hard drive"
         ],
-        "medium": [
+        "media": [
           "CD-ROM drive recomended",
           "1.44 MB or 1.2 MB floppy disk drive"
         ],
@@ -562,7 +562,7 @@
           "SCSI hard drive",
           "ESDI hard drive"
         ],
-        "medium": [
+        "media": [
           "CD-ROM drive recomended",
           "1.44 MB or 1.2 MB floppy disk drive"
         ],
@@ -601,7 +601,7 @@
         "storage": [
           "50-55 MB of hard disk space depending on features selected"
         ],
-        "medium": ["One 3.5-inch high-density floppy disk drive"],
+        "media": ["One 3.5-inch high-density floppy disk drive"],
         "vga": ["VGA adapters or better (256-color SVGA recommended)"],
         "network": "A network interface card (NIC) compatible with Windows 95 and a suitable cabling system (coax or twisted pair with a hub)",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -626,7 +626,7 @@
         "cpu": ["Intel 486 at 33 MHz"],
         "ram": ["16 MB"],
         "storage": ["IDE, EIDE, SCSI or ESDI with 128 MB free spice"],
-        "medium": ["CD-ROM drive"],
+        "media": ["CD-ROM drive"],
         "vga": ["VGA adapters"],
         "network": "Network Interface Card (NIC) needed",
         "mouse": "A Microsoft mouse or compatible pointing device"
@@ -636,7 +636,7 @@
         "cpu": ["Pentium or Pentium Pro"],
         "ram": ["32 MB or higher"],
         "storage": ["IDE, EIDE, SCSI or ESDI with 256 MB free spice"],
-        "medium": ["CD-ROM drive"],
+        "media": ["CD-ROM drive"],
         "vga": ["SVGA adapters"],
         "network": "Network Interface Card (NIC) needed",
         "mouse": "A Microsoft mouse or compatible pointing device"
@@ -672,7 +672,7 @@
           "New installation (FAT32): 140-255 MB (typically 175 MB)",
           "The amount of space required depends on the installation method and the components selected, but virtual memory and system utilities as well as drivers should be taken into consideration."
         ],
-        "medium": [
+        "media": [
           "CD-ROM or DVD-ROM drive",
           "Floppy install is possible but slow"
         ],
@@ -711,7 +711,7 @@
           "New installation (FAT32): 140-255 MB (typically 175 MB)",
           "The amount of space required depends on the installation method and the components selected, but virtual memory and system utilities as well as drivers should be taken into consideration."
         ],
-        "medium": [
+        "media": [
           "CD-ROM or DVD-ROM drive",
           "Floppy install is possible but slow"
         ],

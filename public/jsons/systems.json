@@ -391,7 +391,7 @@
         ],
         "medium": null,
         "vga": ["VGA adapters"],
-        "network": "Optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem if user wants to connect to a network",
+        "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
       {
@@ -401,7 +401,7 @@
         "storage": ["A hard disk with at least 20 MB of free space"],
         "medium": null,
         "vga": ["VGA-NTSC adapter"],
-        "network": "Optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem if user wants to connect to a network",
+        "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
     ]

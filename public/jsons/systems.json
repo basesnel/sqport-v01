@@ -293,7 +293,7 @@
         ],
         "medium": null,
         "vga": ["VGA adapters"],
-        "network": "Optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem if user wants to connect to a network",
+        "network": "If necessary, use a compatible network interface card (NIC) and its corresponding drivers for the chosen network protocol",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
       {
@@ -303,7 +303,7 @@
         "storage": ["A hard disk with at least 20 MB of free space"],
         "medium": null,
         "vga": ["VGA-NTSC adapter"],
-        "network": "Optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem if user wants to connect to a network",
+        "network": "If necessary, use a compatible network interface card (NIC) and its corresponding drivers for the chosen network protocol",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
     ]

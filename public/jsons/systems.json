@@ -495,7 +495,7 @@
         "storage": ["90 megabytes of hard drive space"],
         "medium": ["CD-ROM drive recomended"],
         "vga": ["VGA adapters or better"],
-        "network": "Network interface card (for networking)",
+        "network": "Network interface card (for networking). For networking, it can utilize TCP/IP, NetBEUI, and IPX/SPX protocols, and it has built-in WAN capabilities via Remote Access Service (RAS)",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
       {
@@ -510,7 +510,7 @@
         "storage": ["90 megabytes of hard drive space"],
         "medium": ["CD-ROM drive recomended"],
         "vga": ["VGA adapters or better"],
-        "network": "Network interface card (for networking)",
+        "network": "Network interface card (for networking). For networking, it can utilize TCP/IP, NetBEUI, and IPX/SPX protocols, and it has built-in WAN capabilities via Remote Access Service (RAS)",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]

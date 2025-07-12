@@ -428,7 +428,7 @@
         ],
         "medium": null,
         "vga": ["VGA adapter"],
-        "network": "An adapter card with Network Device Interface Specification (NDIS) driver, optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem",
+        "network": "If necessary, you need a network card that is compatible with your computer's architecture (ISA, PCI, etc.) and card-specific drivers",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
     ]

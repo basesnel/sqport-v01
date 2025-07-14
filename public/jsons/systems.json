@@ -1339,6 +1339,32 @@
       "MSDN subscription",
       "Microsoft Imagine"
     ],
-    "logo": "W10-logo"
+    "logo": "W11-logo"
+  },
+  {
+    "id": 51,
+    "name": "Windows 11 version 22H2",
+    "codename": "Nickel",
+    "release": "September 20, 2022",
+    "version": "22H2",
+    "editions": [
+      "Windows 11 Home",
+      "Windows 11 Pro",
+      "Windows 11 Pro for Workstations",
+      "Windows 11 Pro Education",
+      "Windows 11 Education",
+      "Windows 11 Enterprise",
+      "Windows 11 SE"
+    ],
+    "build": 22621,
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "obsolete": "October 8, 2024",
+    "licenses": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W11-logo"
   }
 ]

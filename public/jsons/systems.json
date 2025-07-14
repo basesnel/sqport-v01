@@ -1314,5 +1314,31 @@
       "Microsoft Imagine"
     ],
     "logo": "W10-logo"
+  },
+  {
+    "id": 50,
+    "name": "Windows 11",
+    "codename": "Cobalt",
+    "release": "October 18, 2022",
+    "version": "21H2",
+    "editions": [
+      "Windows 11 Home",
+      "Windows 11 Pro",
+      "Windows 11 Pro for Workstations",
+      "Windows 11 Pro Education",
+      "Windows 11 Education",
+      "Windows 11 Enterprise",
+      "Windows 11 SE"
+    ],
+    "build": 22000,
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "obsolete": "October 10, 2023",
+    "licenses": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W10-logo"
   }
 ]

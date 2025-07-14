@@ -1242,7 +1242,7 @@
     "version": "21H1",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -1269,7 +1269,7 @@
     "version": "21H2",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",

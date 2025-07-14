@@ -945,7 +945,7 @@
     "version": "NT 10.0 1507 (retroactively)",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -972,7 +972,7 @@
     "version": "1511",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -999,7 +999,7 @@
     "version": "1607",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -1026,7 +1026,7 @@
     "version": "1703",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -1053,7 +1053,7 @@
     "version": "1709",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -1080,7 +1080,7 @@
     "version": "1803",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -1107,7 +1107,7 @@
     "version": "1809",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -1134,7 +1134,7 @@
     "version": "1903",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -1161,7 +1161,7 @@
     "version": "1909",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -1188,7 +1188,7 @@
     "version": "2004",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",
@@ -1215,7 +1215,7 @@
     "version": "20H2",
     "editions": [
       "Windows 10 Home",
-      "Windows 10 Professional",
+      "Windows 10 Pro",
       "Windows 10 Education",
       "Windows 10 Enterprise",
       "Windows 10 Workstations",

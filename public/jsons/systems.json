@@ -1331,14 +1331,9 @@
       "Windows 11 SE"
     ],
     "build": 22000,
-    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "architectures": ["x86-64", "ARM64"],
     "obsolete": "October 10, 2023",
-    "licenses": [
-      "Trialware",
-      "Microsoft Software Assurance",
-      "MSDN subscription",
-      "Microsoft Imagine"
-    ],
+    "licenses": ["Proprietary"],
     "logo": "W11-logo"
   },
   {
@@ -1357,14 +1352,9 @@
       "Windows 11 SE"
     ],
     "build": 22621,
-    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "architectures": ["x86-64", "ARM64"],
     "obsolete": "October 8, 2024",
-    "licenses": [
-      "Trialware",
-      "Microsoft Software Assurance",
-      "MSDN subscription",
-      "Microsoft Imagine"
-    ],
+    "licenses": ["Proprietary"],
     "logo": "W11-logo"
   }
 ]

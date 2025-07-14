@@ -1287,5 +1287,32 @@
       "Microsoft Imagine"
     ],
     "logo": "W10-logo"
+  },
+  {
+    "id": 49,
+    "name": "Windows 10 version 22H2",
+    "codename": "Vibranium",
+    "release": "October 18, 2022",
+    "version": "22H2",
+    "editions": [
+      "Windows 10 Home",
+      "Windows 10 Pro",
+      "Windows 10 Education",
+      "Windows 10 Enterprise",
+      "Windows 10 Workstations",
+      "Windows 10 Pro Education",
+      "Windows 10 S",
+      "Windows 10 Enterprise LTSC"
+    ],
+    "build": 19045,
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "obsolete": "October 14, 2025",
+    "licenses": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W10-logo"
   }
 ]

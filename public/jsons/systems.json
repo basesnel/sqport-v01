@@ -1356,5 +1356,47 @@
     "obsolete": "October 8, 2024",
     "licenses": ["Proprietary"],
     "logo": "W11-logo"
+  },
+  {
+    "id": 52,
+    "name": "Windows 11 version 23H2",
+    "codename": "Nickel",
+    "release": "October 31, 2023",
+    "version": "23H2",
+    "editions": [
+      "Windows 11 Home",
+      "Windows 11 Pro",
+      "Windows 11 Pro for Workstations",
+      "Windows 11 Pro Education",
+      "Windows 11 Education",
+      "Windows 11 Enterprise",
+      "Windows 11 SE"
+    ],
+    "build": 22631,
+    "architectures": ["x86-64", "ARM64"],
+    "obsolete": "November 11, 2025",
+    "licenses": ["Proprietary"],
+    "logo": "W11-logo"
+  },
+  {
+    "id": 53,
+    "name": "Windows 11 version 24H2",
+    "codename": "Germanium",
+    "release": "October 1, 2024",
+    "version": "24H2",
+    "editions": [
+      "Windows 11 Home",
+      "Windows 11 Pro",
+      "Windows 11 Pro for Workstations",
+      "Windows 11 Pro Education",
+      "Windows 11 Education",
+      "Windows 11 Enterprise",
+      "Windows 11 SE"
+    ],
+    "build": 26100,
+    "architectures": ["x86-64", "ARM64"],
+    "obsolete": "October 13, 2026",
+    "licenses": ["Proprietary"],
+    "logo": "W11-logo"
   }
 ]

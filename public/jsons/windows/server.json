@@ -37,7 +37,7 @@
     "build": 807,
     "architectures": ["IA-32", " Alpha", "MIPS", "PowerPC"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WNT3.5-logo",
     "requirements": [
       {
@@ -67,7 +67,7 @@
     "build": 1057,
     "architectures": ["IA-32", " Alpha", "MIPS", "PowerPC"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WNT3.51-logo",
     "requirements": [
       {

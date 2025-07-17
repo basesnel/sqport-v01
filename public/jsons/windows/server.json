@@ -94,7 +94,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Windows NT 4.0",
     "codename": "Shell Update Release",
     "release": "July 29, 1996",
@@ -131,5 +131,22 @@
         "mouse": "A Microsoft mouse or compatible pointing device"
       }
     ]
+  },
+  {
+    "id": 5,
+    "name": "Windows 2000",
+    "codename": "NT 5.0",
+    "release": "February 17, 2000",
+    "version": "NT 5.0",
+    "editions": [
+      "Windows 2000 Server",
+      "Windows 2000 Advanced Server",
+      "Windows 2000 Datacenter Server"
+    ],
+    "build": 2195,
+    "architectures": ["IA-32"],
+    "obsolete": "July 13, 2010",
+    "licenses": ["Commercial software"],
+    "logo": "W2000-logo"
   }
 ]

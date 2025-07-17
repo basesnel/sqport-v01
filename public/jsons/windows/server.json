@@ -148,5 +148,25 @@
     "obsolete": "July 13, 2010",
     "licenses": ["Commercial software"],
     "logo": "W2000-logo"
+  },
+  {
+    "id": 6,
+    "name": "Windows 2003",
+    "codename": "Whistler Server",
+    "release": "April 24, 2003",
+    "version": "NT 5.2",
+    "editions": [
+      "Windows Server Web",
+      "Windows Server Standard",
+      "Windows Server Enterprise",
+      "Windows Server Datacenter",
+      "Windows Storage Server",
+      "Windows Unified Data Storage Server"
+    ],
+    "build": 3790,
+    "architectures": ["IA-32", "x86-64", "Itanium"],
+    "obsolete": "July 14, 2015",
+    "licenses": ["Commercial software"],
+    "logo": "W2003-logo"
   }
 ]

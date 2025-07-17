@@ -188,5 +188,26 @@
     "obsolete": "July 14, 2015",
     "licenses": ["Commercial software"],
     "logo": "W2003-logo"
+  },
+  {
+    "id": 8,
+    "name": "Windows Server 2008",
+    "codename": "Longhorn Server",
+    "release": "February 27, 2008",
+    "version": "NT 6.0",
+    "editions": [
+      "Windows Server Foundation",
+      "Windows Server Standard",
+      "Windows Server Enterprise",
+      "Windows Server Datacenter",
+      "Windows Server for Itanium-based Systems",
+      "Windows Storage Server",
+      "Windows Web Server"
+    ],
+    "build": 6003,
+    "architectures": ["IA-32", "x86-64", "Itanium"],
+    "obsolete": "January 14, 2020",
+    "licenses": ["Commercial software"],
+    "logo": "W2008-logo"
   }
 ]

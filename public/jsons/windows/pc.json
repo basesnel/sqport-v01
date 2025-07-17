@@ -476,7 +476,7 @@
     "codename": "Daytona",
     "release": "September 21, 1994",
     "version": "NT 3.5",
-    "editions": ["Windows NT 3.5 Workstation", "Windows NT 3.5 Server"],
+    "editions": ["Windows NT 3.5 Workstation"],
     "build": 807,
     "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "obsolete": "December 31, 2001",
@@ -492,21 +492,6 @@
           "A computer with multiple processors was also supported"
         ],
         "ram": ["at least 12 megabytes of memory"],
-        "storage": ["90 megabytes of hard drive space"],
-        "media": ["CD-ROM drive recomended"],
-        "vga": ["VGA adapters or better"],
-        "network": "A 16- or 32-bit Ethernet or Token Ring NIC was necessary for network connectivity. This release introduced significant enhancements to the TCP/IP stack, including support for NetBIOS over TCP/IP (NetBT) and Microsoft's DHCP and WINS clients and servers.",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
-      },
-      {
-        "name": "Windows NT 3.5 Server",
-        "cpu": [
-          "Minimum 25 MHz 80386 processor",
-          "Minimum 25 MHz 80486 processor",
-          "DEC Alpha or MIPS processors were also supported",
-          "A computer with multiple processors was also supported"
-        ],
-        "ram": ["at least 16 megabytes of memory"],
         "storage": ["90 megabytes of hard drive space"],
         "media": ["CD-ROM drive recomended"],
         "vga": ["VGA adapters or better"],

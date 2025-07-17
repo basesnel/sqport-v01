@@ -186,7 +186,7 @@
     "build": 3790,
     "architectures": ["IA-32", "x86-64", "Itanium"],
     "obsolete": "July 14, 2015",
-    "licenses": ["Commercial software"],
+    "licenses": ["Trialware", "Volume licensing with client access licenses"],
     "logo": "W2003-logo"
   },
   {
@@ -207,7 +207,7 @@
     "build": 6003,
     "architectures": ["IA-32", "x86-64", "Itanium"],
     "obsolete": "January 14, 2020",
-    "licenses": ["Commercial software"],
+    "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W2008-logo"
   }
 ]

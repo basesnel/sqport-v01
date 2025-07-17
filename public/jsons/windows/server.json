@@ -92,5 +92,44 @@
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]
+  },
+  {
+    "id": 3,
+    "name": "Windows NT 4.0",
+    "codename": "Shell Update Release",
+    "release": "July 29, 1996",
+    "version": "NT 4.0",
+    "editions": [
+      "Windows NT 4.0 Server",
+      "Windows NT 4.0 Server Enterprise",
+      "Windows NT 4.0 Terminal Server Edition"
+    ],
+    "build": 1381,
+    "architectures": ["IA-32", " Alpha", "MIPS", "PowerPC"],
+    "obsolete": "December 31, 2004",
+    "licenses": ["Commercial software"],
+    "logo": "WNT4.0-logo",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": ["Intel 486 at 33 MHz"],
+        "ram": ["16 MB"],
+        "storage": ["IDE, EIDE, SCSI or ESDI with 128 MB free spice"],
+        "media": ["CD-ROM drive"],
+        "vga": ["VGA adapters"],
+        "network": "Network Interface Card (NIC) needed",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": ["Pentium or Pentium Pro"],
+        "ram": ["32 MB or higher"],
+        "storage": ["IDE, EIDE, SCSI or ESDI with 256 MB free spice"],
+        "media": ["CD-ROM drive"],
+        "vga": ["SVGA adapters"],
+        "network": "Network Interface Card (NIC) needed",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      }
+    ]
   }
 ]

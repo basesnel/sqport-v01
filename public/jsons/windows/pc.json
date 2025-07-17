@@ -533,27 +533,6 @@
         "vga": ["VGA adapters or better"],
         "network": "Network interface card (for networking). For networking, it can utilize TCP/IP, NetBEUI, and IPX/SPX protocols, and it has built-in WAN capabilities via Remote Access Service (RAS)",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
-      },
-      {
-        "name": "Windows NT 3.5 Server",
-        "cpu": [
-          "Minimum 25 MHz 80386 processor",
-          "Minimum 25 MHz 80486 processor"
-        ],
-        "ram": ["at least 16 megabytes of memory"],
-        "storage": [
-          "IDE hard drive",
-          "EIDE hard drive",
-          "SCSI hard drive",
-          "ESDI hard drive"
-        ],
-        "media": [
-          "CD-ROM drive recomended",
-          "1.44 MB or 1.2 MB floppy disk drive"
-        ],
-        "vga": ["VGA adapters or better"],
-        "network": "Network interface card (for networking). For networking, it can utilize TCP/IP, NetBEUI, and IPX/SPX protocols, and it has built-in WAN capabilities via Remote Access Service (RAS)",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]
   },

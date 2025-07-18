@@ -250,5 +250,23 @@
     "obsolete": "October 10, 2023",
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W2012-logo"
+  },
+  {
+    "id": 11,
+    "name": "Windows Server 2012 R2",
+    "codename": "Windows Server Blue",
+    "release": "October 17, 2013",
+    "version": "NT 6.23",
+    "editions": [
+      "Windows Server Foundation",
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 9600,
+    "architectures": ["x86-64"],
+    "obsolete": "October 10, 2023",
+    "licenses": ["Trialware"],
+    "logo": "W2012-logo"
   }
 ]

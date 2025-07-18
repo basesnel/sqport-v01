@@ -337,5 +337,28 @@
       "Microsoft Imagine"
     ],
     "logo": "W2016-logo"
+  },
+  {
+    "id": 14,
+    "name": "Windows Server, version 1809",
+    "codename": "Redstone 5",
+    "release": "November 13, 2018",
+    "version": "1809",
+    "editions": [
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 17763,
+    "architectures": ["x86-64"],
+    "obsolete": "November 10, 2020",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W2016-logo"
   }
 ]

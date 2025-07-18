@@ -291,5 +291,28 @@
       "Microsoft Imagine"
     ],
     "logo": "W2016-logo"
+  },
+  {
+    "id": 13,
+    "name": "Windows Server, version 1709",
+    "codename": "Redstone 3",
+    "release": "October 17, 2017",
+    "version": "1709",
+    "editions": [
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 16299,
+    "architectures": ["x86-64"],
+    "obsolete": "April 9, 2019",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W2016-logo"
   }
 ]

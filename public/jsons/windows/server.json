@@ -209,5 +209,28 @@
     "obsolete": "January 14, 2020",
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W2008-logo"
+  },
+  {
+    "id": 9,
+    "name": "Windows Server 2008 R2",
+    "codename": "Windows Server 7",
+    "release": "October 22, 2009",
+    "version": "NT 6.1",
+    "editions": [
+      "Windows Server Foundation",
+      "Windows Server Standard",
+      "Windows Server Enterprise",
+      "Windows Server Datacenter",
+      "Windows Server for Itanium-based Systems",
+      "Windows Storage Server",
+      "Windows Web Server"
+    ],
+    "build": 7601,
+    "architectures": ["x86-64", "Itanium"],
+    "obsolete": "January 14, 2020",
+    "licenses": [
+      "Commercial software (Retail, volume licensing, Microsoft Software Assurance)"
+    ],
+    "logo": "W2008-logo"
   }
 ]

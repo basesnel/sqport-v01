@@ -268,5 +268,28 @@
     "obsolete": "October 10, 2023",
     "licenses": ["Trialware"],
     "logo": "W2012-logo"
+  },
+  {
+    "id": 12,
+    "name": "Windows Server 2016",
+    "codename": "Redstone",
+    "release": "October 12, 2016",
+    "version": "1607",
+    "editions": [
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 14393,
+    "architectures": ["x86-64"],
+    "obsolete": "January 12, 2027",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W2016-logo"
   }
 ]

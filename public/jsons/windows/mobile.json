@@ -53,8 +53,32 @@
     "codename": "Magneto",
     "architectures": ["ARMv5"],
     "release": "May 9, 2005",
-    "version": "CE 5.x",
+    "version": "CE 5.0",
     "obsolete": "October 13, 2015",
+    "licenses": ["Proprietary software", "Commercial software"],
+    "logo": "PocketPC2003-logo",
+    "requirements": null
+  },
+  {
+    "id": 6,
+    "name": "Windows Mobile 6.0",
+    "codename": "Crossbow",
+    "architectures": ["ARMv5"],
+    "release": "February 12, 2007",
+    "version": "CE 5.0",
+    "obsolete": "January 8, 2013",
+    "licenses": ["Proprietary software", "Commercial software"],
+    "logo": "PocketPC2003SE-logo",
+    "requirements": null
+  },
+  {
+    "id": 7,
+    "name": "Windows Mobile 6.1",
+    "codename": "Crossbow",
+    "architectures": ["ARMv5"],
+    "release": "April 1, 2008",
+    "version": "CE 5.2",
+    "obsolete": "January 8, 2013",
     "licenses": ["Proprietary software", "Commercial software"],
     "logo": "PocketPC2003-logo",
     "requirements": null

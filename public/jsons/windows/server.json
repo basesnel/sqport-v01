@@ -382,6 +382,52 @@
       "MSDN subscription",
       "Microsoft Imagine"
     ],
+    "logo": "W2019-logo"
+  },
+  {
+    "id": 17,
+    "name": "Windows Server, version 1903",
+    "codename": "Redstone 5",
+    "release": "May 21, 2019",
+    "version": "1903",
+    "editions": [
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 18362,
+    "architectures": ["x86-64"],
+    "obsolete": "December 8, 2020",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W2016-logo"
+  },
+  {
+    "id": 18,
+    "name": "Windows Server, version 1909",
+    "codename": "Vanadium",
+    "release": "November 12, 2019",
+    "version": "1909",
+    "editions": [
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 18363,
+    "architectures": ["x86-64"],
+    "obsolete": "May 11, 2021",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
     "logo": "W2016-logo"
   }
 ]

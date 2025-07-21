@@ -429,5 +429,51 @@
       "Microsoft Imagine"
     ],
     "logo": "W2016-logo"
+  },
+  {
+    "id": 19,
+    "name": "Windows Server, version 2004",
+    "codename": "Vibranium",
+    "release": "June 26, 2020",
+    "version": "2004",
+    "editions": [
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 19041,
+    "architectures": ["x86-64"],
+    "obsolete": "December 14, 2021",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W2016-logo"
+  },
+  {
+    "id": 20,
+    "name": "Windows Server, version 20H2",
+    "codename": "Iron",
+    "release": "October 20, 2020",
+    "version": "20H2",
+    "editions": [
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 19042,
+    "architectures": ["x86-64"],
+    "obsolete": "August 9, 2022",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W2016-logo"
   }
 ]

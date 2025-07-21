@@ -475,5 +475,41 @@
       "Microsoft Imagine"
     ],
     "logo": "W2016-logo"
+  },
+  {
+    "id": 21,
+    "name": "Windows Server, version 23H2",
+    "codename": "Zinc",
+    "release": "October 14, 2023",
+    "version": "23H2",
+    "editions": [
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 25398,
+    "architectures": ["AMD64"],
+    "obsolete": "October 24, 2025",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W23H2-logo"
+  },
+  {
+    "id": 22,
+    "name": "Windows Server 2025",
+    "codename": "Germanium",
+    "release": "November 1, 2024",
+    "version": "24H2",
+    "editions": null,
+    "build": 26100,
+    "architectures": ["AMD64", "ARM64"],
+    "obsolete": "October 10, 2034",
+    "licenses": ["Proprietary"],
+    "logo": "W2025-logo"
   }
 ]

@@ -34,5 +34,29 @@
     "licenses": ["Proprietary software", "Commercial software"],
     "logo": "PocketPC2003-logo",
     "requirements": null
+  },
+  {
+    "id": 4,
+    "name": "Windows Mobile 2003 SE",
+    "codename": "Ozone",
+    "architectures": ["ARMv5"],
+    "release": "March 24, 2004",
+    "version": "CE 4.x",
+    "obsolete": "July 8, 2014",
+    "licenses": ["Proprietary software", "Commercial software"],
+    "logo": "PocketPC2003SE-logo",
+    "requirements": null
+  },
+  {
+    "id": 5,
+    "name": "Windows Mobile 5.0",
+    "codename": "Magneto",
+    "architectures": ["ARMv5"],
+    "release": "May 9, 2005",
+    "version": "CE 5.x",
+    "obsolete": "October 13, 2015",
+    "licenses": ["Proprietary software", "Commercial software"],
+    "logo": "PocketPC2003-logo",
+    "requirements": null
   }
 ]

@@ -82,5 +82,29 @@
     "licenses": ["Proprietary software", "Commercial software"],
     "logo": "PocketPC2003-logo",
     "requirements": null
+  },
+  {
+    "id": 8,
+    "name": "Windows Mobile 6.1.4",
+    "codename": "6 on 6",
+    "architectures": ["ARMv5"],
+    "release": "November 11, 2008",
+    "version": "CE 5.2",
+    "obsolete": "January 8, 2013",
+    "licenses": ["Proprietary software", "Commercial software"],
+    "logo": "PocketPC2003SE-logo",
+    "requirements": null
+  },
+  {
+    "id": 9,
+    "name": "Windows Mobile 6.5",
+    "codename": "Titanium",
+    "architectures": ["ARMv5"],
+    "release": "May 11, 2009",
+    "version": "CE 6.0",
+    "obsolete": "January 8, 2013",
+    "licenses": ["Proprietary software", "Commercial software"],
+    "logo": "PocketPC2003-logo",
+    "requirements": null
   }
 ]

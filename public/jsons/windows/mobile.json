@@ -43,8 +43,8 @@
     "release": "March 24, 2004",
     "version": "CE 4.x",
     "obsolete": "July 8, 2014",
-    "licenses": ["Proprietary software", "Commercial software"],
-    "logo": "PocketPC2003SE-logo",
+    "licenses": ["Proprietary software licensed to OEMs"],
+    "logo": "WM2003SE-logo",
     "requirements": null
   },
   {
@@ -55,8 +55,8 @@
     "release": "May 9, 2005",
     "version": "CE 5.0",
     "obsolete": "October 13, 2015",
-    "licenses": ["Proprietary software", "Commercial software"],
-    "logo": "PocketPC2003-logo",
+    "licenses": ["Proprietary software licensed to OEMs"],
+    "logo": "WM50-logo",
     "requirements": null
   },
   {
@@ -67,8 +67,8 @@
     "release": "February 12, 2007",
     "version": "CE 5.0",
     "obsolete": "January 8, 2013",
-    "licenses": ["Proprietary software", "Commercial software"],
-    "logo": "PocketPC2003SE-logo",
+    "licenses": ["Proprietary software licensed to OEMs"],
+    "logo": "WM60-logo",
     "requirements": null
   },
   {
@@ -79,8 +79,8 @@
     "release": "April 1, 2008",
     "version": "CE 5.2",
     "obsolete": "January 8, 2013",
-    "licenses": ["Proprietary software", "Commercial software"],
-    "logo": "PocketPC2003-logo",
+    "licenses": ["Proprietary software licensed to OEMs"],
+    "logo": "WM61-logo",
     "requirements": null
   },
   {
@@ -91,8 +91,8 @@
     "release": "November 11, 2008",
     "version": "CE 5.2",
     "obsolete": "January 8, 2013",
-    "licenses": ["Proprietary software", "Commercial software"],
-    "logo": "PocketPC2003SE-logo",
+    "licenses": ["Proprietary software licensed to OEMs"],
+    "logo": "WM614-logo",
     "requirements": null
   },
   {
@@ -103,8 +103,8 @@
     "release": "May 11, 2009",
     "version": "CE 6.0",
     "obsolete": "January 8, 2013",
-    "licenses": ["Proprietary software", "Commercial software"],
-    "logo": "PocketPC2003-logo",
+    "licenses": ["Proprietary software licensed to OEMs"],
+    "logo": "WM65-logo",
     "requirements": null
   }
 ]

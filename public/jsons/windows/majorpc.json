@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "major": "Windows 1.0",
+    "preceded": null,
+    "succeded": "Windows 2.0",
+    "versions": [1, 2, 3, 4]
+  }
+]

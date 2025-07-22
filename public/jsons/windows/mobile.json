@@ -154,5 +154,29 @@
     "licenses": ["Proprietary software", "Commercial software"],
     "logo": "WM8-logo",
     "requirements": null
+  },
+  {
+    "id": 14,
+    "name": "Windows Phone 8.1",
+    "codename": "Blue",
+    "architectures": ["ARMv7"],
+    "release": "April 14, 2014",
+    "version": "NT 6.3",
+    "obsolete": "January 12, 2016",
+    "licenses": ["Proprietary software", "Commercial software"],
+    "logo": "WM81-logo",
+    "requirements": null
+  },
+  {
+    "id": 15,
+    "name": "Windows 10 Mobile, version 1511",
+    "codename": "Threshold 2",
+    "architectures": ["ARMv7"],
+    "release": "November 12, 2015",
+    "version": "1511",
+    "obsolete": "January 14, 2020",
+    "licenses": ["commercial licenses", "OEM", "retail", "volume"],
+    "logo": "WM81-logo",
+    "requirements": null
   }
 ]

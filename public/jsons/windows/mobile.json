@@ -202,5 +202,17 @@
     "licenses": ["commercial licenses", "OEM", "retail", "volume"],
     "logo": "WM10-logo",
     "requirements": null
+  },
+  {
+    "id": 18,
+    "name": "Windows 10 Mobile, version 1709",
+    "codename": "feature2",
+    "architectures": ["ARMv7"],
+    "release": "October 24, 2017",
+    "version": "1709",
+    "obsolete": "January 14, 2020",
+    "licenses": ["commercial licenses", "OEM", "retail", "volume"],
+    "logo": "WM10-logo",
+    "requirements": null
   }
 ]

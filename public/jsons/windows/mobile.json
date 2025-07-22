@@ -176,7 +176,31 @@
     "version": "1511",
     "obsolete": "January 14, 2020",
     "licenses": ["commercial licenses", "OEM", "retail", "volume"],
-    "logo": "WM81-logo",
+    "logo": "WM10-logo",
+    "requirements": null
+  },
+  {
+    "id": 16,
+    "name": "Windows 10 Mobile, version 1607",
+    "codename": "Redstone 1",
+    "architectures": ["ARMv7"],
+    "release": "August 16, 2016",
+    "version": "1607",
+    "obsolete": "January 14, 2020",
+    "licenses": ["commercial licenses", "OEM", "retail", "volume"],
+    "logo": "WM10-logo",
+    "requirements": null
+  },
+  {
+    "id": 17,
+    "name": "Windows 10 Mobile, version 1703",
+    "codename": "Redstone 2",
+    "architectures": ["ARMv7"],
+    "release": "April 24, 2017",
+    "version": "1703",
+    "obsolete": "January 14, 2020",
+    "licenses": ["commercial licenses", "OEM", "retail", "volume"],
+    "logo": "WM10-logo",
     "requirements": null
   }
 ]

@@ -128,7 +128,31 @@
     "version": "CE 6.0",
     "obsolete": "October 14, 2014",
     "licenses": ["Proprietary software licensed to OEMs"],
-    "logo": "WM7-logo",
+    "logo": "WM75-logo",
+    "requirements": null
+  },
+  {
+    "id": 12,
+    "name": "Windows Phone 7.8",
+    "codename": "Tango",
+    "architectures": ["ARMv7"],
+    "release": "February 1, 2013",
+    "version": "CE 6.0",
+    "obsolete": "October 14, 2014",
+    "licenses": ["Proprietary software licensed to OEMs"],
+    "logo": "WM78-logo",
+    "requirements": null
+  },
+  {
+    "id": 13,
+    "name": "Windows Phone 8",
+    "codename": "Apollo",
+    "architectures": ["ARMv7"],
+    "release": "October 29, 2012",
+    "version": "NT 6.2",
+    "obsolete": "January 12, 2016",
+    "licenses": ["Proprietary software", "Commercial software"],
+    "logo": "WM8-logo",
     "requirements": null
   }
 ]

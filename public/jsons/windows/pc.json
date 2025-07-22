@@ -11,6 +11,9 @@
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software"],
     "logo": "W1.01-logo",
+    "major": "Windows 1.0",
+    "preceded": null,
+    "succeded": "Windows 2.0",
     "requirements": [
       {
         "name": "Windows 1.01",

@@ -106,5 +106,29 @@
     "licenses": ["Proprietary software licensed to OEMs"],
     "logo": "WM65-logo",
     "requirements": null
+  },
+  {
+    "id": 10,
+    "name": "Windows Phone 7",
+    "codename": "Metro",
+    "architectures": ["ARMv7"],
+    "release": "October 29, 2010",
+    "version": "CE 6.0",
+    "obsolete": "October 14, 2014",
+    "licenses": ["Proprietary software", "Commercial software"],
+    "logo": "WM7-logo",
+    "requirements": null
+  },
+  {
+    "id": 11,
+    "name": "Windows Phone 7.5",
+    "codename": "Mango",
+    "architectures": ["ARMv7"],
+    "release": "September 27, 2011",
+    "version": "CE 6.0",
+    "obsolete": "October 14, 2014",
+    "licenses": ["Proprietary software licensed to OEMs"],
+    "logo": "WM7-logo",
+    "requirements": null
   }
 ]

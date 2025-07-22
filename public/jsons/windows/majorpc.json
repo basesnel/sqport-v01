@@ -5,5 +5,12 @@
     "preceded": null,
     "succeded": "Windows 2.0",
     "versions": [1, 2, 3, 4]
+  },
+  {
+    "id": 2,
+    "major": "Windows 2.0",
+    "preceded": "Windows 1.0",
+    "succeded": "Windows 2.1",
+    "versions": [5, 6]
   }
 ]

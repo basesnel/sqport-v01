@@ -680,7 +680,35 @@
     "architectures": ["IA-32"],
     "obsolete": "July 13, 2010",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W2000-logo"
+    "logo": "W2000-logo",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": ["Pentium 133 MHz"],
+        "ram": ["32 MB (128 MB for Windows 2000 Server)"],
+        "storage": ["Free spice 1 GB (2 GB for Windows 2000 Server)"],
+        "media": [
+          "CD-ROM or DVD-ROM drive",
+          "Floppy install is possible but slow"
+        ],
+        "vga": ["800x600 VGA or better monitor"],
+        "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      },
+      {
+        "name": "Recommended",
+        "cpu": ["Pentium II 300 MHz"],
+        "ram": ["128 MB (256 MB for Windows 2000 Server)"],
+        "storage": ["Free spice 5 GB"],
+        "media": [
+          "CD-ROM or DVD-ROM drive",
+          "Floppy install is possible but slow"
+        ],
+        "vga": ["1024x768 VGA or better monitor"],
+        "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 23,

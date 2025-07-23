@@ -675,7 +675,11 @@
     "codename": "Windows NT 5.0",
     "release": "February 17, 2000",
     "version": "NT 5.0",
-    "editions": ["Windows 2000 Professional"],
+    "editions": [
+      "Windows 2000 Professional",
+      "Windows 2000 Embedded",
+      "Windows 2000 Professional Embedded/Windows 2000 Professional For Embedded Systems"
+    ],
     "build": 2195,
     "architectures": ["IA-32"],
     "obsolete": "July 13, 2010",

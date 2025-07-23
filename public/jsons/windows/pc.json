@@ -599,8 +599,6 @@
     "build": 1998,
     "architectures": ["IA-32"],
     "obsolete": "July 11, 2006",
-    "licenses": ["Commercial software"],
-    "logo": "W98-logo",
     "requirements": [
       {
         "name": "Windows 98",

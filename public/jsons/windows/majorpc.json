@@ -52,5 +52,14 @@
     "versions": [18],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W95-logo"
+  },
+  {
+    "id": 7,
+    "major": "Windows 98",
+    "preceded": "Windows 95 (1995)",
+    "succeded": ["Windows Me (2000)"],
+    "versions": [20],
+    "licenses": ["Commercial software"],
+    "logo": "W98-logo"
   }
 ]

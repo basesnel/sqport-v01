@@ -148,7 +148,29 @@
     "architectures": ["IA-32"],
     "obsolete": "July 13, 2010",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W2000-logo"
+    "logo": "W2000-logo",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": ["Pentium 133 MHz"],
+        "ram": ["128 MB"],
+        "storage": ["Free spice 2 GB"],
+        "media": ["CD-ROM drive"],
+        "vga": ["800x600 VGA or better monitor"],
+        "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": ["Pentium II 300 MHz"],
+        "ram": ["256 MB"],
+        "storage": ["Free spice 5 GB"],
+        "media": ["CD-ROM drive"],
+        "vga": ["1024x768 VGA or better monitor"],
+        "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      }
+    ]
   },
   {
     "id": 6,

@@ -713,9 +713,7 @@
     "editions": ["Windows Me"],
     "build": 3000,
     "architectures": ["IA-32"],
-    "obsolete": "July 11, 2006",
-    "licenses": ["Proprietary software"],
-    "logo": "WME-logo"
+    "obsolete": "July 11, 2006"
   },
   {
     "id": 24,

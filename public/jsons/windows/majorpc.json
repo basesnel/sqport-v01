@@ -61,5 +61,14 @@
     "versions": [20],
     "licenses": ["Commercial software"],
     "logo": "W98-logo"
+  },
+  {
+    "id": 8,
+    "major": "Windows ME",
+    "preceded": "Windows 98 (1998)",
+    "succeded": ["Windows XP (2001)"],
+    "versions": [23],
+    "licenses": ["Proprietary software"],
+    "logo": "WME-logo"
   }
 ]

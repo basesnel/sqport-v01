@@ -223,8 +223,6 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
-    "logo": "W3.0-logo",
     "requirements": [
       {
         "name": "Windows 3.0",

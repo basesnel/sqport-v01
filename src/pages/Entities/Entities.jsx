@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 const Main = () => {
   useEffect(() => {
     try {
-      fetch("/jsons/windows/pc.json")
+      fetch("/jsons/windows/majorpc.json")
         .then((response) => response.json())
         .then((value) => console.log(value));
     } catch (error) {

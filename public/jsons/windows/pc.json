@@ -101,8 +101,6 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
-    "logo": "W2.01-logo",
     "requirements": [
       {
         "name": "Windows 2.01",
@@ -130,8 +128,6 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
-    "logo": "W2.03-logo",
     "requirements": [
       {
         "name": "Windows 2.03",

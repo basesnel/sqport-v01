@@ -3,7 +3,7 @@
     "id": 1,
     "major": "Windows 1.0",
     "preceded": null,
-    "succeded": "Windows 2.0 (1987)",
+    "succeded": ["Windows 2.0 (1987)"],
     "versions": [1, 2, 3, 4],
     "licenses": ["Commercial software"],
     "logo": "W1.0-logo"
@@ -12,7 +12,7 @@
     "id": 2,
     "major": "Windows 2.0",
     "preceded": "Windows 1.0 (1985)",
-    "succeded": "Windows 2.1 (1988)",
+    "succeded": ["Windows 2.1 (1988)"],
     "versions": [5, 6],
     "licenses": ["Commercial software"],
     "logo": "W2.0-logo"
@@ -21,7 +21,7 @@
     "id": 3,
     "major": "Windows 2.1",
     "preceded": "Windows 2.0 (1985)",
-    "succeded": "Windows 3.0 (1990)",
+    "succeded": ["Windows 3.0 (1990)"],
     "versions": [7, 8],
     "licenses": ["Commercial software"],
     "logo": "W2.10-logo"
@@ -30,7 +30,7 @@
     "id": 4,
     "major": "Windows 3.0",
     "preceded": "Windows 2.1 (1988)",
-    "succeded": "Windows 3.1 (1992)",
+    "succeded": ["Windows 3.1 (1992)"],
     "versions": [9],
     "licenses": ["Commercial software"],
     "logo": "W3.0-logo"

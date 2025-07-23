@@ -155,8 +155,6 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
-    "logo": "W2.10-logo",
     "requirements": [
       {
         "name": "Windows/286",

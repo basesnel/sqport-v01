@@ -22,6 +22,8 @@
     "major": "Windows 2.1",
     "preceded": "Windows 2.0 (1985)",
     "succeded": "Windows 3.0 (1990)",
-    "versions": [7, 8]
+    "versions": [7, 8],
+    "licenses": ["Commercial software"],
+    "logo": "W2.10-logo"
   }
 ]

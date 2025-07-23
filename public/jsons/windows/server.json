@@ -141,6 +141,7 @@
     "editions": [
       "Windows 2000 Server",
       "Windows 2000 Advanced Server",
+      "Windows 2000 Small Business Server",
       "Windows 2000 Datacenter Server"
     ],
     "build": 2195,

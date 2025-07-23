@@ -4,7 +4,9 @@
     "major": "Windows 1.0",
     "preceded": null,
     "succeded": "Windows 2.0 (1987)",
-    "versions": [1, 2, 3, 4]
+    "versions": [1, 2, 3, 4],
+    "licenses": ["Commercial software"],
+    "logo": "W1.0-logo"
   },
   {
     "id": 2,

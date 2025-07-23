@@ -536,8 +536,6 @@
     "build": 950,
     "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W95-logo",
     "requirements": [
       {
         "name": "Windows 95",

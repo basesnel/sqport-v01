@@ -43,5 +43,14 @@
     "versions": [10, 11, 13, 14, 15],
     "licenses": ["Commercial software"],
     "logo": "W3.1-logo"
+  },
+  {
+    "id": 6,
+    "major": "Windows 95",
+    "preceded": "Windows 3.1 (1992)",
+    "succeded": ["Windows 98 (1998)"],
+    "versions": [18],
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "W95-logo"
   }
 ]

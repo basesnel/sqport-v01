@@ -548,8 +548,6 @@
     "build": 1381,
     "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "obsolete": "June 30, 2004",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WNT4.0-logo",
     "requirements": [
       {
         "name": "Minimum",

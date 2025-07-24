@@ -12,6 +12,7 @@
   {
     "id": 2,
     "major": "Windows 2.0",
+    "rtm": "December 9, 1987",
     "preceded": "Windows 1.0 (1985)",
     "succeded": ["Windows 2.1 (1988)"],
     "versions": [5, 6],
@@ -21,6 +22,7 @@
   {
     "id": 3,
     "major": "Windows 2.1",
+    "rtm": "May 27, 1988",
     "preceded": "Windows 2.0 (1985)",
     "succeded": ["Windows 3.0 (1990)"],
     "versions": [7, 8],
@@ -30,6 +32,7 @@
   {
     "id": 4,
     "major": "Windows 3.0",
+    "rtm": "May 22, 1990",
     "preceded": "Windows 2.1 (1988)",
     "succeded": ["Windows 3.1 (1992)"],
     "versions": [9],

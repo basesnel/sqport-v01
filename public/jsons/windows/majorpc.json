@@ -88,5 +88,15 @@
     "versions": [12],
     "licenses": ["Commercial software"],
     "logo": "WNT3.1-logo"
+  },
+  {
+    "id": 10,
+    "major": "Windows NT 3.5",
+    "rtm": "September 21, 1994",
+    "preceded": "Windows NT 3.1 (1993)",
+    "succeded": ["Windows NT 3.51 (1995)"],
+    "versions": [16],
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "WNT3.5-logo"
   }
 ]

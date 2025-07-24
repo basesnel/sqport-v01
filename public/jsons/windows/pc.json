@@ -452,8 +452,6 @@
     "build": 807,
     "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WNT3.5-logo",
     "requirements": [
       {
         "name": "Windows NT 3.5 Workstation",

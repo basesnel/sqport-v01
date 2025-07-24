@@ -78,5 +78,15 @@
     "versions": [23],
     "licenses": ["Proprietary software"],
     "logo": "WME-logo"
+  },
+  {
+    "id": 9,
+    "major": "Windows NT 3.1",
+    "rtm": "July 27, 1993",
+    "preceded": "Windows 3.1 (1992)",
+    "succeded": ["Windows NT 3.5 (1994)"],
+    "versions": [12],
+    "licenses": ["Commercial software"],
+    "logo": "WNT3.1-logo"
   }
 ]

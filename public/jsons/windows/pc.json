@@ -265,8 +265,6 @@
     "build": 103,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
-    "logo": "W3.1-logo",
     "requirements": [
       {
         "name": "Windows 3.1",
@@ -302,8 +300,6 @@
     "build": 102,
     "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
-    "logo": "W3.1-logo",
     "requirements": [
       {
         "name": "Windows for Workgroups",
@@ -361,8 +357,6 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
-    "logo": "WNT3.1-logo",
     "requirements": [
       {
         "name": "Windows 3.1",
@@ -398,8 +392,6 @@
     "build": 300,
     "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
-    "logo": "WNT3.1-logo",
     "requirements": [
       {
         "name": "Windows for Workgroups",
@@ -425,8 +417,6 @@
     "build": 153,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software"],
-    "logo": "WNT3.2-logo",
     "requirements": [
       {
         "name": "Windows 3.1",

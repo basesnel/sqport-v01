@@ -706,9 +706,7 @@
     ],
     "build": 2600,
     "architectures": ["IA-32"],
-    "obsolete": "April 8, 2014",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "obsolete": "April 8, 2014"
   },
   {
     "id": 25,
@@ -719,9 +717,7 @@
     "editions": ["Windows XP 64-bit Edition"],
     "build": 2600,
     "architectures": ["Itanium"],
-    "obsolete": "April 8, 2014",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "obsolete": "April 8, 2014"
   },
   {
     "id": 26,
@@ -732,9 +728,7 @@
     "editions": ["Windows XP Media Center Edition"],
     "build": 2600,
     "architectures": ["IA-32"],
-    "obsolete": "April 8, 2014",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "obsolete": "April 8, 2014"
   },
   {
     "id": 27,
@@ -745,9 +739,7 @@
     "editions": ["Windows XP Media Center Edition 2004"],
     "build": 2600,
     "architectures": ["IA-32"],
-    "obsolete": "April 8, 2014",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "obsolete": "April 8, 2014"
   },
   {
     "id": 28,
@@ -758,9 +750,7 @@
     "editions": ["Windows XP Media Center Edition 2005"],
     "build": 2700,
     "architectures": ["IA-32"],
-    "obsolete": "April 8, 2014",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "obsolete": "April 8, 2014"
   },
   {
     "id": 29,
@@ -771,9 +761,7 @@
     "editions": ["Windows XP Media Center Edition 2005 Update Rollup 2"],
     "build": 2710,
     "architectures": ["IA-32"],
-    "obsolete": "April 8, 2014",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "obsolete": "April 8, 2014"
   },
   {
     "id": 30,
@@ -784,9 +772,7 @@
     "editions": ["Windows XP Professional x64 Edition"],
     "build": 3790,
     "architectures": ["x86-64"],
-    "obsolete": "April 8, 2014",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "obsolete": "April 8, 2014"
   },
   {
     "id": 31,

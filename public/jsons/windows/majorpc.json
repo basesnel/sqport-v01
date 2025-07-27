@@ -134,5 +134,16 @@
     "versions": [22],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W2000-logo"
+  },
+  {
+    "id": 14,
+    "major": "Windows XP",
+    "rtm": "August 24, 2001",
+    "ga": "October 25, 2001",
+    "preceded": ["Windows 2000 (1999)", "Windows Me (2000)"],
+    "succeded": ["Windows Vista (2006)"],
+    "versions": [24, 25, 26, 27, 28, 29, 30],
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "WXP-logo"
   }
 ]

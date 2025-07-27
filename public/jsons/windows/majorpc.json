@@ -120,5 +120,19 @@
     "versions": [19],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WNT4.0-logo"
+  },
+  {
+    "id": 13,
+    "major": "Windows 2000",
+    "rtm": "December 15, 1999",
+    "ga": "February 17, 2000",
+    "preceded": "Windows NT 4.0 (1996)",
+    "succeded": [
+      "Windows XP Professional (client)",
+      "Windows Server 2003 (servers)"
+    ],
+    "versions": [22],
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "W2000-logo"
   }
 ]

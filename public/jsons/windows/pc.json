@@ -618,8 +618,6 @@
     "build": "2222A",
     "architectures": ["IA-32"],
     "obsolete": "July 11, 2006",
-    "licenses": ["Commercial software"],
-    "logo": "W98-logo",
     "requirements": [
       {
         "name": "Second Edition",
@@ -661,8 +659,6 @@
     "build": 2195,
     "architectures": ["IA-32"],
     "obsolete": "July 13, 2010",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W2000-logo",
     "requirements": [
       {
         "name": "Minimum",

@@ -65,7 +65,7 @@
     "rtm": "May 15, 1998",
     "preceded": "Windows 95 (1995)",
     "succeded": ["Windows Me (2000)"],
-    "versions": [20],
+    "versions": [20, 21],
     "licenses": ["Commercial software"],
     "logo": "W98-logo"
   },

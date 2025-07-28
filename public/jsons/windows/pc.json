@@ -819,15 +819,7 @@
     "editions": ["Windows 8", "Windows 8 Pro", "Windows 8 Enterprise"],
     "build": 9200,
     "architectures": ["IA-32", "x86-64"],
-    "obsolete": "January 12, 2016",
-    "licenses": [
-      "Trialware",
-      "Microsoft Software Assurance",
-      "MSDN subscription",
-      "Microsoft Imagine",
-      "DreamSpark"
-    ],
-    "logo": "W8-logo"
+    "obsolete": "January 12, 2016"
   },
   {
     "id": 34,

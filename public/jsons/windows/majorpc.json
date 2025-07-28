@@ -177,5 +177,22 @@
     "versions": [32],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W7-logo"
+  },
+  {
+    "id": 17,
+    "major": "Windows 8",
+    "rtm": "August 1, 2012",
+    "ga": "October 26, 2012",
+    "preceded": ["Windows 7 (2009)"],
+    "succeded": ["Windows 8.1 (2013)"],
+    "versions": [33],
+    "licenses": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine",
+      "DreamSpark"
+    ],
+    "logo": "W8-logo"
   }
 ]

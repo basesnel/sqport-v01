@@ -166,5 +166,16 @@
     "versions": [31],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WVISTA-logo"
+  },
+  {
+    "id": 16,
+    "major": "Windows 7",
+    "rtm": "July 22, 2009",
+    "ga": "October 22, 2009",
+    "preceded": ["Windows Vista (2007)"],
+    "succeded": ["Windows 8 (2012)"],
+    "versions": [32],
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "W7-logo"
   }
 ]

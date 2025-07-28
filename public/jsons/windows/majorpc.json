@@ -155,5 +155,16 @@
     "versions": [24, 25, 26, 27, 28, 29, 30],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WXP-logo"
+  },
+  {
+    "id": 15,
+    "major": "Windows Vista",
+    "rtm": "November 8, 2006",
+    "ga": "January 30, 2007",
+    "preceded": ["Windows XP (2001)"],
+    "succeded": ["Windows 7 (2009)"],
+    "versions": [31],
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "WVISTA-logo"
   }
 ]

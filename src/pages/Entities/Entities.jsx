@@ -4,10 +4,23 @@ import Footer from "../../components/Footer/Footer";
 
 const Main = () => {
   useEffect(() => {
+    const getVersionsPC = () => {
+      return fetch("/jsons/windows/majorpc.json").then((response) =>
+        response.json()
+      );
+    };
+
+    const getReleasesPC = () => {
+      return fetch("/jsons/windows/pc.json").then((response) =>
+        response.json()
+      );
+    };
+
     try {
-      fetch("/jsons/windows/majorpc.json")
-        .then((response) => response.json())
-        .then((value) => console.log(value));
+      getVersionsPC().then((value) => {
+        console.log(value);
+        getReleasesPC().then((value) => console.log(value));
+      });
     } catch (error) {
       console.log(error);
     }

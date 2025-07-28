@@ -136,7 +136,7 @@
     "major": "Windows 2000",
     "rtm": "December 15, 1999",
     "ga": "February 17, 2000",
-    "preceded": "Windows NT 4.0 (1996)",
+    "preceded": ["Windows NT 4.0 (1996)"],
     "succeded": [
       "Windows XP Professional (client)",
       "Windows Server 2003 (servers)"

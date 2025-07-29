@@ -54,7 +54,8 @@
     "ga": "April 6, 1992",
     "preceded": ["Windows 3.0 (1990)"],
     "succeded": ["Windows 95 (1995)", "Windows NT 3.1 (1993)"],
-    "versions": [10, 11, 13, 14, 15],
+    "pcreleases": [10, 11, 13, 14, 15],
+    "svreleases": null,
     "licenses": ["Commercial software"],
     "logo": "W3.1-logo"
   },
@@ -65,7 +66,8 @@
     "ga": "August 24, 1995",
     "preceded": ["Windows 3.1 (1992)"],
     "succeded": ["Windows 98 (1998)"],
-    "versions": [18],
+    "pcreleases": [18],
+    "svreleases": null,
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W95-logo"
   },

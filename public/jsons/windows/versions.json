@@ -78,7 +78,8 @@
     "ga": "June 25, 1998",
     "preceded": ["Windows 95 (1995)"],
     "succeded": ["Windows Me (2000)"],
-    "versions": [20, 21],
+    "pcreleases": [20, 21],
+    "svreleases": null,
     "licenses": ["Commercial software"],
     "logo": "W98-logo"
   },
@@ -89,7 +90,8 @@
     "ga": "September 14, 2000",
     "preceded": ["Windows 98 (1998)"],
     "succeded": ["Windows XP (2001)"],
-    "versions": [23],
+    "pcreleases": [23],
+    "svreleases": null,
     "licenses": ["Proprietary software"],
     "logo": "WME-logo"
   },

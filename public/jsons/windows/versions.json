@@ -30,7 +30,8 @@
     "ga": "May 27, 1988",
     "preceded": ["Windows 2.0 (1985)"],
     "succeded": ["Windows 3.0 (1990)"],
-    "versions": [7, 8],
+    "pcreleases": [7, 8],
+    "svreleases": null,
     "licenses": ["Commercial software"],
     "logo": "W2.10-logo"
   },
@@ -41,7 +42,8 @@
     "ga": "May 22, 1990",
     "preceded": ["Windows 2.1 (1988)"],
     "succeded": ["Windows 3.1 (1992)"],
-    "versions": [9],
+    "pcreleases": [9],
+    "svreleases": null,
     "licenses": ["Commercial software"],
     "logo": "W3.0-logo"
   },
@@ -211,6 +213,6 @@
       "MSDN subscription",
       "Microsoft Imagine"
     ],
-    "logo": "W81-logo"
+    "logo": "W8.1-logo"
   }
 ]

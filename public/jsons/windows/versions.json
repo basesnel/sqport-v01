@@ -194,5 +194,21 @@
       "DreamSpark"
     ],
     "logo": "W8-logo"
+  },
+  {
+    "id": 18,
+    "major": "Windows 8.1",
+    "rtm": "August 27, 2013",
+    "ga": "October 17, 2013",
+    "preceded": ["Windows 8 (2012)"],
+    "succeded": ["Windows 10 (2015)"],
+    "versions": [34, 35],
+    "licenses": [
+      "Trialware",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W81-logo"
   }
 ]

@@ -6,7 +6,8 @@
     "ga": "November 20, 1985",
     "preceded": null,
     "succeded": ["Windows 2.0 (1987)"],
-    "versions": [1, 2, 3, 4],
+    "pcreleases": [1, 2, 3, 4],
+    "svreleases": null,
     "licenses": ["Commercial software"],
     "logo": "W1.0-logo"
   },
@@ -17,7 +18,8 @@
     "ga": "December 9, 1987",
     "preceded": ["Windows 1.0 (1985)"],
     "succeded": ["Windows 2.1 (1988)"],
-    "versions": [5, 6],
+    "pcreleases": [5, 6],
+    "svreleases": null,
     "licenses": ["Commercial software"],
     "logo": "W2.0-logo"
   },

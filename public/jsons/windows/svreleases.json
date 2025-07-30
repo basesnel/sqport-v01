@@ -9,8 +9,6 @@
     "build": 528,
     "architectures": ["IA-32", " Alpha", "MIPS"],
     "obsolete": "December 31, 2000",
-    "licenses": ["Commercial software"],
-    "logo": "WNT3.1-logo",
     "requirements": [
       {
         "name": "Windows NT 3.1 Advanced Server",
@@ -37,8 +35,6 @@
     "build": 807,
     "architectures": ["IA-32", " Alpha", "MIPS", "PowerPC"],
     "obsolete": "December 31, 2001",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WNT3.5-logo",
     "requirements": [
       {
         "name": "Windows NT 3.5 Server",

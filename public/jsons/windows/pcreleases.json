@@ -699,7 +699,31 @@
     "editions": ["Windows Me"],
     "build": 3000,
     "architectures": ["IA-32"],
-    "obsolete": "July 11, 2006"
+    "obsolete": "July 11, 2006",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": ["Pentium 150 MHz"],
+        "ram": ["32 MB"],
+        "storage": ["Free spice 320 MB"],
+        "media": ["CD-ROM drive", "DVD drive", "3.5 inch floppy drive"],
+        "vga": ["VGA"],
+        "sound": ["Sound card", "Speakers or headphones"],
+        "network": "None",
+        "mouse": "Mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": ["Pentium II 300 MHz"],
+        "ram": ["64 MB"],
+        "storage": ["Free spice 2 GB"],
+        "media": ["CD-ROM drive", "DVD drive", "3.5 inch floppy drive"],
+        "vga": ["SVGA", "Video capture device for Windows Movie Maker"],
+        "sound": ["Microphone for Windows Movie Maker"],
+        "network": "56.6 Kbps modem or faster with current Internet connection",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 24,

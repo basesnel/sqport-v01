@@ -9,6 +9,8 @@
     "build": null,
     "architectures": ["x86-16"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W1.0-logo",
     "requirements": [
       {
         "name": "Windows 1.01",
@@ -32,6 +34,8 @@
     "build": null,
     "architectures": ["x86-16"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W1.0-logo",
     "requirements": [
       {
         "name": "Windows 1.02",
@@ -55,6 +59,8 @@
     "build": null,
     "architectures": ["x86-16"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W1.0-logo",
     "requirements": [
       {
         "name": "Windows 1.03",
@@ -78,6 +84,8 @@
     "build": null,
     "architectures": ["x86-16"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W1.0-logo",
     "requirements": [
       {
         "name": "Windows 1.04",

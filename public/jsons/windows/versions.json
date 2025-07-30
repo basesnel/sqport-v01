@@ -1,15 +1,13 @@
 [
   {
     "id": 1,
-    "major": "Windows 1.0",
+    "name": "Windows 1.0",
     "rtm": "November 20, 1985",
     "ga": "November 20, 1985",
     "preceded": null,
     "succeded": ["Windows 2.0 (1987)"],
     "pcreleases": [1, 2, 3, 4],
-    "svreleases": null,
-    "licenses": ["Commercial software"],
-    "logo": "W1.0-logo"
+    "svreleases": null
   },
   {
     "id": 2,

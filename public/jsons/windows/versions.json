@@ -153,7 +153,8 @@
       "Windows XP Professional (client)",
       "Windows Server 2003 (servers)"
     ],
-    "versions": [22],
+    "pcreleases": [22],
+    "svreleases": [5],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W2000-logo"
   },
@@ -164,7 +165,8 @@
     "ga": "October 25, 2001",
     "preceded": ["Windows 2000 (1999)", "Windows Me (2000)"],
     "succeded": ["Windows Vista (2006)"],
-    "versions": [24, 25, 26, 27, 28, 29, 30],
+    "pcreleases": [24, 25, 26, 27, 28, 29, 30],
+    "svreleases": [6, 7],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WXP-logo"
   },

@@ -201,7 +201,8 @@
     "ga": "October 26, 2012",
     "preceded": ["Windows 7 (2009)"],
     "succeded": ["Windows 8.1 (2013)"],
-    "versions": [33],
+    "pcreleases": [33],
+    "svreleases": [10],
     "licenses": [
       "Trialware",
       "Microsoft Software Assurance",
@@ -218,7 +219,8 @@
     "ga": "October 17, 2013",
     "preceded": ["Windows 8 (2012)"],
     "succeded": ["Windows 10 (2015)"],
-    "versions": [34, 35],
+    "pcreleases": [34, 35],
+    "svreleases": [11],
     "licenses": [
       "Trialware",
       "Microsoft Software Assurance",

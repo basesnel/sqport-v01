@@ -139,8 +139,6 @@
     "build": 2195,
     "architectures": ["IA-32"],
     "obsolete": "July 13, 2010",
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W2000-logo",
     "requirements": [
       {
         "name": "Minimum",
@@ -180,9 +178,7 @@
     ],
     "build": 3790,
     "architectures": ["IA-32", "x86-64", "Itanium"],
-    "obsolete": "July 14, 2015",
-    "licenses": ["Trialware", "Volume licensing with client access licenses"],
-    "logo": "W2003-logo"
+    "obsolete": "July 14, 2015"
   },
   {
     "id": 7,

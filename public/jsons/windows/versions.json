@@ -177,7 +177,8 @@
     "ga": "January 30, 2007",
     "preceded": ["Windows XP (2001)"],
     "succeded": ["Windows 7 (2009)"],
-    "versions": [31],
+    "pcreleases": [31],
+    "svreleases": [8],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "WVISTA-logo"
   },
@@ -188,7 +189,8 @@
     "ga": "October 22, 2009",
     "preceded": ["Windows Vista (2007)"],
     "succeded": ["Windows 8 (2012)"],
-    "versions": [32],
+    "pcreleases": [32],
+    "svreleases": [9],
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W7-logo"
   },

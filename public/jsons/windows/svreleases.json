@@ -178,7 +178,13 @@
     ],
     "build": 3790,
     "architectures": ["IA-32", "x86-64", "Itanium"],
-    "obsolete": "July 14, 2015"
+    "obsolete": "July 14, 2015",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "With client access licenses"
+    ],
+    "logo": "W2003-logo"
   },
   {
     "id": 7,
@@ -197,7 +203,11 @@
     "build": 3790,
     "architectures": ["IA-32", "x86-64", "Itanium"],
     "obsolete": "July 14, 2015",
-    "licenses": ["Trialware", "Volume licensing with client access licenses"],
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "With client access licenses"
+    ],
     "logo": "W2003-logo"
   },
   {

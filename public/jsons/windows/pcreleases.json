@@ -360,6 +360,8 @@
     "build": 528,
     "architectures": ["IA-32", "Alpha", "MIPS"],
     "obsolete": "December 31, 2000",
+    "licenses": ["Commercial software"],
+    "logo": "WNT3.1-logo",
     "requirements": [
       {
         "name": "Windows NT 3.1",
@@ -748,6 +750,8 @@
     "build": 3000,
     "architectures": ["IA-32"],
     "obsolete": "July 11, 2006",
+    "licenses": ["Proprietary software"],
+    "logo": "WME-logo",
     "requirements": [
       {
         "name": "Minimum",

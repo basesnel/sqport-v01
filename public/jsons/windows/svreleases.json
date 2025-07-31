@@ -9,6 +9,8 @@
     "build": 528,
     "architectures": ["IA-32", " Alpha", "MIPS"],
     "obsolete": "December 31, 2000",
+    "licenses": ["Commercial software"],
+    "logo": "WNT3.1-logo",
     "requirements": [
       {
         "name": "Windows NT 3.1 Advanced Server",
@@ -20,6 +22,7 @@
         ],
         "media": null,
         "vga": ["VGA graphics card"],
+        "sound": null,
         "network": "A network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }

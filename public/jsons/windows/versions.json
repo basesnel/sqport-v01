@@ -97,9 +97,7 @@
     "preceded": ["Windows NT 3.1 (1993)"],
     "succeded": ["Windows NT 3.51 (1995)"],
     "pcreleases": [16],
-    "svreleases": [2],
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WNT3.5-logo"
+    "svreleases": [2]
   },
   {
     "id": 11,

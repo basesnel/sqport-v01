@@ -107,9 +107,7 @@
     "preceded": ["Windows NT 3.5 (1994)"],
     "succeded": ["Windows NT 4.0 (1996)"],
     "pcreleases": [17],
-    "svreleases": [3],
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WNT3.51-logo"
+    "svreleases": [3]
   },
   {
     "id": 12,

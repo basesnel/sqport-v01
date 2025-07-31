@@ -110,6 +110,8 @@
     "build": 1381,
     "architectures": ["IA-32", " Alpha", "MIPS", "PowerPC"],
     "obsolete": "December 31, 2004",
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "WNT4.0-logo",
     "requirements": [
       {
         "name": "Minimum",
@@ -118,6 +120,7 @@
         "storage": ["IDE, EIDE, SCSI or ESDI with 128 MB free spice"],
         "media": ["CD-ROM drive"],
         "vga": ["VGA adapters"],
+        "sound": null,
         "network": "Network Interface Card (NIC) needed",
         "mouse": "A Microsoft mouse or compatible pointing device"
       },
@@ -128,6 +131,7 @@
         "storage": ["IDE, EIDE, SCSI or ESDI with 256 MB free spice"],
         "media": ["CD-ROM drive"],
         "vga": ["SVGA adapters"],
+        "sound": null,
         "network": "Network Interface Card (NIC) needed",
         "mouse": "A Microsoft mouse or compatible pointing device"
       }

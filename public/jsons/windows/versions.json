@@ -117,9 +117,7 @@
     "preceded": ["Windows NT 3.51 (1995)"],
     "succeded": ["Windows 2000 (1999)"],
     "pcreleases": [19],
-    "svreleases": [4],
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WNT4.0-logo"
+    "svreleases": [4]
   },
   {
     "id": 13,

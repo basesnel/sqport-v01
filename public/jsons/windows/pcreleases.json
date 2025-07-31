@@ -113,6 +113,8 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W2.0-logo",
     "requirements": [
       {
         "name": "Windows 2.01",
@@ -125,6 +127,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters"],
+        "sound": "Not required",
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -140,6 +143,8 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W2.0-logo",
     "requirements": [
       {
         "name": "Windows 2.03",
@@ -152,6 +157,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters"],
+        "sound": "Not required",
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -167,6 +173,8 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W2.1-logo",
     "requirements": [
       {
         "name": "Windows/286",
@@ -175,6 +183,7 @@
         "storage": ["A hard disk"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
+        "sound": "Not required",
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
@@ -185,6 +194,7 @@
         "storage": ["2 MB of hard disk space"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
+        "sound": "Not required",
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -201,7 +211,7 @@
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
     "licenses": ["Commercial software"],
-    "logo": "W2.11-logo",
+    "logo": "W2.1-logo",
     "requirements": [
       {
         "name": "Windows/286",

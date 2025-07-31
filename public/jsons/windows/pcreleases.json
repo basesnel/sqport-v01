@@ -19,7 +19,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -45,7 +45,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -71,7 +71,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -97,7 +97,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -127,7 +127,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -157,7 +157,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -183,7 +183,7 @@
         "storage": ["A hard disk"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
@@ -194,7 +194,7 @@
         "storage": ["2 MB of hard disk space"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -220,7 +220,7 @@
         "storage": ["A hard disk"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
@@ -231,7 +231,7 @@
         "storage": ["2 MB of hard disk space"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -264,7 +264,7 @@
           "VGA adapters",
           "Work with CGA adaptersand Hercules"
         ],
-        "sound": "Not required",
+        "sound": null,
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A Microsoft-compatible pointing device is recommended"
       },
@@ -277,7 +277,7 @@
           "A CD-ROM drive is essential for performing numerous multimedia operations."
         ],
         "vga": ["VGA adapters"],
-        "sound": "Not required",
+        "sound": null,
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }

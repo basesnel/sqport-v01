@@ -57,9 +57,7 @@
     "preceded": ["Windows 3.1 (1992)"],
     "succeded": ["Windows 98 (1998)"],
     "pcreleases": [18],
-    "svreleases": null,
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W95-logo"
+    "svreleases": null
   },
   {
     "id": 7,
@@ -69,9 +67,7 @@
     "preceded": ["Windows 95 (1995)"],
     "succeded": ["Windows Me (2000)"],
     "pcreleases": [20, 21],
-    "svreleases": null,
-    "licenses": ["Commercial software"],
-    "logo": "W98-logo"
+    "svreleases": null
   },
   {
     "id": 8,

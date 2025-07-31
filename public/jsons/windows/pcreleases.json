@@ -556,7 +556,7 @@
     "name": "Windows 95",
     "codename": "Chicago",
     "release": "August 24, 1995",
-    "version": "NT 3.51",
+    "version": "4.00",
     "editions": [
       "Windows 95 (retail and OEM) (codename - Chicago)",
       "Microsoft Plus! for Windows 95 (codename - Frosting)",
@@ -567,6 +567,8 @@
     "build": 950,
     "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "W95-logo",
     "requirements": [
       {
         "name": "Windows 95",
@@ -580,6 +582,7 @@
         ],
         "media": ["One 3.5-inch high-density floppy disk drive"],
         "vga": ["VGA adapters or better (256-color SVGA recommended)"],
+        "sound": null,
         "network": "A network interface card (NIC) compatible with Windows 95 and a suitable cabling system (coax or twisted pair with a hub)",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -628,6 +631,8 @@
     "build": 1998,
     "architectures": ["IA-32"],
     "obsolete": "July 11, 2006",
+    "licenses": ["Commercial software"],
+    "logo": "W98-logo",
     "requirements": [
       {
         "name": "Windows 98",
@@ -650,6 +655,7 @@
           "Floppy install is possible but slow"
         ],
         "vga": ["VGA or higher resolution monitor (640x480)"],
+        "sound": null,
         "network": "A network card (Ethernet, etc.) compatible with Windows 98 is necessary to physically connect to a network",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -665,6 +671,8 @@
     "build": "2222A",
     "architectures": ["IA-32"],
     "obsolete": "July 11, 2006",
+    "licenses": ["Commercial software"],
+    "logo": "W98-logo",
     "requirements": [
       {
         "name": "Second Edition",
@@ -687,6 +695,7 @@
           "Floppy install is possible but slow"
         ],
         "vga": ["VGA or higher resolution monitor (640x480)"],
+        "sound": null,
         "network": "A network card (Ethernet, etc.) compatible with Windows 98 is necessary to physically connect to a network",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }

@@ -37,9 +37,7 @@
     "preceded": ["Windows 2.1 (1988)"],
     "succeded": ["Windows 3.1 (1992)"],
     "pcreleases": [9],
-    "svreleases": null,
-    "licenses": ["Commercial software"],
-    "logo": "W3.0-logo"
+    "svreleases": null
   },
   {
     "id": 5,
@@ -49,9 +47,7 @@
     "preceded": ["Windows 3.0 (1990)"],
     "succeded": ["Windows 95 (1995)", "Windows NT 3.1 (1993)"],
     "pcreleases": [10, 11, 13, 14, 15],
-    "svreleases": null,
-    "licenses": ["Commercial software"],
-    "logo": "W3.1-logo"
+    "svreleases": null
   },
   {
     "id": 6,

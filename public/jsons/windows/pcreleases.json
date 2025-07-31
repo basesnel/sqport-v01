@@ -220,6 +220,7 @@
         "storage": ["A hard disk"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
+        "sound": "Not required",
         "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
@@ -230,6 +231,7 @@
         "storage": ["2 MB of hard disk space"],
         "media": null,
         "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
+        "sound": "Not required",
         "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -245,6 +247,8 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W3.0-logo",
     "requirements": [
       {
         "name": "Windows 3.0",
@@ -260,6 +264,7 @@
           "VGA adapters",
           "Work with CGA adaptersand Hercules"
         ],
+        "sound": "Not required",
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A Microsoft-compatible pointing device is recommended"
       },
@@ -272,6 +277,7 @@
           "A CD-ROM drive is essential for performing numerous multimedia operations."
         ],
         "vga": ["VGA adapters"],
+        "sound": "Not required",
         "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
@@ -287,6 +293,8 @@
     "build": 103,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W3.1-logo",
     "requirements": [
       {
         "name": "Windows 3.1",
@@ -297,6 +305,7 @@
         ],
         "media": null,
         "vga": ["VGA adapters"],
+        "sound": null,
         "network": "If necessary, use a compatible network interface card (NIC) and its corresponding drivers for the chosen network protocol",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
@@ -307,6 +316,7 @@
         "storage": ["A hard disk with at least 20 MB of free space"],
         "media": null,
         "vga": ["VGA-NTSC adapter"],
+        "sound": null,
         "network": "If necessary, use a compatible network interface card (NIC) and its corresponding drivers for the chosen network protocol",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
@@ -322,6 +332,8 @@
     "build": 102,
     "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W3.1-logo",
     "requirements": [
       {
         "name": "Windows for Workgroups",
@@ -332,6 +344,7 @@
         ],
         "media": null,
         "vga": ["VGA adapter"],
+        "sound": null,
         "network": "An adapter card with Network Device Interface Specification (NDIS) driver, optional hardware includes a Hayes, MultiTech, TrailBlazer, or any other compatible modem",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
@@ -364,6 +377,7 @@
         ],
         "media": ["RISC systems require CD-ROM drive"],
         "vga": ["VGA adapters"],
+        "sound": null,
         "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -379,6 +393,8 @@
     "build": null,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W3.1-logo",
     "requirements": [
       {
         "name": "Windows 3.1",
@@ -389,6 +405,7 @@
         ],
         "media": null,
         "vga": ["VGA adapters"],
+        "sound": null,
         "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
@@ -399,6 +416,7 @@
         "storage": ["A hard disk with at least 20 MB of free space"],
         "media": null,
         "vga": ["VGA-NTSC adapter"],
+        "sound": null,
         "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
@@ -414,6 +432,8 @@
     "build": 300,
     "architectures": ["IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W3.1-logo",
     "requirements": [
       {
         "name": "Windows for Workgroups",
@@ -424,6 +444,7 @@
         ],
         "media": null,
         "vga": ["VGA adapter"],
+        "sound": null,
         "network": "If necessary, you need a network card that is compatible with your computer's architecture (ISA, PCI, etc.) and card-specific drivers",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }
@@ -439,6 +460,8 @@
     "build": 153,
     "architectures": ["x86-16", "IA-32"],
     "obsolete": "December 31, 2001",
+    "licenses": ["Commercial software"],
+    "logo": "W3.1-logo",
     "requirements": [
       {
         "name": "Windows 3.1",
@@ -449,6 +472,7 @@
         ],
         "media": null,
         "vga": ["VGA adapters"],
+        "sound": null,
         "network": "A compatible NIC is required to connect the computer to the network and for multiple network protocols: NetBIOS over TCP/IP or NetBEUI. Additionally, it utilizes SMB",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
@@ -459,6 +483,7 @@
         "storage": ["A hard disk with at least 20 MB of free space"],
         "media": null,
         "vga": ["VGA-NTSC adapter"],
+        "sound": null,
         "network": "A compatible NIC is required to connect the computer to the network and for multiple network protocols: NetBIOS over TCP/IP or NetBEUI. Additionally, it utilizes SMB",
         "mouse": "A mouse is required to perform many of the multimedia operations"
       }

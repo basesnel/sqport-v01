@@ -19,6 +19,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
+        "sound": "Not required",
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -44,6 +45,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
+        "sound": "Not required",
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -69,6 +71,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
+        "sound": "Not required",
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -94,6 +97,7 @@
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
         "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
+        "sound": "Not required",
         "network": null,
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }

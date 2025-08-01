@@ -140,9 +140,7 @@
     "preceded": ["Windows 2000 (1999)", "Windows Me (2000)"],
     "succeded": ["Windows Vista (2006)"],
     "pcreleases": [24, 25, 26, 27, 28, 29, 30],
-    "svreleases": [6, 7],
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "svreleases": [6, 7]
   },
   {
     "id": 15,

@@ -130,9 +130,7 @@
       "Windows Server 2003 (servers)"
     ],
     "pcreleases": [22],
-    "svreleases": [5],
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W2000-logo"
+    "svreleases": [5]
   },
   {
     "id": 14,

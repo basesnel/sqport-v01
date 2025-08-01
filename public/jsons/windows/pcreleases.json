@@ -727,6 +727,8 @@
     "build": 2195,
     "architectures": ["IA-32"],
     "obsolete": "July 13, 2010",
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "W2000-logo",
     "requirements": [
       {
         "name": "Minimum",
@@ -735,6 +737,7 @@
         "storage": ["Free spice 1 GB"],
         "media": ["CD-ROM drive"],
         "vga": ["800x600 VGA or better monitor"],
+        "sound": null,
         "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       },
@@ -745,6 +748,7 @@
         "storage": ["Free spice 5 GB"],
         "media": ["CD-ROM drive"],
         "vga": ["1024x768 VGA or better monitor"],
+        "sound": null,
         "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }

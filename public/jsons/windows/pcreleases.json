@@ -902,7 +902,9 @@
     ],
     "build": 6002,
     "architectures": ["IA-32", "x86-64"],
-    "obsolete": "April 11, 2017"
+    "obsolete": "April 11, 2017",
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "WVISTA-logo"
   },
   {
     "id": 32,

@@ -150,9 +150,7 @@
     "preceded": ["Windows XP (2001)"],
     "succeded": ["Windows 7 (2009)"],
     "pcreleases": [31],
-    "svreleases": [8],
-    "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WVISTA-logo"
+    "svreleases": [8]
   },
   {
     "id": 16,

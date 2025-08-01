@@ -857,9 +857,9 @@
     "requirements": [
       {
         "name": "Minimum",
-        "cpu": ["x86-64 or compatible", "BIOS or compatible firmware"],
-        "ram": ["256 MB"],
-        "storage": ["1.5 GB", "Master boot record used"],
+        "cpu": ["Itanium 733 MHz"],
+        "ram": ["1 GB"],
+        "storage": ["6 GB"],
         "media": ["CD-ROM drive or compatible"],
         "vga": ["Super VGA (800x600) or over"],
         "sound": null,
@@ -868,12 +868,12 @@
       },
       {
         "name": "Recommended",
-        "cpu": ["x86-64 or compatible", "BIOS or compatible firmware"],
-        "ram": ["256 MB"],
-        "storage": ["1.5 GB", "Master boot record used"],
+        "cpu": ["Itanium 800 MHz"],
+        "ram": ["1 GB"],
+        "storage": ["6 GB"],
         "media": ["CD-ROM drive or compatible"],
         "vga": ["XGA (1024x768) or over"],
-        "sound": ["Sound card", "speakers/headphones"],
+        "sound": null,
         "network": "A compatible network adapter is needed (either wired or wireless)",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
@@ -942,7 +942,31 @@
     "architectures": ["x86-64"],
     "obsolete": "April 8, 2014",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "logo": "WXP-logo",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": ["x86-64 or compatible", "BIOS or compatible firmware"],
+        "ram": ["256 MB"],
+        "storage": ["1.5 GB", "Master boot record used"],
+        "media": ["CD-ROM drive or compatible"],
+        "vga": ["Super VGA (800x600) or over"],
+        "sound": null,
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "Mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": ["x86-64 or compatible", "BIOS or compatible firmware"],
+        "ram": ["256 MB"],
+        "storage": ["1.5 GB", "Master boot record used"],
+        "media": ["CD-ROM drive or compatible"],
+        "vga": ["XGA (1024x768) or over"],
+        "sound": ["Sound card", "speakers/headphones"],
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 31,

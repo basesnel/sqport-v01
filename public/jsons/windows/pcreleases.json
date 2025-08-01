@@ -922,7 +922,9 @@
     ],
     "build": 7601,
     "architectures": ["IA-32", "x86-64"],
-    "obsolete": "January 14, 2020"
+    "obsolete": "January 14, 2020",
+    "licenses": ["Commercial software", "Proprietary software"],
+    "logo": "W7-logo"
   },
   {
     "id": 33,

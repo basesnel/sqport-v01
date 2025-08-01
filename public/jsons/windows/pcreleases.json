@@ -806,7 +806,41 @@
     "architectures": ["IA-32"],
     "obsolete": "April 8, 2014",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WXP-logo"
+    "logo": "WXP-logo",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": [
+          "Pentium or compatible, 233 MHz",
+          "BIOS or compatible firmware"
+        ],
+        "ram": ["64 MB"],
+        "storage": ["1.5 GB", "Master boot record used"],
+        "media": ["CD-ROM drive or compatible"],
+        "vga": ["Super VGA (800x600) or over"],
+        "sound": null,
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "Mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": [
+          "Pentium or compatible, 300 MHz",
+          "BIOS or compatible firmware"
+        ],
+        "ram": ["128 MB"],
+        "storage": [
+          "2.15 GB for Service Pack 1 and 1a",
+          "3.95 GB for Service Pack 2",
+          "4.83 GB for Service Pack 3"
+        ],
+        "media": ["CD-ROM drive or compatible"],
+        "vga": ["XGA (1024x768) or over"],
+        "sound": ["Sound card", "speakers/headphones"],
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 25,

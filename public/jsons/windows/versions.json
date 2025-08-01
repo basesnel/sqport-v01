@@ -180,13 +180,6 @@
     "preceded": ["Windows 8 (2012)"],
     "succeded": ["Windows 10 (2015)"],
     "pcreleases": [34, 35],
-    "svreleases": [11],
-    "licenses": [
-      "Trialware",
-      "Microsoft Software Assurance",
-      "MSDN subscription",
-      "Microsoft Imagine"
-    ],
-    "logo": "W8.1-logo"
+    "svreleases": [11]
   }
 ]

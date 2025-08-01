@@ -170,15 +170,7 @@
     "preceded": ["Windows 7 (2009)"],
     "succeded": ["Windows 8.1 (2013)"],
     "pcreleases": [33],
-    "svreleases": [10],
-    "licenses": [
-      "Trialware",
-      "Microsoft Software Assurance",
-      "MSDN subscription",
-      "Microsoft Imagine",
-      "DreamSpark"
-    ],
-    "logo": "W8-logo"
+    "svreleases": [10]
   },
   {
     "id": 18,

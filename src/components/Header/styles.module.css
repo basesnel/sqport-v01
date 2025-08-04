@@ -11,8 +11,9 @@
 
 .titleWrap {
   display: flex;
+  align-items: center;
   gap: 8px;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding: 12px 0;
 }
 

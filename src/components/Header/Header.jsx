@@ -1,5 +1,4 @@
 import sqportLogo from "../../assets/sqport.svg";
-import formatDate from "../../helpers/formatDate";
 import Container from "../Container/Container";
 
 import styles from "./styles.module.css";
@@ -14,7 +13,6 @@ const Header = () => {
           </a>
           <div className={styles.titleWrap}>
             <h1 className={styles.title}>sqport</h1>
-            <p className={styles.text}>Info-tool | {formatDate(new Date())}</p>
           </div>
         </div>
       </Container>

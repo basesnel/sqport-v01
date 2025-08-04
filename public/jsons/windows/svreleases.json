@@ -516,6 +516,29 @@
   },
   {
     "id": 21,
+    "name": "Windows Server 2022",
+    "codename": "Vibranium",
+    "release": "August 18, 2021",
+    "version": "21H2",
+    "editions": [
+      "Windows Server Essentials",
+      "Windows Server Standard",
+      "Windows Server Datacenter"
+    ],
+    "build": 20348,
+    "architectures": ["x86-64"],
+    "obsolete": "October 14, 2031",
+    "licenses": [
+      "Trialware",
+      "Volume licensing",
+      "Microsoft Software Assurance",
+      "MSDN subscription",
+      "Microsoft Imagine"
+    ],
+    "logo": "W2016-logo"
+  },
+  {
+    "id": 22,
     "name": "Windows Server, version 23H2",
     "codename": "Zinc",
     "release": "October 14, 2023",
@@ -538,7 +561,7 @@
     "logo": "W23H2-logo"
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Windows Server 2025",
     "codename": "Germanium",
     "release": "November 1, 2024",

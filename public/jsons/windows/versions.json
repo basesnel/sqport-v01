@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "major": "Windows 3.0",
+    "name": "Windows 3.0",
     "rtm": "May 22, 1990",
     "ga": "May 22, 1990",
     "preceded": ["Windows 2.1 (1988)"],

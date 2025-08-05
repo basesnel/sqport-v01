@@ -191,5 +191,15 @@
     "succeded": ["Windows 11 (2021)"],
     "pcreleases": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
     "svreleases": [12, 13]
+  },
+  {
+    "id": 20,
+    "name": "Windows 11",
+    "rtm": "June 24, 2021",
+    "ga": "October 5, 2021",
+    "preceded": ["Windows 10 (2015)"],
+    "succeded": null,
+    "pcreleases": [50, 51, 52, 53],
+    "svreleases": [23]
   }
 ]

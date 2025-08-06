@@ -22,11 +22,18 @@ const Main = () => {
       );
     };
 
+    const getMBReleases = () => {
+      return fetch("/jsons/windows/mbreleases.json").then((response) =>
+        response.json()
+      );
+    };
+
     try {
       getVersions().then((value) => {
         console.log(value);
         getPCReleases().then((value) => console.log(value));
         getSVReleases().then((value) => console.log(value));
+        getMBReleases().then((value) => console.log(value));
       });
     } catch (error) {
       console.log(error);

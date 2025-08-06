@@ -22,12 +22,14 @@
     "version": "CE 3.0",
     "obsolete": "October 14, 2008",
     "licenses": ["Proprietary software", "Commercial software"],
+    "preceded": ["Pocket PC 2000"],
+    "succeded": ["Windows Mobile 2003"],
     "logo": "PocketPC2002-logo",
     "requirements": null
   },
   {
     "id": 3,
-    "name": "Pocket PC 2003",
+    "name": "Windows Mobile 2003",
     "codename": "Ozone",
     "architectures": ["ARMv5"],
     "release": "June 23, 2003",

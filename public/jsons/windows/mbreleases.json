@@ -8,6 +8,8 @@
     "version": "CE 3.0",
     "obsolete": "October 9, 2007",
     "licenses": ["Proprietary software", "Commercial software"],
+    "preceded": ["Palm-size PC"],
+    "succeded": ["Pocket PC 2002"],
     "logo": "PocketPC2000-logo",
     "requirements": null
   },

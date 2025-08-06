@@ -78,7 +78,8 @@
     "preceded": ["Windows 98 (1998)"],
     "succeded": ["Windows XP (2001)"],
     "pcreleases": [23],
-    "svreleases": null
+    "svreleases": null,
+    "mbreleases": [1]
   },
   {
     "id": 9,

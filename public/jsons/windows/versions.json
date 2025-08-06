@@ -132,7 +132,8 @@
       "Windows Server 2003 (servers)"
     ],
     "pcreleases": [22],
-    "svreleases": [5]
+    "svreleases": [5],
+    "mbreleases": [1]
   },
   {
     "id": 14,

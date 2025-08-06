@@ -67,7 +67,8 @@
     "preceded": ["Windows 95 (1995)"],
     "succeded": ["Windows Me (2000)"],
     "pcreleases": [20, 21],
-    "svreleases": null
+    "svreleases": null,
+    "mbreleases": [1]
   },
   {
     "id": 8,

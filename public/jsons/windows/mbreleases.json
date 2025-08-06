@@ -64,6 +64,8 @@
     "version": "CE 5.0",
     "obsolete": "October 13, 2015",
     "licenses": ["Proprietary software licensed to OEMs"],
+    "preceded": ["Windows Mobile 2003"],
+    "succeded": ["Windows Mobile 6.0"],
     "logo": "WM50-logo",
     "requirements": null
   },

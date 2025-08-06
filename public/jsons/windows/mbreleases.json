@@ -36,6 +36,8 @@
     "version": "CE 4.x",
     "obsolete": "July 8, 2014",
     "licenses": ["Proprietary software", "Commercial software"],
+    "preceded": ["Pocket PC 2002", "Smartphone 2002"],
+    "succeded": ["Windows Mobile 5.0"],
     "logo": "PocketPC2003-logo",
     "requirements": null
   },
@@ -48,6 +50,8 @@
     "version": "CE 4.x",
     "obsolete": "July 8, 2014",
     "licenses": ["Proprietary software licensed to OEMs"],
+    "preceded": ["Pocket PC 2002", "Smartphone 2002"],
+    "succeded": ["Windows Mobile 5.0"],
     "logo": "WM2003SE-logo",
     "requirements": null
   },

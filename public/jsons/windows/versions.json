@@ -143,7 +143,8 @@
     "preceded": ["Windows 2000 (1999)", "Windows Me (2000)"],
     "succeded": ["Windows Vista (2006)"],
     "pcreleases": [24, 25, 26, 27, 28, 29, 30],
-    "svreleases": [6, 7]
+    "svreleases": [6, 7],
+    "mbreleases": [2]
   },
   {
     "id": 15,

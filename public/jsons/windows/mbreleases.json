@@ -162,6 +162,8 @@
     "version": "CE 6.0",
     "obsolete": "October 14, 2014",
     "licenses": ["Proprietary software licensed to OEMs"],
+    "preceded": ["Windows Mobile 6.5"],
+    "succeded": ["Windows Phone 8"],
     "logo": "WM78-logo",
     "requirements": null
   },

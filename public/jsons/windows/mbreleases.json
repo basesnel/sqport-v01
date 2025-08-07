@@ -120,6 +120,8 @@
     "version": "CE 6.0",
     "obsolete": "January 8, 2013",
     "licenses": ["Proprietary software licensed to OEMs"],
+    "preceded": ["Windows Mobile 6.1"],
+    "succeded": ["Windows Mobile 7"],
     "logo": "WM65-logo",
     "requirements": null
   },

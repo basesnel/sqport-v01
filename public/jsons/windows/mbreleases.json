@@ -190,6 +190,8 @@
     "version": "NT 6.3",
     "obsolete": "January 12, 2016",
     "licenses": ["Proprietary software", "Commercial software"],
+    "preceded": ["Windows Mobile 8"],
+    "succeded": ["Windows 10 Mobile"],
     "logo": "WM81-logo",
     "requirements": null
   },

@@ -176,6 +176,8 @@
     "version": "NT 6.2",
     "obsolete": "January 12, 2016",
     "licenses": ["Proprietary software", "Commercial software"],
+    "preceded": ["Windows Mobile 7"],
+    "succeded": ["Windows Phone 8.1"],
     "logo": "WM8-logo",
     "requirements": null
   },

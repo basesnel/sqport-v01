@@ -1128,7 +1128,44 @@
     "architectures": ["IA-32", "x86-64"],
     "obsolete": "April 11, 2017",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "WVISTA-logo"
+    "logo": "WVISTA-logo",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": ["800 MHz"],
+        "ram": ["512 MB", "384 MB for Starter edition"],
+        "storage": ["20 GB", "15 GB free space"],
+        "media": ["CD-ROM drive or compatible"],
+        "vga": null,
+        "sound": null,
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "Mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": [
+          "1 GHz",
+          "The maximum number of logical processors in a PC that Windows Vista supports is: 32 for 32-bit; 64 for 64-bit",
+          "The maximum number of physical processors in a PC that Windows Vista supports is: one processor for editions: Starter, Home Basic, and Home Premium; and two processors for editions: Business, Enterprise, and Ultimate"
+        ],
+        "ram": [
+          "1 GB",
+          "The maximum amount of RAM for IA-32 - 1GB for Starter; 4GB for Hime Basic, Home Premium, Business, Enterprise, Ultimate",
+          "The maximum amount of RAM for x86-36 - none for Starter, 8GB for Hime Basic; 16GB for Home Premium; 128 GB for Business, Enterprise, Ultimate"
+        ],
+        "storage": ["40 GB", "15 GB free space"],
+        "media": ["DVD-ROM drive"],
+        "vga": [
+          "WDDM 1.0-compliant",
+          "32 bits per pixel",
+          "DirectX 9.0 support",
+          "Pixel Shader 2.0 support"
+        ],
+        "sound": ["Sound card", "speakers/headphones"],
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 32,

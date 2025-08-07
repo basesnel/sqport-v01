@@ -134,6 +134,8 @@
     "version": "CE 6.0",
     "obsolete": "October 14, 2014",
     "licenses": ["Proprietary software", "Commercial software"],
+    "preceded": ["Windows Mobile 6.5"],
+    "succeded": ["Windows Phone 8"],
     "logo": "WM7-logo",
     "requirements": null
   },

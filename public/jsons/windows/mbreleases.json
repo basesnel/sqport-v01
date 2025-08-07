@@ -92,6 +92,8 @@
     "version": "CE 5.2",
     "obsolete": "January 8, 2013",
     "licenses": ["Proprietary software licensed to OEMs"],
+    "preceded": ["Windows Mobile 6.0"],
+    "succeded": ["Windows Mobile 6.5"],
     "logo": "WM61-logo",
     "requirements": null
   },
@@ -104,6 +106,8 @@
     "version": "CE 5.2",
     "obsolete": "January 8, 2013",
     "licenses": ["Proprietary software licensed to OEMs"],
+    "preceded": ["Windows Mobile 6.0"],
+    "succeded": ["Windows Mobile 6.5"],
     "logo": "WM614-logo",
     "requirements": null
   },

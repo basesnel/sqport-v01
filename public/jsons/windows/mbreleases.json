@@ -78,6 +78,8 @@
     "version": "CE 5.0",
     "obsolete": "January 8, 2013",
     "licenses": ["Proprietary software licensed to OEMs"],
+    "preceded": ["Windows Mobile 5.0"],
+    "succeded": ["Windows Mobile 6.1"],
     "logo": "WM60-logo",
     "requirements": null
   },

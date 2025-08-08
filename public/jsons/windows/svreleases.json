@@ -274,7 +274,8 @@
         "ram": [
           "2 GB or greater",
           "On IA-32: Standard, Web - 4 GB; Enterprise, Datacenter: 64 GB",
-          "Memory on x64: Standard, Web - 32 GB; HPC - 128 GB; Enterprise, Datacenter - 1 TB"
+          "Maximum memory on x64: Standard, Web - 32 GB; HPC - 128 GB; Enterprise, Datacenter - 1 TB",
+          "Maximum memory on Itanium: 2 TB"
         ],
         "storage": ["40 GB or greater"],
         "media": ["DVD-ROM drive"],

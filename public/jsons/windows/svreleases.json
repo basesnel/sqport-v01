@@ -246,7 +246,35 @@
     "architectures": ["IA-32", "x86-64", "Itanium"],
     "obsolete": "January 14, 2020",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W2008-logo"
+    "logo": "W2008-logo",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": ["1 GHz (IA-32)", "1.4 GHz (x86-64 or Itanium)"],
+        "ram": ["512 MB"],
+        "storage": [
+          "Other editions, 32-bit: 20 GB",
+          "Other editions, 64-bit: 32 GB",
+          "Foundation: 10 GB"
+        ],
+        "media": ["DVD-ROM drive or compatible"],
+        "vga": ["800x600 or higher display"],
+        "sound": null,
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "Mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": ["2 GHz or faster"],
+        "ram": ["2 GB or greater"],
+        "storage": ["40 GB or greater"],
+        "media": ["DVD-ROM drive"],
+        "vga": ["800x600 or higher display"],
+        "sound": null,
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+      }
+    ]
   },
   {
     "id": 9,

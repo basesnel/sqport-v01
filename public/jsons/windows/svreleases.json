@@ -265,8 +265,13 @@
       },
       {
         "name": "Recommended",
-        "cpu": ["2 GHz or faster"],
-        "ram": ["2 GB or greater"],
+        "cpu": [
+          "2 GHz or faster",
+          "Number of physical processors: Standard - 4; Enterprise - 8; Datacenter: 32",
+          "Number of logical processors: IA-32 - 32; x64 - 64",
+          "Logical processors when Hyper-V is enabled: IA-32 - N/A, x64 - 24"
+        ],
+        "ram": ["2 GB or greater", ""],
         "storage": ["40 GB or greater"],
         "media": ["DVD-ROM drive"],
         "vga": ["800x600 or higher display"],

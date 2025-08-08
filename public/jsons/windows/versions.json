@@ -154,7 +154,8 @@
     "preceded": ["Windows XP (2001)"],
     "succeded": ["Windows 7 (2009)"],
     "pcreleases": [31],
-    "svreleases": [8]
+    "svreleases": [8],
+    "mbreleases": [6, 7, 8, 9]
   },
   {
     "id": 16,

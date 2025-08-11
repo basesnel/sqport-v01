@@ -177,7 +177,7 @@
     "succeded": ["Windows 8.1 (2013)"],
     "pcreleases": [33],
     "svreleases": [10],
-    "mbreleases": [13, 14]
+    "mbreleases": [13]
   },
   {
     "id": 18,
@@ -187,7 +187,8 @@
     "preceded": ["Windows 8 (2012)"],
     "succeded": ["Windows 10 (2015)"],
     "pcreleases": [34, 35],
-    "svreleases": [11]
+    "svreleases": [11],
+    "mbreleases": [14]
   },
   {
     "id": 19,

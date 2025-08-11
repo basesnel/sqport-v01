@@ -165,7 +165,8 @@
     "preceded": ["Windows Vista (2007)"],
     "succeded": ["Windows 8 (2012)"],
     "pcreleases": [32],
-    "svreleases": [9]
+    "svreleases": [9],
+    "mbreleases": [10, 11, 12]
   },
   {
     "id": 17,

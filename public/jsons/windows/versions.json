@@ -176,7 +176,8 @@
     "preceded": ["Windows 7 (2009)"],
     "succeded": ["Windows 8.1 (2013)"],
     "pcreleases": [33],
-    "svreleases": [10]
+    "svreleases": [10],
+    "mbreleases": [13, 14]
   },
   {
     "id": 18,

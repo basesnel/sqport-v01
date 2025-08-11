@@ -99,7 +99,8 @@
     "preceded": ["Windows NT 3.1 (1993)"],
     "succeded": ["Windows NT 3.51 (1995)"],
     "pcreleases": [16],
-    "svreleases": [2]
+    "svreleases": [2],
+    "mbreleases": null
   },
   {
     "id": 11,

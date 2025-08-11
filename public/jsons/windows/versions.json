@@ -209,6 +209,7 @@
     "preceded": ["Windows 10 (2015)"],
     "succeded": null,
     "pcreleases": [50, 51, 52, 53],
-    "svreleases": [23]
+    "svreleases": [23],
+    "mbreleases": null
   }
 ]

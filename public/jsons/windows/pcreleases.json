@@ -1185,7 +1185,53 @@
     "architectures": ["IA-32", "x86-64"],
     "obsolete": "January 14, 2020",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W7-logo"
+    "logo": "W7-logo",
+    "requirements": [
+      {
+        "name": "Operating system architecture 32-bit",
+        "cpu": [
+          "1 GHz IA-32 processor",
+          "Support for SSE2 required after March 2018 cumulative update"
+        ],
+        "ram": [
+          "1 GB",
+          "Windows XP Mode (Professional, Ultimate and Enterprise): requires an additional 1 GB of RAM",
+          "The maximum amount of RAM that Windows 7 supports varies depending on the product edition and on the processor architecture"
+        ],
+        "storage": [
+          "16 GB",
+          "Windows XP Mode (Professional, Ultimate and Enterprise): requires an additional 15 GB of available hard disk space"
+        ],
+        "media": [
+          "DVD drive or USB drive",
+          "Windows Media Center (included in Home Premium, Professional, Ultimate and Enterprise), requires a TV tuner to receive and record TV"
+        ],
+        "vga": ["DirectX 9 graphics processor with WDDM driver model 1.0"],
+        "sound": null,
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "Mouse or compatible pointing device"
+      },
+      {
+        "name": "Operating system architecture 64-bit",
+        "cpu": ["1 GHz x86-64 processor"],
+        "ram": [
+          "2 GB",
+          "Windows XP Mode (Professional, Ultimate and Enterprise): Requires an additional 1 GB of RAM"
+        ],
+        "storage": [
+          "20 GB",
+          "Windows XP Mode (Professional, Ultimate and Enterprise): Requires an additional 15 GB of available hard disk space"
+        ],
+        "media": [
+          "DVD drive or USB drive",
+          "Windows Media Center (included in Home Premium, Professional, Ultimate and Enterprise), requires a TV tuner to receive and record TV"
+        ],
+        "vga": ["DirectX 9 graphics processor with WDDM driver model 1.0"],
+        "sound": null,
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "Mouse or compatible pointing device"
+      }
+    ]
   },
   {
     "id": 33,

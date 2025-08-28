@@ -1196,7 +1196,7 @@
         "ram": [
           "1 GB",
           "Windows XP Mode (Professional, Ultimate and Enterprise): requires an additional 1 GB of RAM",
-          "The maximum amount of RAM that Windows 7 supports varies depending on the product edition and on the processor architecture"
+          "The maximum amount of RAM that Windows 7 supports varies depending on the product edition and on 32-bit processor architecture: 4GB for Ultimate, Enterprise, Professional, Home Premium, Home Basic; 2GB for Starter"
         ],
         "storage": [
           "16 GB",
@@ -1216,7 +1216,8 @@
         "cpu": ["1 GHz x86-64 processor"],
         "ram": [
           "2 GB",
-          "Windows XP Mode (Professional, Ultimate and Enterprise): Requires an additional 1 GB of RAM"
+          "Windows XP Mode (Professional, Ultimate and Enterprise): Requires an additional 1 GB of RAM",
+          "The maximum amount of RAM that Windows 7 supports varies depending on the product edition and on 64-bit processor architecture: 192GB for Ultimate, Enterprise, Professional; 16 GB for Home Premium; 8GB Home Basic"
         ],
         "storage": [
           "20 GB",

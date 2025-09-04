@@ -307,7 +307,28 @@
     "licenses": [
       "Commercial software (Retail, volume licensing, Microsoft Software Assurance)"
     ],
-    "logo": "W2008-logo"
+    "logo": "W2008-logo",
+    "requirements": [
+      {
+        "name": "Windows Server 2008 R2",
+        "cpu": ["1.4 GHz (x86-64 or Itanium 2)"],
+        "ram": [
+          "512 MB",
+          "Recommended: 2 GB RAM",
+          "Maximum: 8 GB RAM (Foundation), 32 GB RAM (Standard), or 2 TB RAM (Enterprise, Datacenter and Itanium)"
+        ],
+        "storage": [
+          "Minimum (editions higher than Foundation): 32 GB or more",
+          "Minimum (Foundation edition) 10 GB or more",
+          "Computers with more than 16 GB of RAM require more disk space for paging and dump files"
+        ],
+        "media": ["DVD drive"],
+        "vga": ["Super VGA (800x600) or higher"],
+        "sound": null,
+        "network": "Internet access (required for updates and online activation)",
+        "mouse": "Mouse or compatible pointing device"
+      }
+    ]
   },
   {
     "id": 10,

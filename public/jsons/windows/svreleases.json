@@ -201,7 +201,69 @@
       "Volume licensing",
       "With client access licenses"
     ],
-    "logo": "W2003-logo"
+    "logo": "W2003-logo",
+    "requirements": [
+      {
+        "name": "Web-edition",
+        "cpu": ["Maximum physical CPUs: 2"],
+        "ram": [
+          "Maximum RAM: IA-32 x86 - 2GB",
+          "Maximum RAM: x64 - none",
+          "Maximum RAM: IA-64 Itanium - none"
+        ],
+        "storage": ["temporary none"],
+        "media": ["temporary none"],
+        "vga": ["temporary none"],
+        "sound": null,
+        "network": "temporary none",
+        "mouse": "temporary none"
+      },
+      {
+        "name": "Standard-edition",
+        "cpu": ["Maximum physical CPUs: 4"],
+        "ram": [
+          "Maximum RAM: IA-32 x86 - 4GB",
+          "Maximum RAM: x64 - 32GB",
+          "Maximum RAM: IA-64 Itanium - none"
+        ],
+        "storage": ["temporary none"],
+        "media": ["temporary none"],
+        "vga": ["temporary none"],
+        "sound": null,
+        "network": "temporary none",
+        "mouse": "temporary none"
+      },
+      {
+        "name": "Enterprise-edition",
+        "cpu": ["Maximum physical CPUs: 8"],
+        "ram": [
+          "Maximum RAM: IA-32 x86 - 64GB",
+          "Maximum RAM: x64 - 1GB",
+          "Maximum RAM: IA-64 Itanium - 2GB"
+        ],
+        "storage": ["temporary none"],
+        "media": ["temporary none"],
+        "vga": ["temporary none"],
+        "sound": null,
+        "network": "temporary none",
+        "mouse": "temporary none"
+      },
+      {
+        "name": "Datacenter-edition",
+        "cpu": ["Maximum physical CPUs: 64"],
+        "ram": [
+          "Maximum RAM: IA-32 x86 - 64GB",
+          "Maximum RAM: x64 - 1GB",
+          "Maximum RAM: IA-64 Itanium - 2GB"
+        ],
+        "storage": ["temporary none"],
+        "media": ["temporary none"],
+        "vga": ["temporary none"],
+        "sound": null,
+        "network": "temporary none",
+        "mouse": "temporary none"
+      }
+    ]
   },
   {
     "id": 7,

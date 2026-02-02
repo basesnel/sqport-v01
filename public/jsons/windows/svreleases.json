@@ -205,9 +205,9 @@
     "succeded": ["Windows Server 2008"],
     "logo": "W2003-logo",
     "facts": [
-      "It is the final version of Windows Server that supports processors without ACPI. IA-64 and x64 builds of Windows Server 2003 as well as Windows Server 2008 and later strictly require ACPI.",
-      "Windows Server 2003 is the first server edition of Windows to support the IA-64 and x64 architectures.",
-      "Microsoft co-founder Bill Gates stated that Windows Server 2003 was Microsoft's 'most rigorously tested software to date.'"
+      "It is the final version of Windows Server that supports processors without ACPI. IA-64 and x64 builds of Windows Server 2003 as well as Windows Server 2008 and later strictly require ACPI",
+      "Windows Server 2003 is the first server edition of Windows to support the IA-64 and x64 architectures",
+      "Microsoft co-founder Bill Gates stated that Windows Server 2003 was Microsoft's 'most rigorously tested software to date'"
     ],
     "requirements": [
       {
@@ -221,55 +221,84 @@
           "Standard server: disk space: 1,5GB",
           "Enterprise server:  1.5GB for x86-based for setup computers; 2.0GB for Itanium-based computers"
         ],
-        "media": ["temporary none"],
-        "vga": ["temporary none"],
+        "media": ["CD-ROM drive"],
+        "vga": [
+          "Monitor and adapter with minimum resolution of the VGA standard"
+        ],
         "sound": null,
-        "network": "temporary none",
-        "mouse": "temporary none"
+        "network": "A compotable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
       },
       {
         "name": "Recommended",
-        "cpu": ["Standard server: 550MHz", "Enterprise server: 733MHz"],
+        "cpu": [
+          "Standard server: Pentium III 550MHz",
+          "Enterprise server: Pentium III 733MHz"
+        ],
         "ram": ["Standard server: 256MB", "Enterprise server: 256MB"],
         "storage": [
           "Standard server: disk space: 1,5GB",
           "Enterprise server:  1.5GB for x86-based for setup computers; 2.0GB for Itanium-based computers"
         ],
-        "media": ["temporary none"],
-        "vga": ["temporary none"],
+        "media": ["CD-ROM drive"],
+        "vga": [
+          "Monitor and adapter with minimum resolution of the VGA standard"
+        ],
         "sound": null,
-        "network": "temporary none",
-        "mouse": "temporary none"
+        "network": "A compatable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
       },
       {
         "name": "Web-edition",
-        "cpu": ["Maximum physical CPUs: 2"],
+        "cpu": [
+          "Minimum CPU Speed: 133MHz",
+          "Recomended CPU Speed: 550MHz",
+          "Multi-Processor Support: up to 2"
+        ],
         "ram": [
+          "Minimum RAM: IA-32 x86 - 128MB",
+          "Recomended RAM: IA-32 x86 - 256MB",
           "Maximum RAM: IA-32 x86 - 2GB",
           "Maximum RAM: x64 - none",
           "Maximum RAM: IA-64 Itanium - none"
         ],
-        "storage": ["temporary none"],
-        "media": ["temporary none"],
-        "vga": ["temporary none"],
+        "storage": [
+          "Disk space for setup: 1.5 GB",
+          "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
+        ],
+        "media": ["Optional CD-ROM drive"],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800x600 or higher recommended"
+        ],
         "sound": null,
-        "network": "temporary none",
-        "mouse": "temporary none"
+        "network": "A compatable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
       },
       {
         "name": "Standard-edition",
-        "cpu": ["Maximum physical CPUs: 4"],
-        "ram": [
-          "Maximum RAM: IA-32 x86 - 4GB",
-          "Maximum RAM: x64 - 32GB",
-          "Maximum RAM: IA-64 Itanium - none"
+        "cpu": [
+          "Minimum CPU Speed: 133MHz",
+          "Recomended CPU Speed: 550MHz",
+          "Multi-Processor Support: up to 4"
         ],
-        "storage": ["temporary none"],
-        "media": ["temporary none"],
-        "vga": ["temporary none"],
+        "ram": [
+          "Minimum RAM: IA-32 x86 - 128MB",
+          "Recomended RAM: IA-32 x86 - 256MB",
+          "Maximum RAM: IA-32 x86 - 4GB"
+        ],
+        "storage": [
+          "Disk space for setup: 1.5 GB",
+          "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
+        ],
+        "media": ["Optional CD-ROM drive"],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800x600 or higher recommended"
+        ],
         "sound": null,
-        "network": "temporary none",
-        "mouse": "temporary none"
+        "network": "A compatable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
       },
       {
         "name": "Enterprise-edition",

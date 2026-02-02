@@ -201,7 +201,14 @@
       "Volume licensing",
       "With client access licenses"
     ],
+    "preceded": ["Windows 2000 Server"],
+    "succeded": ["Windows Server 2008"],
     "logo": "W2003-logo",
+    "facts": [
+      "It is the final version of Windows Server that supports processors without ACPI. IA-64 and x64 builds of Windows Server 2003 as well as Windows Server 2008 and later strictly require ACPI.",
+      "Windows Server 2003 is the first server edition of Windows to support the IA-64 and x64 architectures.",
+      "Microsoft co-founder Bill Gates stated that Windows Server 2003 was Microsoft's 'most rigorously tested software to date.'"
+    ],
     "requirements": [
       {
         "name": "Minimum",

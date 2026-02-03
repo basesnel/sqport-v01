@@ -302,18 +302,30 @@
       },
       {
         "name": "Enterprise-edition",
-        "cpu": ["Maximum physical CPUs: 8"],
-        "ram": [
-          "Maximum RAM: IA-32 x86 - 64GB",
-          "Maximum RAM: x64 - 1GB",
-          "Maximum RAM: IA-64 Itanium - 2GB"
+        "cpu": [
+          "Minimum CPU Speed: 133 MHz for x86-based computers",
+          "Minimum CPU Speed: 733 MHz for Itanium-based computers",
+          "Recomended CPU Speed: 733 MHz",
+          "Maximum physical CPUs: 8"
         ],
-        "storage": ["temporary none"],
-        "media": ["temporary none"],
-        "vga": ["temporary none"],
+        "ram": [
+          "Minimum RAM: 128 MB",
+          "Recomended RAM: 256 MB",
+          "Maximum RAM: IA-32 x86 - 32GB",
+          "Maximum RAM: IA-64 Itanium - 64GB"
+        ],
+        "storage": [
+          "Minimum space: 1.5 GB for x86-based computers",
+          "Minimum space: 2 GB for Itanium-based computers"
+        ],
+        "media": ["Optional CD-ROM drive"],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800x600 or higher recommended"
+        ],
         "sound": null,
-        "network": "temporary none",
-        "mouse": "temporary none"
+        "network": "A compatable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
       },
       {
         "name": "Datacenter-edition",

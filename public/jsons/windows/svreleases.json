@@ -379,7 +379,154 @@
       "Volume licensing",
       "With client access licenses"
     ],
-    "logo": "W2003-logo"
+    "logo": "W2003-logo",
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": [
+          "Standard server: 133MHz",
+          "Enterprise server: 133MHz for x86-based computers; 733MHz for Itanium-based computers"
+        ],
+        "ram": ["Standard server: 128MB", "Enterprise server: 128MB"],
+        "storage": [
+          "Standard server: disk space: 1,5GB",
+          "Enterprise server:  1.5GB for x86-based for setup computers; 2.0GB for Itanium-based computers"
+        ],
+        "media": ["CD-ROM drive"],
+        "vga": [
+          "Monitor and adapter with minimum resolution of the VGA standard"
+        ],
+        "sound": null,
+        "network": "A compotable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": [
+          "Standard server: Pentium III 550MHz",
+          "Enterprise server: Pentium III 733MHz"
+        ],
+        "ram": ["Standard server: 256MB", "Enterprise server: 256MB"],
+        "storage": [
+          "Standard server: disk space: 1,5GB",
+          "Enterprise server:  1.5GB for x86-based for setup computers; 2.0GB for Itanium-based computers"
+        ],
+        "media": ["CD-ROM drive"],
+        "vga": [
+          "Monitor and adapter with minimum resolution of the VGA standard"
+        ],
+        "sound": null,
+        "network": "A compatable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      },
+      {
+        "name": "Web-edition",
+        "cpu": [
+          "Minimum CPU Speed: 133MHz",
+          "Recomended CPU Speed: 550MHz",
+          "Multi-Processor Support: up to 2"
+        ],
+        "ram": [
+          "Minimum RAM: IA-32 x86 - 128MB",
+          "Recomended RAM: IA-32 x86 - 256MB",
+          "Maximum RAM: IA-32 x86 - 2GB",
+          "Maximum RAM: x64 - none",
+          "Maximum RAM: IA-64 Itanium - none"
+        ],
+        "storage": [
+          "Disk space for setup: 1.5 GB",
+          "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
+        ],
+        "media": ["Optional CD-ROM drive"],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800x600 or higher recommended"
+        ],
+        "sound": null,
+        "network": "A compatable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      },
+      {
+        "name": "Standard-edition",
+        "cpu": [
+          "Minimum CPU Speed: 133MHz",
+          "Recomended CPU Speed: 550MHz",
+          "Multi-Processor Support: up to 4"
+        ],
+        "ram": [
+          "Minimum RAM: IA-32 x86 - 128MB",
+          "Recomended RAM: IA-32 x86 - 256MB",
+          "Maximum RAM: IA-32 x86 - 4GB"
+        ],
+        "storage": [
+          "Disk space for setup: 1.5 GB",
+          "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
+        ],
+        "media": ["Optional CD-ROM drive"],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800x600 or higher recommended"
+        ],
+        "sound": null,
+        "network": "A compatable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      },
+      {
+        "name": "Enterprise-edition",
+        "cpu": [
+          "Minimum CPU Speed: 133 MHz for x86-based computers",
+          "Minimum CPU Speed: 733 MHz for Itanium-based computers",
+          "Recomended CPU Speed: 733 MHz",
+          "Maximum physical CPUs: 8"
+        ],
+        "ram": [
+          "Minimum RAM: 128 MB",
+          "Recomended RAM: 256 MB",
+          "Maximum RAM: IA-32 x86 - 32GB",
+          "Maximum RAM: IA-64 Itanium - 64GB"
+        ],
+        "storage": [
+          "Minimum space: 1.5 GB for x86-based computers",
+          "Minimum space: 2 GB for Itanium-based computers"
+        ],
+        "media": ["Optional CD-ROM drive"],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800x600 or higher recommended"
+        ],
+        "sound": null,
+        "network": "A compatable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      },
+      {
+        "name": "Datacenter-edition",
+        "cpu": [
+          "Minimum CPU Speed: 400 MHz for x86-based computers",
+          "Minimum CPU Speed: 733 MHz for Itanium-based computers",
+          "Recomended CPU Speed: 733 MHz",
+          "Minimum physical CPUs: 8",
+          "Maximum physical CPUs: 64"
+        ],
+        "ram": [
+          "Minimum RAM: 512 MB",
+          "Recomended RAM: 1 GB",
+          "Maximum RAM: IA-32 x86 - 64GB",
+          "Maximum RAM: IA-64 Itanium - 512GB"
+        ],
+        "storage": [
+          "Minimum space: 1.5 GB for x86-based computers",
+          "Minimum space: 2 GB for Itanium-based computers"
+        ],
+        "media": ["Optional CD-ROM drive"],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800x600 or higher recommended"
+        ],
+        "sound": null,
+        "network": "A compatable network adapter and related cables",
+        "mouse": "A Microsoft mouse or compatible pointing device"
+      }
+    ]
   },
   {
     "id": 8,

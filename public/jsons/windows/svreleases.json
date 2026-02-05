@@ -548,6 +548,10 @@
     "obsolete": "January 14, 2020",
     "licenses": ["Commercial software", "Proprietary software"],
     "logo": "W2008-logo",
+    "facts": [
+      "It removed support for computers without ACPI, and is the first version that includes Hyper-V",
+      "It is the last version of Windows Server that supports 32-bit processors (IA-32)"
+    ],
     "requirements": [
       {
         "name": "Minimum",

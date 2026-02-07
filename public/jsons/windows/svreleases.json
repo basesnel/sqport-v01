@@ -535,13 +535,16 @@
     "release": "February 27, 2008",
     "version": "NT 6.0",
     "editions": [
-      "Windows Server Foundation",
-      "Windows Server Standard",
-      "Windows Server Enterprise",
-      "Windows Server Datacenter",
-      "Windows Server for Itanium-based Systems",
-      "Windows Storage Server",
-      "Windows Web Server"
+      "Windows Server 2008 Foundation (codenamed 'Lima'; x86-64) for OEMs only",
+      "Windows Server 2008 Standard (IA-32 and x86-64)",
+      "Windows Server 2008 Enterprise (IA-32 and x86-64)",
+      "Windows Server 2008 Datacenter (IA-32 and x86-64)",
+      "Windows Server 2008 for Itanium-based Systems (IA-64)",
+      "Windows Web Server 2008 (IA-32 and x86-64)",
+      "Windows HPC Server 2008 (codenamed 'Socrates'; replacing Windows Compute Cluster Server)",
+      "Windows Storage Server 2008 (codenamed 'Magni'; IA-32 and x86-64)",
+      "Windows Small Business Server 2008 (codenamed 'Cougar'; x86-64) for small businesses",
+      "Windows Essential Business Server 2008 (codenamed 'Centro'; x86-64) for medium-sized businesses[40] - this edition was discontinued in 2010"
     ],
     "build": 6003,
     "architectures": ["IA-32", "x86-64", "Itanium"],

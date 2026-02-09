@@ -561,9 +561,9 @@
         "cpu": ["1 GHz (IA-32)", "1.4 GHz (x86-64 or Itanium)"],
         "ram": ["512 MB"],
         "storage": [
+          "Foundation: 10 GB",
           "Other editions, 32-bit: 20 GB",
-          "Other editions, 64-bit: 32 GB",
-          "Foundation: 10 GB"
+          "Other editions, 64-bit: 32 GB"
         ],
         "media": ["DVD-ROM drive or compatible"],
         "vga": ["800x600 or higher display"],
@@ -601,13 +601,16 @@
     "release": "October 22, 2009",
     "version": "NT 6.1",
     "editions": [
-      "Windows Server Foundation",
-      "Windows Server Standard",
-      "Windows Server Enterprise",
-      "Windows Server Datacenter",
-      "Windows Server for Itanium-based Systems",
-      "Windows Storage Server",
-      "Windows Web Server"
+      "Windows Server 2008 Foundation (codenamed 'Lima'; x86-64) for OEMs only",
+      "Windows Server 2008 Standard (IA-32 and x86-64)",
+      "Windows Server 2008 Enterprise (IA-32 and x86-64)",
+      "Windows Server 2008 Datacenter (IA-32 and x86-64)",
+      "Windows Server 2008 for Itanium-based Systems (IA-64)",
+      "Windows Web Server 2008 (IA-32 and x86-64)",
+      "Windows HPC Server 2008 (codenamed 'Socrates'; replacing Windows Compute Cluster Server)",
+      "Windows Storage Server 2008 (codenamed 'Magni'; IA-32 and x86-64)",
+      "Windows Small Business Server 2008 (codenamed 'Cougar'; x86-64) for small businesses",
+      "Windows Essential Business Server 2008 (codenamed 'Centro'; x86-64) for medium-sized businesses[40] - this edition was discontinued in 2010"
     ],
     "build": 7601,
     "architectures": ["x86-64", "Itanium"],
@@ -618,23 +621,35 @@
     "logo": "W2008-logo",
     "requirements": [
       {
-        "name": "Windows Server 2008 R2",
-        "cpu": ["1.4 GHz (x86-64 or Itanium 2)"],
-        "ram": [
-          "512 MB",
-          "Recommended: 2 GB RAM",
-          "Maximum: 8 GB RAM (Foundation), 32 GB RAM (Standard), or 2 TB RAM (Enterprise, Datacenter and Itanium)"
-        ],
-        "storage": [
-          "Minimum (editions higher than Foundation): 32 GB or more",
-          "Minimum (Foundation edition) 10 GB or more",
-          "Computers with more than 16 GB of RAM require more disk space for paging and dump files"
-        ],
-        "media": ["DVD drive"],
-        "vga": ["Super VGA (800x600) or higher"],
+        "name": "Minimum",
+        "cpu": ["1.4 GHz (x86-64 or Itanium)"],
+        "ram": ["512 MB"],
+        "storage": ["Foundation: 10 GB", "Other editions: 32 GB"],
+        "media": ["DVD-ROM drive or compatible"],
+        "vga": ["800x600 or higher display"],
         "sound": null,
-        "network": "Internet access (required for updates and online activation)",
+        "network": "A compatible network adapter is needed (either wired or wireless)",
         "mouse": "Mouse or compatible pointing device"
+      },
+      {
+        "name": "Recommended",
+        "cpu": [
+          "2 GHz or faster",
+          "Number of physical processors: Standard - 4; Enterprise - 8; Datacenter: 64",
+          "Logical processors when Hyper-V is disabled: 256",
+          "Logical processors when Hyper-V is enabled: 64"
+        ],
+        "ram": [
+          "2 GB or greater",
+          "Maximum memory on x64: Foundation - 8 GB; Standard, Web - 32 GB; HPC - 128 GB; Enterprise, Datacenter - 2 TB",
+          "Maximum memory on Itanium: 2 TB"
+        ],
+        "storage": ["Foundation: 10 GB or greater", "40 GB or greater"],
+        "media": ["DVD-ROM drive"],
+        "vga": ["800x600 or higher display"],
+        "sound": null,
+        "network": "A compatible network adapter is needed (either wired or wireless)",
+        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
       }
     ]
   },

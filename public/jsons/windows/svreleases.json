@@ -601,16 +601,13 @@
     "release": "October 22, 2009",
     "version": "NT 6.1",
     "editions": [
-      "Windows Server 2008 Foundation (codenamed 'Lima'; x86-64) for OEMs only",
-      "Windows Server 2008 Standard (IA-32 and x86-64)",
-      "Windows Server 2008 Enterprise (IA-32 and x86-64)",
-      "Windows Server 2008 Datacenter (IA-32 and x86-64)",
-      "Windows Server 2008 for Itanium-based Systems (IA-64)",
-      "Windows Web Server 2008 (IA-32 and x86-64)",
-      "Windows HPC Server 2008 (codenamed 'Socrates'; replacing Windows Compute Cluster Server)",
-      "Windows Storage Server 2008 (codenamed 'Magni'; IA-32 and x86-64)",
-      "Windows Small Business Server 2008 (codenamed 'Cougar'; x86-64) for small businesses",
-      "Windows Essential Business Server 2008 (codenamed 'Centro'; x86-64) for medium-sized businesses[40] - this edition was discontinued in 2010"
+      "Windows Server 2008 R2 Foundation",
+      "Windows Server 2008 R2 Standard",
+      "Windows Server 2008 R2 Enterprise",
+      "Windows Server 2008 R2 Datacenter",
+      "Windows Web Server 2008 R2",
+      "Windows HPC Server 2008 R2",
+      "Windows Server 2008 R2 for Itanium-Based Systems"
     ],
     "build": 7601,
     "architectures": ["x86-64", "Itanium"],
@@ -619,6 +616,11 @@
       "Commercial software (Retail, volume licensing, Microsoft Software Assurance)"
     ],
     "logo": "W2008-logo",
+    "facts": [
+      "It is the final version of Windows Server that includes Enterprise and Web Server editions",
+      "It is the final that got a service pack from Microsoft",
+      "It is the final version that supports IA-64 and processors without PAE, SSE2 and NX"
+    ],
     "requirements": [
       {
         "name": "Minimum",

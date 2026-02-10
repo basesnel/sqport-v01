@@ -1257,7 +1257,13 @@
       "Microsoft Imagine",
       "DreamSpark"
     ],
-    "logo": "W8-logo"
+    "logo": "W8-logo",
+    "facts": [
+      "It was the first Windows version to support ARM architecture under the Windows RT branding",
+      "CPUs without PAE, SSE2 and NX are unsupported in this version",
+      "Additional security features—including built-in antivirus software, integration with Microsoft SmartScreen phishing filtering, and support for Secure Boot on supported devices—were introduced",
+      "Windows 8 introduced major changes to the operating system's platform and user interface with the intention to improve its user experience on tablets, where Windows competed with mobile operating systems such as Android and iOS."
+    ]
   },
   {
     "id": 34,

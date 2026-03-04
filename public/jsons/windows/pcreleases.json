@@ -1259,7 +1259,9 @@
     ],
     "logo": "W8-logo",
     "facts": [
-      "Windows 8 added support for USB 3.0, Advanced Format, near-field communication, and cloud computing, as well as a new lock screen with clock and notifications.",
+      "Windows 8 added support for USB 3.0, near-field communication, and cloud computing, as well as a new lock screen with clock and notifications.",
+      "New features and functionality include hard disk 4KB Advanced Format support",
+      "Windows 8 can natively mount ISOs, and Task Manager is much improved - and, perhaps most importantly, Windows 8 now has a built-in, continuous backup tool",
       "It was the first Windows version to support ARM architecture under the Windows RT branding",
       "CPUs without PAE, SSE2 and NX are unsupported in this version",
       "Additional security features—including built-in antivirus software, integration with Microsoft SmartScreen phishing filtering, and support for Secure Boot on supported devices—were introduced",

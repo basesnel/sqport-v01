@@ -1265,7 +1265,41 @@
       "It was the first Windows version to support ARM architecture under the Windows RT branding",
       "CPUs without PAE, SSE2 and NX are unsupported in this version",
       "Additional security features—including built-in antivirus software, integration with Microsoft SmartScreen phishing filtering, and support for Secure Boot on supported devices—were introduced",
-      "Windows 8 introduced major changes to the operating system's platform and user interface with the intention to improve its user experience on tablets, where Windows competed with mobile operating systems such as Android and iOS."
+      "Windows 8 introduced major changes to the operating system's platform and user interface with the intention to improve its user experience on tablets, where Windows competed with mobile operating systems such as Android and iOS",
+      "Windows 8 introduces a new style of applications, Windows Store apps"
+    ],
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": [
+          "1 GHz clock rate IA-32 or x64 architecture with at least 2 cores",
+          "Support for PAE, NX and SSE2"
+        ],
+        "ram": ["IA-32 edition: 1 GB", "x64 edition: 2 GB"],
+        "storage": ["IA-32 edition: 16 GB", "x64 edition: 20 GB"],
+        "media": [""],
+        "vga": ["DirectX 9 graphics device WDDM 1.0 or higher driver"],
+        "sound": null,
+        "network": "",
+        "mouse": "Keyboard and mouse"
+      },
+      {
+        "name": "Recommended",
+        "cpu": [
+          "x64 architecture Second Level Address Translation (SLAT) support for Hyper-V"
+        ],
+        "ram": ["4 GB"],
+        "storage": [""],
+        "media": [""],
+        "vga": ["DirectX 10 graphics device", "1024x768 pixels display screen"],
+        "sound": null,
+        "network": "",
+        "mouse": "Mouse or compatible pointing device, multi-touch display screen",
+        "other": [
+          "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+          "Trusted Platform Module (TPM) Internet connectivity"
+        ]
+      }
     ]
   },
   {

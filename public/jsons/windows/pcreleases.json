@@ -1318,7 +1318,14 @@
       "MSDN subscription",
       "Microsoft Imagine"
     ],
-    "logo": "W8.1-logo"
+    "logo": "W8.1-logo",
+    "facts": [
+      "The 64-bit variants of Windows 8.1 no longer support processors which do not implement the double-width compare and exchange (CMPXCHG16B) CPU instruction (which the installer reports as a lack of support for 'CompareExchange128').",
+      "On compatible hardware, Windows 8.1 also features a transparent 'device encryption' system based on BitLocker.",
+      "Windows Defender includes an intrusion detection system which can scan network activity for signs of malware.",
+      "Windows 8.1 adds support for 3D printing, pairing with printers using NFC tags, Wi-Fi Direct, Miracast media streaming, tethering,and NVMe.",
+      "Windows 8.1 received more positive reviews than Windows 8."
+    ]
   },
   {
     "id": 35,

@@ -1325,6 +1325,39 @@
       "Windows Defender includes an intrusion detection system which can scan network activity for signs of malware.",
       "Windows 8.1 adds support for 3D printing, pairing with printers using NFC tags, Wi-Fi Direct, Miracast media streaming, tethering,and NVMe.",
       "Windows 8.1 received more positive reviews than Windows 8."
+    ],
+    "requirements": [
+      {
+        "name": "Minimum",
+        "cpu": [
+          "1 GHz clock rate IA-32 or x64 architecture with at least 2 cores",
+          "Support for PAE, NX and SSE2"
+        ],
+        "ram": ["IA-32 edition: 1 GB", "x64 edition: 2 GB"],
+        "storage": ["IA-32 edition: 16 GB", "x64 edition: 20 GB"],
+        "media": [""],
+        "vga": ["DirectX 9 graphics device WDDM 1.0 or higher driver"],
+        "sound": null,
+        "network": "",
+        "mouse": "Keyboard and mouse"
+      },
+      {
+        "name": "Recommended",
+        "cpu": [
+          "x64 architecture Second Level Address Translation (SLAT) support for Hyper-V"
+        ],
+        "ram": ["4 GB"],
+        "storage": [""],
+        "media": [""],
+        "vga": ["DirectX 10 graphics device", "1024x768 pixels display screen"],
+        "sound": null,
+        "network": "",
+        "mouse": "Mouse or compatible pointing device, multi-touch display screen",
+        "other": [
+          "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+          "Trusted Platform Module (TPM) Internet connectivity"
+        ]
+      }
     ]
   },
   {

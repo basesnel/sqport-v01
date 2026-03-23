@@ -1363,7 +1363,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 35,
     "name": "Windows 10",
     "codename": "Threshold",
     "release": "July 29, 2015",
@@ -1390,7 +1390,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 37,
+    "id": 36,
     "name": "Windows 10 version 1511",
     "codename": "Threshold 2",
     "release": "November 10, 2015",
@@ -1417,7 +1417,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 38,
+    "id": 37,
     "name": "Windows 10 version 1607",
     "codename": "Redstone 1",
     "release": "August 2, 2016",
@@ -1444,7 +1444,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 39,
+    "id": 38,
     "name": "Windows 10 version 1703",
     "codename": "Redstone 2",
     "release": "April 5, 2017",
@@ -1471,7 +1471,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 40,
+    "id": 39,
     "name": "Windows 10 version 1709",
     "codename": "Redstone 3",
     "release": "October 17, 2017",
@@ -1498,7 +1498,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 41,
+    "id": 40,
     "name": "Windows 10 version 1803",
     "codename": "Redstone 4",
     "release": "April 30, 2018",
@@ -1525,7 +1525,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 42,
+    "id": 41,
     "name": "Windows 10 version 1809",
     "codename": "Redstone 5",
     "release": "November 13, 2018",
@@ -1552,7 +1552,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 43,
+    "id": 42,
     "name": "Windows 10 version 1903",
     "codename": "19H1",
     "release": "May 21, 2019",
@@ -1579,7 +1579,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 44,
+    "id": 43,
     "name": "Windows 10 version 1909",
     "codename": "Vanadium",
     "release": "November 12, 2019",
@@ -1606,7 +1606,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 45,
+    "id": 44,
     "name": "Windows 10 version 2004",
     "codename": "Vibranium",
     "release": "May 27, 2020",
@@ -1633,7 +1633,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 46,
+    "id": 45,
     "name": "Windows 10 version 20H2",
     "codename": "Vibranium",
     "release": "October 20, 2020",
@@ -1660,7 +1660,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 47,
+    "id": 46,
     "name": "Windows 10 version 21H1",
     "codename": "Vibranium",
     "release": "May 18, 2021",
@@ -1687,7 +1687,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 48,
+    "id": 47,
     "name": "Windows 10 version 21H2",
     "codename": "Vibranium",
     "release": "November 16, 2021",
@@ -1714,7 +1714,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 49,
+    "id": 48,
     "name": "Windows 10 version 22H2",
     "codename": "Vibranium",
     "release": "October 18, 2022",
@@ -1741,7 +1741,7 @@
     "logo": "W10-logo"
   },
   {
-    "id": 50,
+    "id": 49,
     "name": "Windows 11",
     "codename": "Cobalt",
     "release": "October 18, 2022",
@@ -1762,7 +1762,7 @@
     "logo": "W11-logo"
   },
   {
-    "id": 51,
+    "id": 50,
     "name": "Windows 11 version 22H2",
     "codename": "Nickel",
     "release": "September 20, 2022",
@@ -1783,7 +1783,7 @@
     "logo": "W11-logo"
   },
   {
-    "id": 52,
+    "id": 51,
     "name": "Windows 11 version 23H2",
     "codename": "Nickel",
     "release": "October 31, 2023",
@@ -1804,7 +1804,7 @@
     "logo": "W11-logo"
   },
   {
-    "id": 53,
+    "id": 52,
     "name": "Windows 11 version 24H2",
     "codename": "Germanium",
     "release": "October 1, 2024",

@@ -189,7 +189,7 @@
     "ga": "October 17, 2013",
     "preceded": ["Windows 8 (2012)"],
     "succeded": ["Windows 10 (2015)"],
-    "pcreleases": [34, 35],
+    "pcreleases": [34],
     "svreleases": [11],
     "mbreleases": [14]
   },
@@ -200,7 +200,7 @@
     "ga": "July 29, 2015",
     "preceded": ["Windows 8.1 (2013)"],
     "succeded": ["Windows 11 (2021)"],
-    "pcreleases": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+    "pcreleases": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
     "svreleases": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
     "mbreleases": [15, 16, 17, 18]
   },
@@ -211,7 +211,7 @@
     "ga": "October 5, 2021",
     "preceded": ["Windows 10 (2015)"],
     "succeded": null,
-    "pcreleases": [50, 51, 52, 53],
+    "pcreleases": [49, 50, 51, 52],
     "svreleases": [23],
     "mbreleases": null
   }

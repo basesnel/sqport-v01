@@ -1324,7 +1324,9 @@
       "On compatible hardware, Windows 8.1 also features a transparent 'device encryption' system based on BitLocker.",
       "Windows Defender includes an intrusion detection system which can scan network activity for signs of malware.",
       "Windows 8.1 adds support for 3D printing, pairing with printers using NFC tags, Wi-Fi Direct, Miracast media streaming, tethering,and NVMe.",
-      "Windows 8.1 received more positive reviews than Windows 8."
+      "Windows 8.1 received more positive reviews than Windows 8.",
+      "Microsoft markets Windows 8.1 as an 'update' for Windows 8, avoiding the term 'upgrade'.",
+      "On May 23, 2014, Microsoft officially announced Windows 8.1 with Bing, a new, lower-cost version of its operating system designed specifically for original equipment manufacturers (OEMs) to preinstall on budget-friendly laptops, tablets, and desktop computers."
     ],
     "requirements": [
       {
@@ -1359,24 +1361,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": 35,
-    "name": "Windows 8.1",
-    "codename": "Blue",
-    "release": "May 23, 2014",
-    "version": "NT 6.3",
-    "editions": ["Windows 8.1 with Bing"],
-    "build": 9600,
-    "architectures": ["IA-32", "x86-64"],
-    "obsolete": "January 10, 2023",
-    "licenses": [
-      "Trialware",
-      "Microsoft Software Assurance",
-      "MSDN subscription",
-      "Microsoft Imagine"
-    ],
-    "logo": "W81-logo"
   },
   {
     "id": 36,

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Windows RT",
+    "codename": "",
+    "architectures": [],
+    "release": "October 26, 2012",
+    "version": "NT 6.2",
+    "build": 9600,
+    "obsolete": "",
+    "licenses": [],
+    "preceded": [],
+    "succeded": [],
+    "logo": "",
+    "requirements": null
+  }
+]

@@ -2,24 +2,29 @@
   {
     "id": 1,
     "name": "Windows RT",
-    "codename": "",
-    "architectures": [],
+    "codename": "Windows on ARM (WoA)",
+    "architectures": ["32-bit ARM (ARMv7)"],
     "release": "October 26, 2012",
     "version": "NT 6.2",
     "build": 9200,
     "obsolete": "",
-    "licenses": [],
+    "licenses": ["OEM"],
     "preceded": [],
     "succeded": [],
     "logo": "",
+    "facts": [
+      "Unlike Windows 8, Windows RT was only available as preloaded software on devices specifically designed for the operating system by original equipment manufacturers (OEMs).",
+      "Microsoft launched its own hardware running it, the Surface tablet, which was followed by Surface 2, although only five models running Windows RT were released by third-party OEMs throughout its lifetime.",
+      "Windows Mobile smartphones were used to test early builds of WoA because of lack of readily available ARM-based tablets."
+    ],
     "requirements": null
   },
   {
     "id": 2,
     "name": "Windows RT 8.1",
     "codename": "",
-    "architectures": [],
-    "release": "October 18, 2013",
+    "architectures": ["32-bit ARM (ARMv7)"],
+    "release": "October 17, 2013",
     "version": "NT 6.3",
     "build": 9600,
     "obsolete": "",
@@ -27,6 +32,9 @@
     "preceded": [],
     "succeded": [],
     "logo": "",
+    "facts": [
+      "Windows RT 8.1 was released in 2013 as a free upgrade, featuring a number of improvements."
+    ],
     "requirements": null
   }
 ]

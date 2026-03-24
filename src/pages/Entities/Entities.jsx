@@ -6,25 +6,31 @@ const Main = () => {
   useEffect(() => {
     const getVersions = () => {
       return fetch("/jsons/windows/versions.json").then((response) =>
-        response.json()
+        response.json(),
       );
     };
 
     const getPCReleases = () => {
       return fetch("/jsons/windows/pcreleases.json").then((response) =>
-        response.json()
+        response.json(),
       );
     };
 
     const getSVReleases = () => {
       return fetch("/jsons/windows/svreleases.json").then((response) =>
-        response.json()
+        response.json(),
       );
     };
 
     const getMBReleases = () => {
       return fetch("/jsons/windows/mbreleases.json").then((response) =>
-        response.json()
+        response.json(),
+      );
+    };
+
+    const getRMReleases = () => {
+      return fetch("/jsons/windows/rmreleases.json").then((response) =>
+        response.json(),
       );
     };
 
@@ -34,6 +40,7 @@ const Main = () => {
         getPCReleases().then((value) => console.log(value));
         getSVReleases().then((value) => console.log(value));
         getMBReleases().then((value) => console.log(value));
+        getRMReleases().then((value) => console.log(value));
       });
     } catch (error) {
       console.log(error);

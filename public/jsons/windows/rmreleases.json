@@ -21,15 +21,26 @@
     ],
     "requirements": [
       {
-        "name": "",
-        "cpu": [],
-        "ram": [],
-        "storage": [],
-        "media": [""],
-        "vga": [],
-        "sound": null,
-        "network": "",
-        "mouse": ""
+        "name": "Minimum",
+        "cpu": [
+          "ARM-based processor (such as NVIDIA Tegra 3/T40, Qualcomm Snapdragon S4/800, or TI OMAP 4470)"
+        ],
+        "ram": ["2 GB minimum"],
+        "storage": ["32 GB or 64 GB minimum eMMC flash storage"],
+        "media": [
+          "10.6-inch or similar screen with a minimum 1024x768 resolution (1366x768 was typical for tablets)",
+          "Support for a wider variety of USB devices in comparison to other operating systems on the ARM architecture",
+          "Front-facing 720p webcam"
+        ],
+        "vga": ["DirectX 9 graphics with WDDM 1.0 or higher driver"],
+        "sound": "High-quality speakers/microphones",
+        "network": ["Wi-Fi", "Bluetooth 4.0"],
+        "inputs": [
+          "5-Point Multi-touch Screen: 10.6-inch ClearType HD display with 1366x768 resolution",
+          "Touch Cover / Type Cover: Proprietary magnetic cover port that connects keyboards with integrated trackpads",
+          "USB 2.0 Port: Full-size USB-A port for mice, keyboards, and other USB HID (Human Interface Device) peripherals",
+          "Bluetooth 4.0: Supports wireless mice, keyboards, and headsets"
+        ]
       }
     ]
   },

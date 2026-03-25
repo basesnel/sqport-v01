@@ -7,7 +7,7 @@
     "release": "October 26, 2012",
     "version": "NT 6.2",
     "build": 9200,
-    "obsolete": "",
+    "obsolete": "January 12, 2016",
     "licenses": ["OEM"],
     "preceded": [],
     "succeded": [],
@@ -15,9 +15,23 @@
     "facts": [
       "Unlike Windows 8, Windows RT was only available as preloaded software on devices specifically designed for the operating system by original equipment manufacturers (OEMs).",
       "Microsoft launched its own hardware running it, the Surface tablet, which was followed by Surface 2, although only five models running Windows RT were released by third-party OEMs throughout its lifetime.",
-      "Windows Mobile smartphones were used to test early builds of WoA because of lack of readily available ARM-based tablets."
+      "Windows Mobile smartphones were used to test early builds of WoA because of lack of readily available ARM-based tablets.",
+      "Windows RT also includes a BitLocker-based device encryption system, which passively encrypts a user's data once they sign in with a Microsoft account.",
+      "Devices running Windows RT did not receive long-term support due to low market demand and were discontinued within a short period (2012–2013)."
     ],
-    "requirements": null
+    "requirements": [
+      {
+        "name": "",
+        "cpu": [],
+        "ram": [],
+        "storage": [],
+        "media": [""],
+        "vga": [],
+        "sound": null,
+        "network": "",
+        "mouse": ""
+      }
+    ]
   },
   {
     "id": 2,
@@ -27,8 +41,8 @@
     "release": "October 17, 2013",
     "version": "NT 6.3",
     "build": 9600,
-    "obsolete": "",
-    "licenses": [],
+    "obsolete": "January 10, 2023",
+    "licenses": ["OEM"],
     "preceded": [],
     "succeded": [],
     "logo": "",

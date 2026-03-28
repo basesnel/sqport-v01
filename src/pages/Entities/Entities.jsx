@@ -34,7 +34,14 @@ const Main = () => {
       );
     };
 
+    const getPorts = () => {
+      return fetch("/jsons/ports/ports.json").then((response) =>
+        response.json(),
+      );
+    };
+
     try {
+      getPorts().then((value) => console.log(value));
       getVersions().then((value) => {
         console.log(value);
         getPCReleases().then((value) => console.log(value));

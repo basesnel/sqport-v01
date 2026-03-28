@@ -1,0 +1,40 @@
+[
+  {
+    "name": "vga",
+    "io": ["output"],
+    "transfer": ["video"],
+    "signal": ["analog"],
+    "speed": ["2048x1536 @ 85Hz", "1920x1080 @ 75Hz", "388 MHz bandwidth"],
+    "interface": ["hardware"]
+  },
+  {
+    "name": "dvid",
+    "io": ["output"],
+    "transfer": ["video"],
+    "signal": ["digital"],
+    "speed": [
+      "Single Link DVI-D: ~3.96 Gbit/s; Supports 1920x1200 @ 60Hz or 1080p @ 60Hz",
+      "Dual Link DVI-D: ~7.92-9.9 Gbit/s; Supports 2560x1600 @ 60Hz, 2560x1440 @ 75Hz, or 1080p @ 144Hz"
+    ],
+    "interface": ["hardware"]
+  },
+  {
+    "name": "dvia",
+    "io": ["output"],
+    "transfer": ["video"],
+    "signal": ["analog"],
+    "speed": ["1920x1200 @ 60Hz"],
+    "interface": ["hardware"]
+  },
+  {
+    "name": "dvii",
+    "io": ["output"],
+    "transfer": ["video"],
+    "signal": ["analog", "digital"],
+    "speed": [
+      "Single Link DVI-D: ~3.96 Gbit/s; Supports 2560x1600 @ 60Hz",
+      "Single Link DVI-D: ~7.92 Gbit/s; Supports 1920x1200 @ 60Hz"
+    ],
+    "interface": ["hardware"]
+  }
+]

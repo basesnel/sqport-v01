@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "vga",
     "io": ["output"],
     "transfer": ["video"],
@@ -8,6 +9,7 @@
     "interface": ["hardware"]
   },
   {
+    "id": 2,
     "name": "dvid",
     "io": ["output"],
     "transfer": ["video"],
@@ -19,6 +21,7 @@
     "interface": ["hardware"]
   },
   {
+    "id": 3,
     "name": "dvia",
     "io": ["output"],
     "transfer": ["video"],
@@ -27,6 +30,7 @@
     "interface": ["hardware"]
   },
   {
+    "id": 4,
     "name": "dvii",
     "io": ["output"],
     "transfer": ["video"],

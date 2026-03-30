@@ -170,5 +170,27 @@
     "bitrate": [],
     "pins": [],
     "interface": ["hardware"]
+  },
+  {
+    "id": 13,
+    "name": "USB Type-C",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
+  },
+  {
+    "id": 14,
+    "name": "Micro/Mini USB",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
   }
 ]

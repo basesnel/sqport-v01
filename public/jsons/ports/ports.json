@@ -137,5 +137,16 @@
     ],
     "pins": ["20"],
     "interface": ["hardware"]
+  },
+  {
+    "id": 9,
+    "name": "3.5mm Audio Jacks",
+    "io": ["bidirectional"],
+    "transfer": ["audio"],
+    "signal": ["analog"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
   }
 ]

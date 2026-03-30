@@ -148,5 +148,16 @@
     "bitrate": [],
     "pins": [],
     "interface": ["hardware"]
+  },
+  {
+    "id": 10,
+    "name": "S/PDIF",
+    "io": ["output"],
+    "transfer": ["audio"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
   }
 ]

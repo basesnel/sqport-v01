@@ -192,5 +192,16 @@
     "bitrate": [],
     "pins": [],
     "interface": ["hardware"]
+  },
+  {
+    "id": 15,
+    "name": "Ethernet",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
   }
 ]

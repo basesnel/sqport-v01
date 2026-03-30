@@ -68,13 +68,24 @@
   },
   {
     "id": 6,
-    "name": "COM",
+    "name": "Serial port (COM)",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
     "speed": ["115200 bd (bps)"],
     "bitrate": ["75 bit/s - 256 kbit/s"],
     "pins": ["9"],
+    "interface": ["hardware"]
+  },
+  {
+    "id": 6,
+    "name": "Parallel port (LPT)",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": null,
+    "bitrate": ["PP: 150 kB/s", "EPP: 2 MB/s", "ECP: 2.5 MB/s"],
+    "pins": ["8 data, 4 output control, 5 input control, 8 ground"],
     "interface": ["hardware"]
   }
 ]

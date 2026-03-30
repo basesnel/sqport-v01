@@ -78,7 +78,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Parallel port (LPT)",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -89,7 +89,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "HDMI",
     "io": ["bidirectional"],
     "transfer": [
@@ -121,7 +121,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "DisplayPort (DP)",
     "io": ["bidirectional"],
     "transfer": ["control", "video", "audio"],
@@ -139,7 +139,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "3.5mm Audio Jacks",
     "io": ["bidirectional"],
     "transfer": ["audio"],
@@ -150,10 +150,21 @@
     "interface": ["hardware"]
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "S/PDIF",
     "io": ["output"],
     "transfer": ["audio"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
+  },
+  {
+    "id": 12,
+    "name": "USB Type-A (2.0/3.0/3.2)",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
     "signal": ["digital"],
     "speed": [],
     "bitrate": [],

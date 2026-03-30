@@ -1,44 +1,69 @@
 [
   {
     "id": 1,
-    "name": "vga",
+    "name": "VGA",
     "io": ["output"],
     "transfer": ["video"],
     "signal": ["analog"],
     "speed": ["2048x1536 @ 85Hz", "1920x1080 @ 75Hz", "388 MHz bandwidth"],
+    "bitrate": null,
+    "pins": ["15"],
     "interface": ["hardware"]
   },
   {
     "id": 2,
-    "name": "dvid",
+    "name": "DVI-D",
     "io": ["output"],
     "transfer": ["video"],
     "signal": ["digital"],
     "speed": [
-      "Single Link DVI-D: ~3.96 Gbit/s; Supports 1920x1200 @ 60Hz or 1080p @ 60Hz",
-      "Dual Link DVI-D: ~7.92-9.9 Gbit/s; Supports 2560x1600 @ 60Hz, 2560x1440 @ 75Hz, or 1080p @ 144Hz"
+      "Single Link: supports 1920x1200 @ 60Hz or 1080p @ 60Hz",
+      "Dual Link: supports 2560x1600 @ 60Hz, 2560x1440 @ 75Hz"
     ],
+    "bitrate": [
+      "Single Link DVI-D: ~3.96 Gbit/s",
+      "Dual Link DVI-D: ~7.92-9.9 Gbit/s"
+    ],
+    "pins": ["DVI-D Single Link: 19", "DVI-D Dual Link: 25"],
     "interface": ["hardware"]
   },
   {
     "id": 3,
-    "name": "dvia",
+    "name": "DVI-A",
     "io": ["output"],
     "transfer": ["video"],
     "signal": ["analog"],
     "speed": ["1920x1200 @ 60Hz"],
+    "bitrate": null,
+    "pins": ["11"],
     "interface": ["hardware"]
   },
   {
     "id": 4,
-    "name": "dvii",
+    "name": "DVI-I",
     "io": ["output"],
     "transfer": ["video"],
     "signal": ["analog", "digital"],
     "speed": [
-      "Single Link DVI-D: ~3.96 Gbit/s; Supports 2560x1600 @ 60Hz",
-      "Single Link DVI-D: ~7.92 Gbit/s; Supports 1920x1200 @ 60Hz"
+      "Single Link DVI-I: supports 2560x1600 @ 60Hz",
+      "Dual Link DVI-I: supports 1920x1200 @ 60Hz"
     ],
+    "bitrate": [
+      "Single Link DVI-I: ~3.96 Gbit/s",
+      "Dual Link DVI-I: ~7.92 Gbit/s"
+    ],
+    "pins": ["DVI-I Single Link: 23", "DVI-I Dual Link: 29"],
+    "interface": ["hardware"]
+  },
+  {
+    "id": 5,
+    "name": "PS/2",
+    "io": ["input"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": ["200Hz"],
+    "bitrate": ["7-12 kbit/s"],
+    "pins": ["6"],
     "interface": ["hardware"]
   }
 ]

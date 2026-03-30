@@ -65,5 +65,16 @@
     "bitrate": ["7-12 kbit/s"],
     "pins": ["6"],
     "interface": ["hardware"]
+  },
+  {
+    "id": 6,
+    "name": "COM",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": ["115200 bd (bps)"],
+    "bitrate": ["75 bit/s - 256 kbit/s"],
+    "pins": ["9"],
+    "interface": ["hardware"]
   }
 ]

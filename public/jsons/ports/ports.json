@@ -119,5 +119,23 @@
     ],
     "pins": ["19"],
     "interface": ["hardware"]
+  },
+  {
+    "id": 8,
+    "name": "DisplayPort (DP)",
+    "io": ["bidirectional"],
+    "transfer": ["control", "video", "audio"],
+    "signal": ["digital"],
+    "speed": [
+      "DP 1.2: Supports 1440p at 165Hz or 4K at 75Hz",
+      "DP 1.4: Supports 4K at 120Hz or 8K at 30Hz",
+      "DP 2.1: Supports 4K at 240Hz or 8K at 165Hz"
+    ],
+    "bitrate": [
+      "Main link: 1.62, 2.7, 5.4, 8.1 or 20 Gbit/s per lane (1, 2 or 4 lanes)",
+      "Aux. channel: 2 or 720 Mbit/s"
+    ],
+    "pins": ["20"],
+    "interface": ["hardware"]
   }
 ]

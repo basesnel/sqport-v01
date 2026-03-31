@@ -170,11 +170,16 @@
   },
   {
     "id": 12,
-    "name": "USB Type-A (2.0/3.0/3.2)",
+    "name": "USB Type-A",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
-    "speed": [],
+    "speed": [
+      "USB 1.0/1.1: 12 Mbps",
+      "USB 2.0 (Hi-Speed): 480 Mbps (black/white)",
+      "USB 3.0 / 3.1 Gen 1 / 3.2 Gen 1 (SuperSpeed): 5 Gbps (blue)",
+      "USB 3.1 Gen 2 / 3.2 Gen 2 (SuperSpeed+): 10 Gbps (red)"
+    ],
     "bitrate": [],
     "pins": [],
     "interface": ["hardware"]

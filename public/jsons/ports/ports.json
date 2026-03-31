@@ -196,9 +196,16 @@
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
-    "speed": [],
-    "bitrate": [],
-    "pins": [],
+    "speed": null,
+    "bitrate": [
+      "USB 2.0 (USB-C connector): ~480 Mbps",
+      "USB 3.2 Gen 1 (formerly 3.0/3.1 Gen 1): 5 Gbps",
+      "USB 3.2 Gen 2 (formerly 3.1 Gen 2): 10 Gbps",
+      "USB 3.2 Gen 2x2: 20 Gbps",
+      "USB4/Thunderbolt 3/4: 40 Gbps",
+      "USB4 V2/Thunderbolt 5: 80 Gbps"
+    ],
+    "pins": ["24 pins"],
     "interface": ["hardware"]
   },
   {

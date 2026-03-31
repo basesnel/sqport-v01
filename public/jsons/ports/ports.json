@@ -225,5 +225,27 @@
     "bitrate": [],
     "pins": [],
     "interface": ["hardware"]
+  },
+  {
+    "id": 18,
+    "name": "IDE/PATA (Parallel ATA)",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
+  },
+  {
+    "id": 19,
+    "name": "SATA (Serial ATA)",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
   }
 ]

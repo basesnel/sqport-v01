@@ -203,5 +203,27 @@
     "bitrate": [],
     "pins": [],
     "interface": ["hardware"]
+  },
+  {
+    "id": 16,
+    "name": "Wi-Fi",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
+  },
+  {
+    "id": 17,
+    "name": "Bluetooth",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
   }
 ]

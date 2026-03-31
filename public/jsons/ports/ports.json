@@ -163,9 +163,9 @@
     "io": ["output"],
     "transfer": ["audio"],
     "signal": ["digital"],
-    "speed": [],
-    "bitrate": [],
-    "pins": [],
+    "speed": ["Supports up to 24-bit/192 kHz"],
+    "bitrate": ["3.1 Mbit/s"],
+    "pins": ["3"],
     "interface": ["hardware"]
   },
   {

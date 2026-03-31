@@ -140,13 +140,21 @@
   },
   {
     "id": 10,
-    "name": "3.5mm Audio Jacks",
-    "io": ["bidirectional"],
+    "name": "3.5mm Audio Sockets",
+    "io": [
+      "Green Port (Line Out) - output",
+      "Pinc Port (Mic In) - input",
+      "Blue Port (Line In) - input",
+      "Combo Jack (TRRS) - bidirectional"
+    ],
     "transfer": ["audio"],
     "signal": ["analog"],
-    "speed": [],
-    "bitrate": [],
-    "pins": [],
+    "speed": ["Capable of high-quality audio, often exceeding 24-bit/96kHz"],
+    "bitrate": null,
+    "pins": [
+      "3-Pin (TRS - Tip, Ring, Sleeve)",
+      "4-Pin (TRRS - Tip, Ring, Ring, Sleeve)"
+    ],
     "interface": ["hardware"]
   },
   {

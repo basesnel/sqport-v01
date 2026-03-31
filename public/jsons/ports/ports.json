@@ -181,7 +181,12 @@
       "USB 3.1 Gen 2 / 3.2 Gen 2 (SuperSpeed+): 10 Gbps (red)"
     ],
     "bitrate": [],
-    "pins": [],
+    "pins": [
+      "USB 1.0/1.1: 4 pins",
+      "USB 2.0 (Hi-Speed): 4 pins",
+      "USB 3.0 / 3.1 Gen 1 / 3.2 Gen 1 (SuperSpeed): 5 Gbps (blue): 9 pins",
+      "USB 3.1 Gen 2 / 3.2 Gen 2 (SuperSpeed+): 10 Gbps (red): 9 pins"
+    ],
     "interface": ["hardware"]
   },
   {

@@ -298,7 +298,7 @@
   },
   {
     "id": 18,
-    "name": "IDE/PATA (Parallel ATA)",
+    "name": "touchscreen",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
@@ -309,6 +309,17 @@
   },
   {
     "id": 19,
+    "name": "IDE/PATA (Parallel ATA)",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": [],
+    "bitrate": [],
+    "pins": [],
+    "interface": ["hardware"]
+  },
+  {
+    "id": 20,
     "name": "SATA (Serial ATA)",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],

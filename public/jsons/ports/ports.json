@@ -210,13 +210,13 @@
   },
   {
     "id": 14,
-    "name": "Micro/Mini USB",
+    "name": "IEEE 1394 (FireWire)",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
     "speed": [],
     "bitrate": [],
-    "pins": [],
+    "pins": ["4-Pin (IEEE 1394a)", "6-Pin (IEEE 1394a)", "9-Pin (IEEE 1394b)"],
     "interface": ["hardware"]
   },
   {

@@ -229,9 +229,15 @@
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
-    "speed": [],
-    "bitrate": [],
-    "pins": [],
+    "speed": null,
+    "bitrate": [
+      "Fast Ethernet (100BASE-TX): 100 Mbps",
+      "Gigabit Ethernet (1000BASE-T): 1 Gbps",
+      "2.5G/5G Ethernet (802.3bz): 2.5 Gbps or 5 Gbps",
+      "10 Gigabit Ethernet (10GBASE-T): 10 Gbps",
+      "100G/200G/400G/800G Ethernet: 800 Gbps"
+    ],
+    "pins": ["8 pins"],
     "interface": ["hardware"]
   },
   {

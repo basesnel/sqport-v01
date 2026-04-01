@@ -275,9 +275,25 @@
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
-    "speed": [],
-    "bitrate": [],
-    "pins": [],
+    "speed": ["2.4 GHz"],
+    "bitrate": [
+      "Bluetooth 1.0 (1999): 732.2 kbit/s",
+      "Bluetooth 1.1 (2001): 732.2 kbit/s",
+      "Bluetooth 1.2 (2003): 1 Mbit/s",
+      "Bluetooth 2.0 (2004): 2.1 Mbit/s",
+      "Bluetooth 2.1 (2007): 2.1 Mbit/s",
+      "Bluetooth 3.0 (2009): 2.1 Mbit/s",
+      "Bluetooth 4.0 (2009): 2.1 Mbit/s",
+      "Bluetooth 4.1 (2013): 2.1 Mbit/s",
+      "Bluetooth 4.2 (2014): 2.1 Mbit/s",
+      "Bluetooth 5.0 (2016): 2.1 Mbit/s",
+      "Bluetooth 5.1 (2019): 2.1 Mbit/s",
+      "Bluetooth 5.2 (2020): 2.1 Mbit/s",
+      "Bluetooth 5.3 (2021): 2.1 Mbit/s",
+      "Bluetooth 5.4 (2023): 2.1 Mbit/s",
+      "Bluetooth 6.0 (2024): 2.1 Mbit/s"
+    ],
+    "pins": null,
     "interface": ["hardware"]
   },
   {

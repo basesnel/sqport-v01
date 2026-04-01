@@ -214,8 +214,12 @@
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
-    "speed": [],
-    "bitrate": [],
+    "speed": null,
+    "bitrate": [
+      "FireWire 400 (IEEE 1394-1995/1394a): Transfers data at 100, 200, or 400 Mbit/s (half-duplex)",
+      "FireWire 800 (IEEE 1394b): Offers speeds of up to 800 Mbit/s (full-duplex)",
+      "FireWire S1600/S3200: Later versions that support speeds of 1.57 Gbps and 3.14 Gbps"
+    ],
     "pins": ["4-Pin (IEEE 1394a)", "6-Pin (IEEE 1394a)", "9-Pin (IEEE 1394b)"],
     "interface": ["hardware"]
   },

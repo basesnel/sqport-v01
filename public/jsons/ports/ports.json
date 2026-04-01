@@ -266,7 +266,7 @@
       "Wi-Fi 6E (2020): 802.11ax (up to 9.6 Gbps)",
       "Wi-Fi 7 (2024): 802.11be, (up to 40-46 Gbps)"
     ],
-    "pins": [],
+    "pins": null,
     "interface": ["hardware"]
   },
   {

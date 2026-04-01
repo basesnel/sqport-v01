@@ -246,8 +246,26 @@
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
-    "speed": [],
-    "bitrate": [],
+    "speed": [
+      "Wi-Fi 1 (1999): 802.11b (2.4 GHz)",
+      "Wi-Fi 2 (1999): 802.11a (5 GHz)",
+      "Wi-Fi 3 (2003): 802.11g (2.4 GHz)",
+      "Wi-Fi 4 (2009): 802.11n (2.4/5 GHz)",
+      "Wi-Fi 5 (2014): 802.11ac (5 GHz)",
+      "Wi-Fi 6 (2019): 802.11ax (2.4/5 GHz)",
+      "Wi-Fi 6E (2020): 802.11ax (2.4/5/6 GHz)",
+      "Wi-Fi 7 (2024): 802.11be, (2.4/5/6 GHz)"
+    ],
+    "bitrate": [
+      "Wi-Fi 1 (1999): 802.11b (up to 11 Mbps)",
+      "Wi-Fi 2 (1999): 802.11a (up to 54 Mbps)",
+      "Wi-Fi 3 (2003): 802.11g (up to 54 Mbps)",
+      "Wi-Fi 4 (2009): 802.11n (up to 600 Mbps)",
+      "Wi-Fi 5 (2014): 802.11ac (up to 3.5 Gbps - 6.9 Gbps)",
+      "Wi-Fi 6 (2019): 802.11ax (up to 9.6 Gbps)",
+      "Wi-Fi 6E (2020): 802.11ax (up to 9.6 Gbps)",
+      "Wi-Fi 7 (2024): 802.11be, (up to 40-46 Gbps)"
+    ],
     "pins": [],
     "interface": ["hardware"]
   },

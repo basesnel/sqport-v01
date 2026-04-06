@@ -307,7 +307,12 @@
       "Gaming/High-End Rate: 480Hz to 960Hz (or even 2,000Hz) gaming-focused smartphones"
     ],
     "bitrate": null,
-    "pins": [],
+    "pins": [
+      "Resistive Touchscreens (Most Common for DIY/Embedded): 4-Wire; 5-Wire; 8-Pin/Wire",
+      "Capacitive Touchscreens (Smartphones/Tablets/Modern Monitors): mall/Medium (e.g., 2.9 - 10.1 in.) - 6-pin or 8-pin; smartphones: dozens of pins",
+      "Integrated LCD & Touchscreen Units (Laptop/TFT Screens): 40-pin (eDP Touch); 40-pin TFT Displays",
+      "USB Touchscreen: 4 pins"
+    ],
     "interface": ["hardware"]
   },
   {

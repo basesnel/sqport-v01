@@ -321,8 +321,8 @@
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
-    "speed": [],
-    "bitrate": [],
+    "speed": null,
+    "bitrate": ["ATA-2: 128 Mbit/s", "ATA-133: 1.06 Gbps"],
     "pins": [
       "3.5-inch IDE (Desktop): 40 pins",
       "2.5-inch IDE (Laptop): 44 pins"

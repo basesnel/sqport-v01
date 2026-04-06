@@ -302,8 +302,11 @@
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
-    "speed": [],
-    "bitrate": [],
+    "speed": [
+      "Standard Touch Sampling Rate: 120Hz to 240Hz (most modern smartphones and consumer devices)",
+      "Gaming/High-End Rate: 480Hz to 960Hz (or even 2,000Hz) gaming-focused smartphones"
+    ],
+    "bitrate": null,
     "pins": [],
     "interface": ["hardware"]
   },

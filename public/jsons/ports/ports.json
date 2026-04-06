@@ -323,7 +323,10 @@
     "signal": ["digital"],
     "speed": [],
     "bitrate": [],
-    "pins": [],
+    "pins": [
+      "3.5-inch IDE (Desktop): 40 pins",
+      "2.5-inch IDE (Laptop): 44 pins"
+    ],
     "interface": ["hardware"]
   },
   {
@@ -332,9 +335,16 @@
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
     "signal": ["digital"],
-    "speed": [],
-    "bitrate": [],
-    "pins": [],
+    "speed": null,
+    "bitrate": [
+      "SATA I (1.0): 1.5 Gbit/s",
+      "SATA II (2.0): 3.0 Gbit/s",
+      "SATA III (3.0/3.x): 6.0 Gbit/s"
+    ],
+    "pins": [
+      "SATA Data Cable: 7 pins (4 for data, 3 for ground)",
+      "SATA Power Cable: 15 pins (providing 3.3V, 5V, and 12V)"
+    ],
     "interface": ["hardware"]
   }
 ]

@@ -2,8 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import SharedLayout from "./components/SharedLayout/SharedLayout.tsx";
 import Welcome from "./pages/Welcome/Welcome.tsx";
 import Main from "./pages/Main/Main";
-// import NotFound from "./pages/NotFound/NotFound";
-// import Entities from "./pages/Entities/Entities";
+import NotFound from "./pages/NotFound/NotFound";
+import Entities from "./pages/Entities/Entities";
 
 const App = () => {
   return (
@@ -12,8 +12,8 @@ const App = () => {
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Welcome />} />
           <Route path="/main" element={<Main />} />
-          {/* <Route path="/entities" element={<Entities />} />
-          <Route path="*" element={<NotFound />} /> */}
+          <Route path="/entities" element={<Entities />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </>

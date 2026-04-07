@@ -21,20 +21,24 @@ const Versions = () => {
     <div>
       <h1>versions</h1>
       <ul>
-        {data?.map((version) => (
-          <li key={version.id}>
-            <h2>{version.name}</h2>
+        {data?.map(({ id, name, preceded, succeded }) => (
+          <li key={id}>
+            <h2>{name}</h2>
             <h3>preceded</h3>
             <ul>
-              {version.preceded?.map((preceded, i) => (
-                <li key={i}>{preceded}</li>
-              ))}
+              {preceded ? (
+                preceded.map((preceded, i) => <li key={i}>{preceded}</li>)
+              ) : (
+                <li>None</li>
+              )}
             </ul>
             <h3>succeded</h3>
             <ul>
-              {version.succeded?.map((succeded, i) => (
-                <li key={i}>{succeded}</li>
-              ))}
+              {succeded ? (
+                succeded.map((succeded, i) => <li key={i}>{succeded}</li>)
+              ) : (
+                <li>None</li>
+              )}
             </ul>
           </li>
         ))}

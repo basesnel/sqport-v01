@@ -132,7 +132,7 @@
     "preceded": ["Windows NT 4.0 (1996)"],
     "succeded": [
       "Windows XP Professional (client)",
-      "Windows Server 2003 (servers)"
+      "Windows Server 2003 (server)"
     ],
     "pcreleases": [22],
     "svreleases": [5],

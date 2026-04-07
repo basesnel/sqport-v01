@@ -1,6 +1,7 @@
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import { useRequests } from "../../utils/useRequests";
+import { Versions } from "../../components/Versions/Versions";
 
 const Main = () => {
   useRequests();
@@ -8,7 +9,9 @@ const Main = () => {
   return (
     <>
       <Header />
-      <main></main>
+      <main>
+        <Versions />
+      </main>
       <Footer />
     </>
   );

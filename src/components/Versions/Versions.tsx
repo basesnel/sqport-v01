@@ -3,6 +3,10 @@ import { useFetch } from "../../utils/useFetch";
 type Version = {
   id: number;
   name: string;
+  preceded: string[] | null;
+  succeded: string[] | null;
+  pcreleases: number[] | null;
+  svreleases: number[] | null;
 };
 
 const Versions = () => {
@@ -15,10 +19,24 @@ const Versions = () => {
 
   return (
     <div>
-      <h1>Versions</h1>
+      <h1>versions</h1>
       <ul>
         {data?.map((version) => (
-          <li key={version.id}>{version.name}</li>
+          <li key={version.id}>
+            <h2>{version.name}</h2>
+            <h3>preceded</h3>
+            <ul>
+              {version.preceded?.map((preceded, i) => (
+                <li key={i}>{preceded}</li>
+              ))}
+            </ul>
+            <h3>succeded</h3>
+            <ul>
+              {version.succeded?.map((succeded, i) => (
+                <li key={i}>{succeded}</li>
+              ))}
+            </ul>
+          </li>
         ))}
       </ul>
     </div>

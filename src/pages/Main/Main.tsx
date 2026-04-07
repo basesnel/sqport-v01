@@ -3,8 +3,6 @@ import Dialog from "../../components/Dialog/Dialog";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 
-// import styles from "./styles.module.css";
-
 const Main = () => {
   return (
     <>

@@ -1,8 +1,14 @@
-import Section from "../Section/Section";
-
+import type { ReactNode } from "react";
 import styles from "./styles.module.css";
 
-const Panel = ({ title, children, isActive, onShow }) => {
+type Props = {
+  title: string;
+  children: ReactNode;
+  isActive: boolean;
+  onShow: () => void;
+};
+
+const Panel = ({ title, children, isActive, onShow }: Props) => {
   return (
     <form
       className={isActive ? styles.panel : `${styles.panel} ${styles.dark}`}

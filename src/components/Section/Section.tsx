@@ -1,6 +1,12 @@
+import type { ReactNode } from "react";
 import styles from "./styles.module.css";
 
-const Section = (props) => {
+type Props = {
+  children: ReactNode;
+  highlight?: boolean;
+};
+
+const Section = (props: Props) => {
   const { children, highlight } = props;
 
   return (

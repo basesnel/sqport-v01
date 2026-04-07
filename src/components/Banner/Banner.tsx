@@ -6,35 +6,35 @@ import { useRef, useEffect } from "react";
 import styles from "./styles.module.css";
 
 const Banner = () => {
-  const out = useRef(null);
+  const out = useRef<HTMLParagraphElement>(null);
 
-  const str =
+  const str: string =
     "Greetings! I am sqport-service. My task is to help and guide you in self-service issues.";
 
-  let position = 0;
+  let position: number = 0;
 
-  const typeText = () => {
+  const typeText = (): void => {
     if (position === str.length) return;
 
     const v = getRandomInt(0, 100);
 
     if (v > 97 && position !== 0) {
-      out.current.textContent += str[getRandomInt(0, str.length - 2)];
+      out.current!.textContent += str[getRandomInt(0, str.length - 2)];
       setTimeout(removeLastChar, 1000);
     } else {
-      out.current.textContent += str[position];
+      out.current!.textContent += str[position];
       position++;
       setTimeout(typeText, getRandomInt());
     }
   };
 
-  const getRandomInt = (min = 50, max = 750) => {
+  const getRandomInt = (min = 50, max = 750): number => {
     const rand = min + Math.random() * (max + 1 - min);
     return Math.floor(rand);
   };
 
-  const removeLastChar = () => {
-    out.current.textContent = str.substring(0, position);
+  const removeLastChar = (): void => {
+    out.current!.textContent = str.substring(0, position);
     setTimeout(typeText, getRandomInt());
   };
 

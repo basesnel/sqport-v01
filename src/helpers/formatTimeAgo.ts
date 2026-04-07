@@ -1,4 +1,4 @@
-const formatTimeAgo = (dateString) => {
+const formatTimeAgo = (dateString: string): string => {
   const now = new Date();
   const date = new Date(dateString);
   const secondPast = (now.getTime() - date.getTime()) / 1000;
@@ -15,10 +15,8 @@ const formatTimeAgo = (dateString) => {
     return `${Math.floor(secondPast / 3600)}h ago`;
   }
 
-  if (secondPast > 86400) {
-    const day = Math.floor(secondPast / 86400);
-    return day === 1 ? `${day} day ago` : `${day} days ago`;
-  }
+  const day = Math.floor(secondPast / 86400);
+  return day === 1 ? `${day} day ago` : `${day} days ago`;
 };
 
 export default formatTimeAgo;

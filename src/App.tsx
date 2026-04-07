@@ -3,7 +3,7 @@ import SharedLayout from "./components/SharedLayout/SharedLayout.tsx";
 import Welcome from "./pages/Welcome/Welcome.tsx";
 import Main from "./pages/Main/Main";
 import NotFound from "./pages/NotFound/NotFound";
-import Entities from "./pages/Entities/Entities";
+import Entities from "./pages/Entities/Entities.tsx";
 
 const App = () => {
   return (

@@ -1387,7 +1387,11 @@
       "MSDN subscription",
       "Microsoft Imagine"
     ],
-    "logo": "W10-logo"
+    "logo": "W10-logo",
+    "facts": [
+      "It is the last version of Windows that supports 32-bit processors,[note 7] BIOS firmware,[note 8] and systems with no TPM or TPM 1.2.",
+      "This is the latest version, which officially does not check the processor model before installation."
+    ]
   },
   {
     "id": 36,

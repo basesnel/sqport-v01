@@ -4,6 +4,7 @@ import Welcome from "./pages/Welcome/Welcome.tsx";
 import Main from "./pages/Main/Main";
 import NotFound from "./pages/NotFound/NotFound";
 import Entities from "./pages/Entities/Entities.tsx";
+import Services from "./pages/Services/Services.tsx";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route index element={<Welcome />} />
           <Route path="/main" element={<Main />} />
           <Route path="/entities" element={<Entities />} />
+          <Route path="/services" element={<Services />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

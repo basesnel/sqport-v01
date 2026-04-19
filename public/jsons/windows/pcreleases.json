@@ -1536,7 +1536,8 @@
       "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
-      "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
+      "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista.",
+      "Beginning with Intel Kaby Lake and AMD Bristol Ridge, Windows 10 is the only version of Windows that Microsoft will officially support on newer CPU microarchitectures."
     ],
     "requirements": [
       {

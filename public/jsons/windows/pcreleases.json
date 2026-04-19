@@ -1389,7 +1389,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -1461,7 +1461,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -1533,7 +1533,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista.",
@@ -1606,7 +1606,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista.",
@@ -1679,7 +1679,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -1751,7 +1751,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -1823,7 +1823,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -1895,7 +1895,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -1967,7 +1967,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -2039,11 +2039,12 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista.",
-      "Starting with Windows 10 version 2004, Microsoft will require new OEM devices to use 64-bit processors, and will therefore cease the distribution of x86 (32-bit) variants of Windows 10 via OEM channels."
+      "Starting with Windows 10 version 2004, Microsoft will require new OEM devices to use 64-bit processors, and will therefore cease the distribution of x86 (32-bit) variants of Windows 10 via OEM channels.",
+      "The 32-bit variants of Windows 10 will remain available via non-OEM channels, and Microsoft will continue to '[provide] feature and security updates on these devices'."
     ],
     "requirements": [
       {
@@ -2112,7 +2113,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -2184,7 +2185,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -2256,7 +2257,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
@@ -2328,7 +2329,7 @@
     ],
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports BIOS firmware, and systems with no TPM or TPM 1.2.",
+      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
       "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."

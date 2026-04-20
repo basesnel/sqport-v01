@@ -8,7 +8,8 @@
     "speed": ["2048x1536 @ 85Hz", "1920x1080 @ 75Hz", "388 MHz bandwidth"],
     "bitrate": null,
     "pins": ["15"],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "color": ["blue"]
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       "Dual Link DVI-D: ~7.92-9.9 Gbit/s"
     ],
     "pins": ["DVI-D Single Link: 19", "DVI-D Dual Link: 25"],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "color": ["white"]
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
     "speed": ["1920x1200 @ 60Hz"],
     "bitrate": null,
     "pins": ["11"],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "color": ["white"]
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       "Dual Link DVI-I: ~7.92 Gbit/s"
     ],
     "pins": ["DVI-I Single Link: 23", "DVI-I Dual Link: 29"],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "color": ["white"]
   },
   {
     "id": 5,
@@ -64,7 +68,8 @@
     "speed": ["200Hz"],
     "bitrate": ["7-12 kbit/s"],
     "pins": ["6"],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "color": ["purple"]
   },
   {
     "id": 6,
@@ -346,5 +351,17 @@
       "SATA Power Cable: 15 pins (providing 3.3V, 5V, and 12V)"
     ],
     "interface": ["hardware"]
+  },
+  {
+    "id": 21,
+    "name": "PS/2",
+    "io": ["input"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": ["200Hz"],
+    "bitrate": ["7-12 kbit/s"],
+    "pins": ["6"],
+    "interface": ["hardware"],
+    "color": ["green"]
   }
 ]

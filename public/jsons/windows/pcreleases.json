@@ -1406,11 +1406,26 @@
         ],
         "ram": ["IA-32 edition: 1 GB", "x64 edition: 2 GB"],
         "storage": ["IA-32 edition: 16 GB", "x64 edition: 20 GB"],
-        "media": ["Any optical disc drive capable of reading DVD-ROM media."],
-        "vga": [
-          "DirectX 9 graphics device WDDM 1.0 or higher driver",
-          "800x600 pixels"
+        "vga": ["DirectX 9 graphics device WDDM 1.0 or higher driver"],
+        "display": "800×600 pixels",
+        "ports": [
+          {
+            "id": 1,
+            "ports": [5],
+            "purpose": "Crucial for keyboards and mice, as USB drivers may not load during the initial text-mode setup."
+          },
+          {
+            "id": 2,
+            "ports": [1],
+            "purpose": "For output legacy analog video."
+          },
+          {
+            "id": 3,
+            "ports": [2, 3, 4],
+            "purpose": "For output digital video."
+          }
         ],
+        "media": ["Any optical disc drive capable of reading DVD-ROM media."],
         "sound": null,
         "network": "",
         "mouse": "Keyboard and mouse"

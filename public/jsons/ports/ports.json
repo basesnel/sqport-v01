@@ -378,5 +378,20 @@
     ],
     "interface": ["hardware"],
     "colors": ["black", "blue", "red"]
+  },
+  {
+    "id": 22,
+    "name": "FDD",
+    "io": ["bidirectional"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": null,
+    "bitrate": [
+      "500 kbps (Standard 1.44 MB/1.2 MB)",
+      "250 kbps (Double Density)"
+    ],
+    "pins": ["34 pins"],
+    "interface": ["hardware"],
+    "colors": ["black", "blue", "red"]
   }
 ]

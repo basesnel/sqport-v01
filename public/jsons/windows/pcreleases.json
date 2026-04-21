@@ -816,11 +816,40 @@
         ],
         "ram": ["64 MB"],
         "storage": ["1.5 GB", "Master boot record used"],
-        "media": ["CD-ROM drive or compatible"],
-        "vga": ["Super VGA (800x600) or over"],
-        "sound": null,
-        "network": "A compatible network adapter is needed (either wired or wireless)",
-        "mouse": "Mouse or compatible pointing device"
+        "vga": ["Super VGA or over"],
+        "display": "800×600 px",
+        "ports": [
+          {
+            "id": 1,
+            "ports": [5, 6],
+            "purposes": [
+              "Crucial for PS/2 keyboards and mice",
+              "This might help, since USB drivers may not load during the initial setup in text mode"
+            ]
+          },
+          {
+            "id": 2,
+            "ports": [1],
+            "purposes": [
+              "To display old-format analog video on the screen",
+              "You'll need older graphics cards, since there are no XP drivers for modern models such as the Nvidia GTX 1080 and newer ones"
+            ]
+          },
+          {
+            "id": 3,
+            "ports": [2, 3, 4],
+            "purposes": ["To display new-format digital video on the screen."]
+          },
+          {
+            "id": 4,
+            "ports": [20, 21],
+            "purposes": [
+              "To connect storages",
+              "To connect media such as CDs or DVDs",
+              "You may need to set SATA controllers to 'IDE' or 'Legacy' mode in BIOS, as Windows XP does not support modern NVMe drives natively."
+            ]
+          }
+        ]
       },
       {
         "name": "Recommended",
@@ -840,8 +869,9 @@
           "3.95 GB for Service Pack 2",
           "4.83 GB for Service Pack 3"
         ],
+        "vga": ["XGA or over"],
+        "display": "1024×768 px",
         "media": ["CD-ROM drive or compatible"],
-        "vga": ["XGA (1024x768) or over"],
         "sound": ["Sound card", "speakers/headphones"],
         "network": "A compatible network adapter is needed (either wired or wireless)",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -1411,18 +1441,18 @@
         "ports": [
           {
             "id": 1,
-            "ports": [5],
+            "ports": [5, 6],
             "purpose": "Crucial for keyboards and mice, as USB drivers may not load during the initial text-mode setup."
           },
           {
             "id": 2,
             "ports": [1],
-            "purpose": "For output legacy analog video."
+            "purpose": "To display old-format analog video on the screen; older GPUs are required; modern cards like Nvidia GTX 1080 and later lack XP drivers."
           },
           {
             "id": 3,
             "ports": [2, 3, 4],
-            "purpose": "For output digital video."
+            "purpose": "To display new-format digital video on the screen."
           }
         ],
         "media": ["Any optical disc drive capable of reading DVD-ROM media."],

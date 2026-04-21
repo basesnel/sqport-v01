@@ -73,6 +73,18 @@
   },
   {
     "id": 6,
+    "name": "PS/2",
+    "io": ["input"],
+    "transfer": ["control", "data"],
+    "signal": ["digital"],
+    "speed": ["200Hz"],
+    "bitrate": ["7-12 kbit/s"],
+    "pins": ["6"],
+    "interface": ["hardware"],
+    "color": ["green"]
+  },
+  {
+    "id": 7,
     "name": "Serial port (COM)",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -83,7 +95,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Parallel port (LPT)",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -94,7 +106,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "HDMI",
     "io": ["bidirectional"],
     "transfer": [
@@ -126,7 +138,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "DisplayPort (DP)",
     "io": ["bidirectional"],
     "transfer": ["control", "video", "audio"],
@@ -144,7 +156,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "3.5mm Audio Sockets",
     "io": [
       "Green Port (Line Out) - output",
@@ -163,7 +175,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "S/PDIF",
     "io": ["output"],
     "transfer": ["audio"],
@@ -174,7 +186,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "USB Type-A",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -196,7 +208,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "USB Type-C",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -214,7 +226,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "IEEE 1394 (FireWire)",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -229,7 +241,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Ethernet",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -246,7 +258,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "Wi-Fi",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -275,7 +287,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 17,
+    "id": 18,
     "name": "Bluetooth",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -302,7 +314,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "touchscreen",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -321,7 +333,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "IDE/PATA (Parallel ATA)",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -335,7 +347,7 @@
     "interface": ["hardware"]
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "SATA (Serial ATA)",
     "io": ["bidirectional"],
     "transfer": ["control", "data"],
@@ -351,17 +363,5 @@
       "SATA Power Cable: 15 pins (providing 3.3V, 5V, and 12V)"
     ],
     "interface": ["hardware"]
-  },
-  {
-    "id": 21,
-    "name": "PS/2",
-    "io": ["input"],
-    "transfer": ["control", "data"],
-    "signal": ["digital"],
-    "speed": ["200Hz"],
-    "bitrate": ["7-12 kbit/s"],
-    "pins": ["6"],
-    "interface": ["hardware"],
-    "color": ["green"]
   }
 ]

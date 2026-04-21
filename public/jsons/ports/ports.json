@@ -9,7 +9,7 @@
     "bitrate": null,
     "pins": ["15"],
     "interface": ["hardware"],
-    "color": ["blue"]
+    "colors": ["blue"]
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     ],
     "pins": ["DVI-D Single Link: 19", "DVI-D Dual Link: 25"],
     "interface": ["hardware"],
-    "color": ["white"]
+    "colors": ["white"]
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "bitrate": null,
     "pins": ["11"],
     "interface": ["hardware"],
-    "color": ["white"]
+    "colors": ["white"]
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     ],
     "pins": ["DVI-I Single Link: 23", "DVI-I Dual Link: 29"],
     "interface": ["hardware"],
-    "color": ["white"]
+    "colors": ["white"]
   },
   {
     "id": 5,
@@ -69,7 +69,7 @@
     "bitrate": ["7-12 kbit/s"],
     "pins": ["6"],
     "interface": ["hardware"],
-    "color": ["purple"]
+    "colors": ["purple"]
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
     "bitrate": ["7-12 kbit/s"],
     "pins": ["6"],
     "interface": ["hardware"],
-    "color": ["green"]
+    "colors": ["green"]
   },
   {
     "id": 7,
@@ -91,8 +91,9 @@
     "signal": ["digital"],
     "speed": ["115200 bd (bps)"],
     "bitrate": ["75 bit/s - 256 kbit/s"],
-    "pins": ["9"],
-    "interface": ["hardware"]
+    "pins": ["9-pin (DE-9)", "25-pin (DB-25)"],
+    "interface": ["hardware"],
+    "colors": ["teal", "turquoise", "blue-green"]
   },
   {
     "id": 8,
@@ -103,7 +104,8 @@
     "speed": null,
     "bitrate": ["PP: 150 kB/s", "EPP: 2 MB/s", "ECP: 2.5 MB/s"],
     "pins": ["8 data, 4 output control, 5 input control, 8 ground"],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "colors": ["magenta", "purple"]
   },
   {
     "id": 9,
@@ -136,7 +138,7 @@
     ],
     "pins": ["19"],
     "interface": ["hardware"],
-    "colors": null
+    "colors": ["black", "dark grey"]
   },
   {
     "id": 10,
@@ -155,7 +157,7 @@
     ],
     "pins": ["20"],
     "interface": ["hardware"],
-    "colors": null
+    "colors": ["black"]
   },
   {
     "id": 11,
@@ -174,7 +176,8 @@
       "3-Pin (TRS - Tip, Ring, Sleeve)",
       "4-Pin (TRRS - Tip, Ring, Ring, Sleeve)"
     ],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "colors": ["red", "yellow", "blue", "green", "pink", "orange"]
   },
   {
     "id": 12,

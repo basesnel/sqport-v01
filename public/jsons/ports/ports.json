@@ -392,6 +392,6 @@
     ],
     "pins": ["34 pins"],
     "interface": ["hardware"],
-    "colors": ["black", "blue", "red"]
+    "colors": ["black", "white"]
   }
 ]

@@ -135,7 +135,8 @@
       "2.2: 84.0 GBit/s"
     ],
     "pins": ["19"],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "colors": null
   },
   {
     "id": 10,
@@ -153,7 +154,8 @@
       "Aux. channel: 2 or 720 Mbit/s"
     ],
     "pins": ["20"],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "colors": null
   },
   {
     "id": 11,
@@ -200,12 +202,13 @@
       "USB 3.1 Gen 2 / 3.2 Gen 2 (SuperSpeed+): 10 Gbps (red)"
     ],
     "pins": [
-      "USB 1.0/1.1: 4 pins",
-      "USB 2.0 (Hi-Speed): 4 pins",
-      "USB 3.0 / 3.1 Gen 1 / 3.2 Gen 1 (SuperSpeed): 5 Gbps (blue): 9 pins",
-      "USB 3.1 Gen 2 / 3.2 Gen 2 (SuperSpeed+): 10 Gbps (red): 9 pins"
+      "USB 1.0/1.1: 1.5-12 Mbit/s (white) - 4 pins",
+      "USB 2.0 (Hi-Speed): 480 Mbps (black) - 4 pins",
+      "USB 3.0 / 3.1 Gen 1 / 3.2 Gen 1 (SuperSpeed): 5 Gbps (blue) - 9 pins",
+      "USB 3.1 Gen 2 / 3.2 Gen 2 (SuperSpeed+): 10 Gbps (red) - 9 pins"
     ],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "colors": ["white", "black", "blue", "red"]
   },
   {
     "id": 14,
@@ -255,7 +258,8 @@
       "100G/200G/400G/800G Ethernet: 800 Gbps"
     ],
     "pins": ["8 pins"],
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "colors": null
   },
   {
     "id": 17,
@@ -284,7 +288,8 @@
       "Wi-Fi 7 (2024): 802.11be, (up to 40-46 Gbps)"
     ],
     "pins": null,
-    "interface": ["hardware"]
+    "interface": ["hardware"],
+    "colors": null
   },
   {
     "id": 18,

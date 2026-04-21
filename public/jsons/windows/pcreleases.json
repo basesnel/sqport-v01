@@ -823,7 +823,9 @@
             "id": 1,
             "ports": [5, 6],
             "purposes": [
-              "Crucial for PS/2 keyboards and mice",
+              "Crucial for PS/2 keyboard and mice",
+              "The purple port is required for keyboard",
+              "The green port is required for mice",
               "This might help, since USB drivers may not load during the initial setup in text mode"
             ]
           },
@@ -1441,24 +1443,36 @@
         "ports": [
           {
             "id": 1,
-            "ports": [5, 6],
-            "purpose": "Crucial for keyboards and mice, as USB drivers may not load during the initial text-mode setup."
+            "ports": [13],
+            "purposes": [
+              "USB Ports (Standard 2.0 or higher)",
+              "They are required to install Windows 10 from a USB drive, since most modern computers do not have CD/DVD drives",
+              "At a minimum, you need to connect a bootable USB drive for the installation",
+              "This is required to connect a keyboard and mouse during setup"
+            ]
           },
           {
             "id": 2,
             "ports": [1],
-            "purpose": "To display old-format analog video on the screen; older GPUs are required; modern cards like Nvidia GTX 1080 and later lack XP drivers."
+            "purposes": [
+              "Necessary to display old-format analog video on the screen"
+            ]
           },
           {
             "id": 3,
-            "ports": [2, 3, 4],
-            "purpose": "To display new-format digital video on the screen."
+            "ports": [2, 3, 4, 9, 10],
+            "purposes": [
+              "Necessary to display new-format digital video on the screen"
+            ]
+          },
+          {
+            "id": 4,
+            "ports": [16, 17],
+            "purposes": [
+              "Required to create a Microsoft account, download updates, and activate the operating system"
+            ]
           }
-        ],
-        "media": ["Any optical disc drive capable of reading DVD-ROM media."],
-        "sound": null,
-        "network": "",
-        "mouse": "Keyboard and mouse"
+        ]
       },
       {
         "name": "Recommended",

@@ -1203,8 +1203,8 @@
     "id": 32,
     "name": "Windows 7",
     "codename": "Windows 7",
-    "release": "January 30, 2007",
     "version": "NT 6.1",
+    "build": 7601,
     "editions": [
       "Windows 7 Starter",
       "Windows 7 Home Basic",
@@ -1213,13 +1213,17 @@
       "Windows 7 Enterprise",
       "Windows 7 Ultimate"
     ],
-    "build": 7601,
-    "architectures": ["IA-32", "x86-64"],
-    "obsolete": "January 14, 2020",
     "licenses": ["Commercial software", "Proprietary software"],
+    "architectures": ["IA-32", "x86-64"],
+    "ui": "Windows Aero",
+    "rtm": "July 22, 2009",
+    "ga": "October 22, 2009",
+    "eos": "January 14, 2020",
+    "facts": null,
     "logo": "W7-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Operating system architecture 32-bit",
         "cpu": [
           "1 GHz IA-32 processor",
@@ -1250,7 +1254,7 @@
         "cpu": [
           "1 GHz x86-64 processor",
           "Windows 7 Professional and up support up to 2 physical processors (CPU sockets), Windows 7 Starter, Home Basic, and Home Premium editions support only one",
-          "The x64 editions of Windows 7  support up to 256 (4 x 64) logical processors"
+          "The x64 editions of Windows 7 support up to 256 (4 x 64) logical processors"
         ],
         "ram": [
           "2 GB",

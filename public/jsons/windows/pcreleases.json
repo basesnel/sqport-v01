@@ -677,39 +677,63 @@
     "id": 21,
     "name": "Windows 98 Second Edition",
     "codename": null,
-    "release": "June 10, 1999",
     "version": "4.10",
-    "editions": ["Windows 98 Second Edition"],
     "build": "2222A",
-    "architectures": ["IA-32"],
-    "obsolete": "July 11, 2006",
+    "editions": ["Windows 98 Second Edition"],
     "licenses": ["Commercial software"],
+    "architectures": ["IA-32"],
+    "ui": "Windows shell",
+    "rtm": "May 15, 1998",
+    "ga": "June 10, 1999",
+    "eos": "July 11, 2006",
+    "facts": null,
     "logo": "W98-logo",
     "requirements": [
       {
-        "name": "Second Edition",
-        "cpu": [
-          "Intel 80486 66 MHz or higher",
-          "Pentium processor recommended"
-        ],
-        "ram": [
-          "24 MB",
-          "24 MB recommended; it is possible to run on 8 MB machines with /nm option used during the installation process"
-        ],
+        "id": 1,
+        "name": "Minimum",
+        "cpu": ["Intel 80486 66 MHz or 486DX2 66 MHz"],
+        "ram": ["16 MB"],
+        "vga": ["VGA or higher resolution monitor"],
+        "display": "640×480 px",
         "storage": [
           "Upgrading from Windows 3.1 or 95: 120-295 MB (typically 195 MB)",
           "New installation (FAT16): 165-355 MB (typically 225 MB)",
           "New installation (FAT32): 140-255 MB (typically 175 MB)",
           "The amount of space required depends on the installation method and the components selected, but virtual memory and system utilities as well as drivers should be taken into consideration."
         ],
-        "media": [
-          "CD-ROM or DVD-ROM drive",
-          "Floppy install is possible but slow"
-        ],
-        "vga": ["VGA or higher resolution monitor (640x480)"],
-        "sound": null,
-        "network": "A network card (Ethernet, etc.) compatible with Windows 98 is necessary to physically connect to a network",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "ports": [
+          {
+            "media": [
+              "CD-ROM or DVD-ROM drive",
+              "Floppy install is possible but slow"
+            ],
+            "sound": null,
+            "network": "A network card (Ethernet, etc.) compatible with Windows 98 is necessary to physically connect to a network",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Pentium MMX (233 MHz) or Pentium II"],
+        "ram": ["24 MB"],
+        "vga": ["VGA or higher resolution monitor"],
+        "display": "1024×768 px",
+        "storage": ["32 GB"],
+        "ports": [
+          {
+            "media": [
+              "CD-ROM or DVD-ROM drive",
+              "Floppy install is possible but slow"
+            ],
+            "sound": null,
+            "network": "A network card (Ethernet, etc.) compatible with Windows 98 is necessary to physically connect to a network",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

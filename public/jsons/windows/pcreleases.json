@@ -795,29 +795,33 @@
     "id": 24,
     "name": "Windows XP",
     "codename": "Whistler",
-    "release": "October 25, 2001",
     "version": "NT 5.1",
+    "build": 2600,
     "editions": [
       "Windows XP Starter",
       "Windows XP Home",
       "Windows XP Professional"
     ],
-    "build": 2600,
-    "architectures": ["IA-32"],
-    "obsolete": "April 8, 2014",
     "licenses": ["Commercial software", "Proprietary software"],
+    "architectures": ["IA-32"],
+    "ui": "Luna",
+    "rtm": "August 24, 2001",
+    "ga": "October 25, 2001",
+    "eos": " April 8, 2014",
+    "facts": null,
     "logo": "WXP-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": [
           "Pentium or compatible, 233 MHz",
           "BIOS or compatible firmware"
         ],
         "ram": ["64 MB"],
-        "storage": ["1.5 GB", "Master boot record used"],
         "vga": ["Super VGA or over"],
         "display": "800×600 px",
+        "storage": ["1.5 GB", "Master boot record used"],
         "ports": [
           {
             "id": 1,
@@ -854,6 +858,7 @@
         ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": [
           "Pentium or compatible, 300 MHz",
@@ -866,17 +871,21 @@
           "Windows XP Home and Professional editions of XP support up to 4 GB",
           "Windows XP Starter edition supports up to 512 MB"
         ],
+        "vga": ["XGA or over"],
+        "display": "1024×768 px",
         "storage": [
           "2.15 GB for Service Pack 1 and 1a",
           "3.95 GB for Service Pack 2",
           "4.83 GB for Service Pack 3"
         ],
-        "vga": ["XGA or over"],
-        "display": "1024×768 px",
-        "media": ["CD-ROM drive or compatible"],
-        "sound": ["Sound card", "speakers/headphones"],
-        "network": "A compatible network adapter is needed (either wired or wireless)",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "ports": [
+          {
+            "media": ["CD-ROM drive or compatible"],
+            "sound": ["Sound card", "speakers/headphones"],
+            "network": "A compatible network adapter is needed (either wired or wireless)",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

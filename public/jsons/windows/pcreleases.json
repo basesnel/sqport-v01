@@ -758,36 +758,51 @@
     "id": 23,
     "name": "Windows ME",
     "codename": "Millennium",
-    "release": "September 14, 2000",
     "version": "4.90",
-    "editions": ["Windows Me"],
     "build": 3000,
-    "architectures": ["IA-32"],
-    "obsolete": "July 11, 2006",
+    "editions": ["Windows Me"],
     "licenses": ["Proprietary software"],
+    "architectures": ["IA-32"],
+    "ui": "Windows shell",
+    "rtm": "June 19, 2000",
+    "ga": "September 14, 2000",
+    "eos": "July 11, 2006",
+    "facts": null,
     "logo": "WME-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": ["Pentium 150 MHz"],
         "ram": ["32 MB"],
-        "storage": ["Free spice 320 MB"],
-        "media": ["CD-ROM drive", "DVD drive", "3.5 inch floppy drive"],
         "vga": ["VGA"],
-        "sound": ["Sound card", "Speakers or headphones"],
-        "network": "None",
-        "mouse": "Mouse or compatible pointing device"
+        "display": "640×480 px",
+        "storage": ["Free spice 320 MB"],
+        "ports": [
+          {
+            "media": ["CD-ROM drive", "DVD drive", "3.5 inch floppy drive"],
+            "sound": ["Sound card", "Speakers or headphones"],
+            "network": "None",
+            "mouse": "Mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": ["Pentium II 300 MHz"],
         "ram": ["64 MB"],
-        "storage": ["Free spice 2 GB"],
-        "media": ["CD-ROM drive", "DVD drive", "3.5 inch floppy drive"],
         "vga": ["SVGA", "Video capture device for Windows Movie Maker"],
-        "sound": ["Microphone for Windows Movie Maker"],
-        "network": "56.6 Kbps modem or faster with current Internet connection",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "display": "800×600 px",
+        "storage": ["Free spice 2 GB"],
+        "ports": [
+          {
+            "media": ["CD-ROM drive", "DVD drive", "3.5 inch floppy drive"],
+            "sound": ["Microphone for Windows Movie Maker"],
+            "network": "56.6 Kbps modem or faster with current Internet connection",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

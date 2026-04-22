@@ -717,40 +717,55 @@
     "id": 22,
     "name": "Windows 2000",
     "codename": "Windows NT 5.0",
-    "release": "February 17, 2000",
     "version": "NT 5.0",
+    "build": 2195,
     "editions": [
       "Windows 2000 Professional",
       "Windows 2000 Embedded",
       "Windows 2000 Professional Embedded/Windows 2000 Professional For Embedded Systems"
     ],
-    "build": 2195,
-    "architectures": ["IA-32"],
-    "obsolete": "July 13, 2010",
     "licenses": ["Commercial software", "Proprietary software"],
+    "architectures": ["IA-32"],
+    "ui": "Windows shell",
+    "rtm": "December 15, 1999",
+    "ga": "February 17, 2000",
+    "eos": "July 13, 2010",
+    "facts": null,
     "logo": "W2000-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": ["Pentium 133 MHz"],
         "ram": ["32 MB"],
+        "vga": ["VGA or better monitor"],
+        "display": "800×600 px",
         "storage": ["Free spice 1 GB"],
-        "media": ["CD-ROM drive"],
-        "vga": ["800x600 VGA or better monitor"],
-        "sound": null,
-        "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": ["Pentium II 300 MHz"],
         "ram": ["128 MB"],
+        "vga": ["VGA or better monitor"],
+        "display": "1024×768 px",
         "storage": ["Free spice 5 GB"],
-        "media": ["CD-ROM drive"],
-        "vga": ["1024x768 VGA or better monitor"],
-        "sound": null,
-        "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

@@ -1338,19 +1338,20 @@
     "id": 34,
     "name": "Windows 8.1",
     "codename": "Blue",
-    "release": "October 17, 2013",
     "version": "NT 6.3",
-    "editions": ["Windows 8.1", "Windows 8.1 Pro", "Windows 8.1 Enterprise"],
     "build": 9600,
-    "architectures": ["IA-32", "x86-64"],
-    "obsolete": "January 10, 2023",
+    "editions": ["Windows 8.1", "Windows 8.1 Pro", "Windows 8.1 Enterprise"],
     "licenses": [
       "Trialware",
       "Microsoft Software Assurance",
       "MSDN subscription",
       "Microsoft Imagine"
     ],
-    "logo": "W8.1-logo",
+    "architectures": ["IA-32", "x86-64"],
+    "ui": "Windows shell",
+    "rtm": "August 27, 2013",
+    "ga": "October 17, 2013",
+    "eos": "January 10, 2023",
     "facts": [
       "The 64-bit variants of Windows 8.1 no longer support processors which do not implement the double-width compare and exchange (CMPXCHG16B) CPU instruction (which the installer reports as a lack of support for 'CompareExchange128').",
       "On compatible hardware, Windows 8.1 also features a transparent 'device encryption' system based on BitLocker.",
@@ -1360,36 +1361,49 @@
       "Microsoft markets Windows 8.1 as an 'update' for Windows 8, avoiding the term 'upgrade'.",
       "On May 23, 2014, Microsoft officially announced Windows 8.1 with Bing, a new, lower-cost version of its operating system designed specifically for original equipment manufacturers (OEMs) to preinstall on budget-friendly laptops, tablets, and desktop computers."
     ],
+    "logo": "W8.1-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": [
           "1 GHz clock rate IA-32 or x64 architecture with at least 2 cores",
           "Support for PAE, NX and SSE2"
         ],
         "ram": ["IA-32 edition: 1 GB", "x64 edition: 2 GB"],
-        "storage": ["IA-32 edition: 16 GB", "x64 edition: 20 GB"],
-        "media": [""],
         "vga": ["DirectX 9 graphics device WDDM 1.0 or higher driver"],
-        "sound": null,
-        "network": "",
-        "mouse": "Keyboard and mouse"
+        "display": "1024×768 px",
+        "storage": ["IA-32 edition: 16 GB", "x64 edition: 20 GB"],
+        "ports": [
+          {
+            "media": [""],
+            "sound": null,
+            "network": "",
+            "mouse": "Keyboard and mouse"
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": [
           "x64 architecture Second Level Address Translation (SLAT) support for Hyper-V"
         ],
         "ram": ["4 GB"],
-        "storage": [""],
-        "media": [""],
         "vga": ["DirectX 10 graphics device", "1024x768 pixels display screen"],
-        "sound": null,
-        "network": "",
-        "mouse": "Mouse or compatible pointing device, multi-touch display screen",
-        "other": [
-          "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
-          "Trusted Platform Module (TPM) Internet connectivity"
+        "display": "1920×1080 px",
+        "storage": ["60GB to 120GB SSD"],
+        "ports": [
+          {
+            "media": [""],
+            "sound": null,
+            "network": "",
+            "mouse": "Mouse or compatible pointing device, multi-touch display screen",
+            "other": [
+              "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+              "Trusted Platform Module (TPM) Internet connectivity"
+            ]
+          }
         ]
       }
     ]
@@ -1488,7 +1502,7 @@
         "ram": ["4 GB"],
         "vga": ["WDDM 1.3 or higher driver"],
         "display": "1920×1080 px",
-        "storage": [""],
+        "storage": ["256GB to 512GB SSD"],
         "ports": [
           {
             "media": [

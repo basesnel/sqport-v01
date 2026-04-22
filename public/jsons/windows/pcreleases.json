@@ -892,7 +892,7 @@
   {
     "id": 25,
     "name": "Windows XP",
-    "codename": "Freestyle",
+    "codename": "Whistler",
     "version": "NT 5.1",
     "build": 2600,
     "editions": ["Windows XP 64-bit Edition"],

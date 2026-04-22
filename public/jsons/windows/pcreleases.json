@@ -600,36 +600,51 @@
     "id": 19,
     "name": "Windows NT 4.0",
     "codename": "Shell Update Release (Tukwila)",
-    "release": "August 24, 1996",
     "version": "NT 4.0",
-    "editions": ["Windows NT 4.0 Workstation"],
     "build": 1381,
-    "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
-    "obsolete": "June 30, 2004",
+    "editions": ["Windows NT 4.0 Workstation"],
     "licenses": ["Commercial software", "Proprietary software"],
+    "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
+    "ui": "Windows shell",
+    "rtm": "July 31, 1996",
+    "ga": "August 24, 1996",
+    "eos": "June 30, 2004",
+    "facts": null,
     "logo": "WNT4.0-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": ["Intel 486 at 33 MHz"],
         "ram": ["16 MB"],
-        "storage": ["IDE, EIDE, SCSI or ESDI with 128 MB free spice"],
-        "media": ["CD-ROM drive"],
         "vga": ["VGA adapters"],
-        "sound": null,
-        "network": "Network Interface Card (NIC) needed",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "display": "640×480 px",
+        "storage": ["IDE, EIDE, SCSI or ESDI with 128 MB free spice"],
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "Network Interface Card (NIC) needed",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": ["Pentium or Pentium Pro"],
         "ram": ["32 MB or higher"],
-        "storage": ["IDE, EIDE, SCSI or ESDI with 256 MB free spice"],
-        "media": ["CD-ROM drive"],
         "vga": ["SVGA adapters"],
-        "sound": null,
-        "network": "Network Interface Card (NIC) needed",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "display": "800×600 px",
+        "storage": ["IDE, EIDE, SCSI or ESDI with 256 MB free spice"],
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "Network Interface Card (NIC) needed",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       }
     ]
   },

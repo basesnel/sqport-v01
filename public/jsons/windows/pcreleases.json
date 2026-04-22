@@ -563,8 +563,8 @@
     "id": 18,
     "name": "Windows 95",
     "codename": "Chicago",
-    "release": "August 24, 1995",
     "version": "4.00",
+    "build": 950,
     "editions": [
       "Windows 95 (retail and OEM) (codename - Chicago)",
       "Microsoft Plus! for Windows 95 (codename - Frosting)",
@@ -572,27 +572,52 @@
       "OEM Service Release 2.1 (codename - Detroit)",
       "OEM Service Release 2.5"
     ],
-    "build": 950,
-    "architectures": ["IA-32"],
-    "obsolete": "December 31, 2001",
     "licenses": ["Commercial software", "Proprietary software"],
+    "architectures": ["IA-32"],
+    "ui": "Windows shell",
+    "rtm": "July 14, 1995",
+    "ga": "August 24, 1995",
+    "eos": "December 31, 2001",
+    "facts": null,
     "logo": "W95-logo",
     "requirements": [
       {
-        "name": "Windows 95",
-        "cpu": [
-          "Minimum Intel 386DX processor",
-          "Recpmended Intel 486 (i486) processor"
-        ],
-        "ram": ["Minimum 4 MB of memory", "Recomended 8 MB of memory"],
+        "id": 1,
+        "name": "Minimum",
+        "cpu": ["Intel 386DX processor"],
+        "ram": ["4 MB of memory"],
+        "vga": ["VGA adapters"],
+        "display": "640×480 px",
         "storage": [
           "50-55 MB of hard disk space depending on features selected"
         ],
-        "media": ["One 3.5-inch high-density floppy disk drive"],
+        "ports": [
+          {
+            "media": ["One 3.5-inch high-density floppy disk drive"],
+            "sound": null,
+            "network": "A network interface card (NIC) compatible with Windows 95 and a suitable cabling system (coax or twisted pair with a hub)",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Intel 486 (i486) processor"],
+        "ram": ["8 MB of memory"],
         "vga": ["VGA adapters or better (256-color SVGA recommended)"],
-        "sound": null,
-        "network": "A network interface card (NIC) compatible with Windows 95 and a suitable cabling system (coax or twisted pair with a hub)",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "display": "800×600 px",
+        "storage": [
+          "200-500 MB of hard disk space depending on features selected"
+        ],
+        "ports": [
+          {
+            "media": ["One 3.5-inch high-density floppy disk drive"],
+            "sound": null,
+            "network": "A network interface card (NIC) compatible with Windows 95 and a suitable cabling system (coax or twisted pair with a hub)",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

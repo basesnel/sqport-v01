@@ -428,27 +428,61 @@
     "id": 14,
     "name": "Windows 3.11",
     "codename": "Snowball",
-    "release": "November 8, 1993",
     "version": "3.11",
-    "editions": ["Windows for Workgroups 3.11"],
     "build": 300,
-    "architectures": ["IA-32"],
-    "obsolete": "December 31, 2001",
+    "editions": ["Windows for Workgroups 3.11"],
     "licenses": ["Commercial software"],
+    "architectures": ["IA-32"],
+    "ui": "Program Manager",
+    "rtm": "November 8, 1993",
+    "ga": "November 8, 1993",
+    "eos": "December 31, 2001",
+    "facts": [
+      "This os another version, Windows for Workgroups 3.11, was released on November 8, 1993",
+      "The release received network improvements; a Winsock package was released for Windows for Workgroups, although it was later replaced by a 32-bit stack add-on package (codenamed Wolverine) that provided TCP/IP support in Windows for Workgroups 3.11",
+      "Its connectivity with NetWare networks was increased, while it also introduced support for Open Data-Link Interface (ODI) cards and Internetwork Packet Exchange (IPX) drivers"
+    ],
     "logo": "W3.1-logo",
     "requirements": [
       {
-        "name": "Windows for Workgroups",
-        "cpu": ["386SX processor"],
-        "ram": ["3 MB of memory (640 KB of conventional memory)"],
-        "storage": [
-          "A hard disk with at least 8 MB of free space (14 MB needed for a complete installation), and at least one floppy disk drive"
-        ],
-        "media": null,
+        "id": 1,
+        "name": "Minimum",
+        "cpu": ["Intel 80386 (386)"],
+        "ram": ["3 MB"],
         "vga": ["VGA adapter"],
-        "sound": null,
-        "network": "If necessary, you need a network card that is compatible with your computer's architecture (ISA, PCI, etc.) and card-specific drivers",
-        "mouse": "A mouse is required to perform many of the multimedia operations"
+        "display": "640×480 px in 16 colors",
+        "storage": ["6.2 MB"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "If necessary, you need a network card that is compatible with your computer's architecture (ISA, PCI, etc.) and card-specific drivers",
+            "mouse": "A mouse is required to perform many of the multimedia operations"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["486 processor", "Intel 486 DX2-50 or DX2-66 (Socket 3)"],
+        "ram": ["4 MB"],
+        "vga": [
+          "SVGA adapter",
+          "Diamond S3 Vision 968 / Trio64",
+          "Tseng Labs ET4000/W32p",
+          "ATI Wincharger / Mach64",
+          "Cirrus Logic GD5464 Laguna 3D"
+        ],
+        "display": "800×600 px in 256 colors",
+        "storage": ["14 MB"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "If necessary, you need a network card that is compatible with your computer's architecture (ISA, PCI, etc.) and card-specific drivers",
+            "mouse": "A mouse is required to perform many of the multimedia operations"
+          }
+        ]
       }
     ]
   },
@@ -475,7 +509,7 @@
         "id": 1,
         "name": "Minimum",
         "cpu": ["80286 processor for standard mode", "80386 for enhanced mode"],
-        "ram": ["1 MB of memory (640 KB of conventional memory)"],
+        "ram": ["1 MB"],
         "vga": ["VGA adapters"],
         "display": "640×480 px in 16 colors",
         "storage": ["A hard disk with at leas 5 MB of free space"],

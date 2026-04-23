@@ -456,38 +456,54 @@
     "id": 15,
     "name": "Windows 3.2",
     "codename": null,
-    "release": "November 22, 1993",
     "version": "3.2",
-    "editions": ["Windows 3.2"],
     "build": 153,
-    "architectures": ["x86-16", "IA-32"],
-    "obsolete": "December 31, 2001",
+    "editions": ["Windows 3.2"],
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16", "IA-32"],
+    "ui": "Program Manager",
+    "rtm": "April 27, 1994",
+    "ga": "November 22, 1993",
+    "eos": "December 31, 2001",
+    "facts": [
+      "Windows 3.2 was released as an updated version of Windows 3.1 in November 1993 for Simplified Chinese",
+      "The update was limited to this language version, as it only fixed issues related to the complex input system for the Simplified Chinese language"
+    ],
     "logo": "W3.1-logo",
     "requirements": [
       {
-        "name": "Windows 3.1",
+        "id": 1,
+        "name": "Minimum",
         "cpu": ["80286 processor for standard mode", "80386 for enhanced mode"],
         "ram": ["1 MB of memory (640 KB of conventional memory)"],
-        "storage": [
-          "A hard disk with at least 6.5 MB of free space (8 MB for enhanced mode users), and at least one floppy disk drive"
-        ],
-        "media": null,
         "vga": ["VGA adapters"],
-        "sound": null,
-        "network": "A compatible NIC is required to connect the computer to the network and for multiple network protocols: NetBIOS over TCP/IP or NetBEUI. Additionally, it utilizes SMB",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "display": "640×480 px in 16 colors",
+        "storage": ["A hard disk with at leas 5 MB of free space"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "A compatible NIC is required to connect the computer to the network and for multiple network protocols: NetBIOS over TCP/IP or NetBEUI. Additionally, it utilizes SMB",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       },
       {
-        "name": "Modular Windows",
+        "id": 2,
+        "name": "Recommended",
         "cpu": ["80386 processor"],
-        "ram": ["4 MB of memory"],
+        "ram": ["2 MB"],
+        "vga": ["SVGA adapters"],
+        "display": "800×600 px in 256 colors",
         "storage": ["A hard disk with at least 20 MB of free space"],
-        "media": null,
-        "vga": ["VGA-NTSC adapter"],
-        "sound": null,
-        "network": "A compatible NIC is required to connect the computer to the network and for multiple network protocols: NetBIOS over TCP/IP or NetBEUI. Additionally, it utilizes SMB",
-        "mouse": "A mouse is required to perform many of the multimedia operations"
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "A compatible NIC is required to connect the computer to the network and for multiple network protocols: NetBIOS over TCP/IP or NetBEUI. Additionally, it utilizes SMB",
+            "mouse": "A mouse is required to perform many of the multimedia operations"
+          }
+        ]
       }
     ]
   },

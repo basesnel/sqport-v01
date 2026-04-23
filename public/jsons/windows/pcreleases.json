@@ -526,36 +526,68 @@
     "id": 17,
     "name": "Windows NT 3.51",
     "codename": "Daytona",
-    "release": "May 30, 1995",
     "version": "NT 3.51",
-    "editions": ["Windows NT 3.51 Workstation"],
     "build": 1057,
-    "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
-    "obsolete": "December 31, 2001",
+    "editions": ["Windows NT 3.51 Workstation"],
     "licenses": ["Commercial software", "Proprietary software"],
+    "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
+    "rtm": "May 30, 1995",
+    "ga": "May 30, 1995",
+    "eos": "December 31, 2001",
+    "facts": null,
     "logo": "WNT3.51-logo",
     "requirements": [
       {
-        "name": "Windows NT 3.5 Workstation",
-        "cpu": [
-          "Minimum 25 MHz 80386 processor",
-          "Minimum 25 MHz 80486 processor"
-        ],
-        "ram": ["at least 12 megabytes of memory"],
-        "storage": [
-          "IDE hard drive",
-          "EIDE hard drive",
-          "SCSI hard drive",
-          "ESDI hard drive"
-        ],
-        "media": [
-          "CD-ROM drive recomended",
-          "1.44 MB or 1.2 MB floppy disk drive"
-        ],
-        "vga": ["VGA adapters or better"],
-        "sound": null,
-        "network": "Network interface card (for networking). For networking, it can utilize TCP/IP, NetBEUI, and IPX/SPX protocols, and it has built-in WAN capabilities via Remote Access Service (RAS)",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "id": 1,
+        "name": "Minimum",
+        "cpu": ["25 MHz 80386 processor", "25 MHz 80486 processor"],
+        "ram": ["At least 12 megabytes of memory"],
+        "vga": ["VGA adapters"],
+        "display": "640×480 px",
+        "storage": ["90 MB to 95 MB"],
+        "ports": [
+          {
+            "media": [
+              "CD-ROM drive recomended",
+              "1.44 MB or 1.2 MB floppy disk drive"
+            ],
+            "storage": [
+              "IDE hard drive",
+              "EIDE hard drive",
+              "SCSI hard drive",
+              "ESDI hard drive"
+            ],
+            "sound": null,
+            "network": "Network interface card (for networking). For networking, it can utilize TCP/IP, NetBEUI, and IPX/SPX protocols, and it has built-in WAN capabilities via Remote Access Service (RAS)",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Pentium 1 (Socket 7) or Pentium Pro processor"],
+        "ram": ["32-64MB"],
+        "vga": ["SVGA adapters"],
+        "display": "800×600 px",
+        "storage": ["500 MB to 2 GB"],
+        "ports": [
+          {
+            "media": [
+              "CD-ROM drive recomended",
+              "1.44 MB or 1.2 MB floppy disk drive"
+            ],
+            "storage": [
+              "IDE hard drive",
+              "EIDE hard drive",
+              "SCSI hard drive",
+              "ESDI hard drive"
+            ],
+            "sound": null,
+            "network": "Network interface card (for networking). For networking, it can utilize TCP/IP, NetBEUI, and IPX/SPX protocols, and it has built-in WAN capabilities via Remote Access Service (RAS)",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

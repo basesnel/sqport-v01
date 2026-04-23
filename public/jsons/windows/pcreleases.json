@@ -241,45 +241,76 @@
     "id": 9,
     "name": "Windows 3.0",
     "codename": null,
-    "release": "May 22, 1990",
     "version": "3.0",
-    "editions": ["Windows 3.00a", "Windows 3.0 with Multimedia Extensions"],
     "build": null,
-    "architectures": ["x86-16", "IA-32"],
-    "obsolete": "December 31, 2001",
+    "editions": ["Windows 3.00a", "Windows 3.0 with Multimedia Extensions"],
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16", "IA-32"],
+    "ui": "Program Manager",
+    "rtm": "May 22, 1990",
+    "ga": "May 22, 1990",
+    "eos": "December 31, 2001",
+    "facts": [
+      "Windows 3.0 was the only version of Windows that could be run in three different memory modes: Real mode; Standard mode or 386 Enhanced mode"
+    ],
     "logo": "W3.0-logo",
     "requirements": [
       {
-        "name": "Windows 3.0",
-        "cpu": ["8086 processor", "8088 processor"],
-        "ram": [
-          "1 MB of memory (640 KB and 384 KB of conventional and extended memory, respectively) (Work with only 640Kb - Real Mode)"
+        "id": 1,
+        "name": "Minimum",
+        "cpu": [
+          "Windows 3.0: 8086 processor or 8088 processor",
+          "Windows 3.0 with Multimedia Extensions: 80286 processor running at 10 MHz"
         ],
-        "storage": ["Hard drive with 6-8 MB of free space"],
-        "media": ["At least one floppy drive for the installation disks"],
+        "ram": [
+          "Windows 3.0: 1 MB of memory (640 KB and 384 KB of conventional and extended memory, respectively) (Work with only 640Kb - Real Mode)",
+          "Windows 3.0 with Multimedia Extensions: 2MB"
+        ],
         "vga": [
           "EGA adapters",
           "MCGA adapters",
           "VGA adapters",
           "Work with CGA adaptersand Hercules"
         ],
-        "sound": null,
-        "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
-        "mouse": "A Microsoft-compatible pointing device is recommended"
+        "display": "640×480 px in 16 colors",
+        "storage": ["Hard drive with 6-8 MB of free space"],
+        "ports": [
+          {
+            "media": ["At least one floppy drive for the installation disks"],
+            "sound": null,
+            "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
+            "mouse": "A Microsoft-compatible pointing device is recommended"
+          }
+        ]
       },
       {
-        "name": "Windows 3.0 with Multimedia Extensions",
-        "cpu": ["80286 processor running at 10 MHz"],
-        "ram": ["2 MB of memory"],
-        "storage": ["Hard drive with 30 MB of total space"],
-        "media": [
-          "A CD-ROM drive is essential for performing numerous multimedia operations."
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Intel 80386 (386)"],
+        "ram": ["2 MB"],
+        "vga": [
+          "VGA adapters",
+          "Tseng Labs ET4000 (ISA)",
+          "Western Digital Paradise (8514/A or PVGA1A)",
+          "ATI VGA Wonder Series",
+          "Cirrus Logic CL-GD5420/5422",
+          "Original IBM VGA/MCGA"
         ],
-        "vga": ["VGA adapters"],
-        "sound": null,
-        "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
-        "mouse": "A mouse is required to perform many of the multimedia operations"
+        "display": "640×480 px in 16 colors",
+        "storage": [
+          "Windows 3.0: 6-10 MB",
+          "Windows 3.0 with Multimedia Extensions: hard drive with 30 MB of total space"
+        ],
+        "ports": [
+          {
+            "media": [
+              "A CD-ROM drive is essential for performing numerous multimedia operations."
+            ],
+            "sound": null,
+            "network": "There is a network adapter compatible with protocol (Ethernet adapter for TCP/IP, IPX/SPX or NetBEUI) needed, but not necessary",
+            "mouse": "A mouse is required to perform many of the multimedia operations"
+          }
+        ]
       }
     ]
   },

@@ -204,36 +204,56 @@
     "id": 8,
     "name": "Windows 2.11",
     "codename": null,
-    "release": "March 13, 1989",
     "version": "2.11",
-    "editions": null,
     "build": null,
-    "architectures": ["x86-16", "IA-32"],
-    "obsolete": "December 31, 2001",
+    "editions": null,
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16", "IA-32"],
+    "ui": "MS-DOS Executive",
+    "rtm": "March 13, 1989",
+    "ga": "March 13, 1989",
+    "eos": "December 31, 2001",
+    "facts": [
+      "Windows 2.11 was released as the successor of Windows 2.1, it was also released in Windows/286 and Windows/386 editions, with some minor changes in memory management and updates regarding printing options"
+    ],
     "logo": "W2.1-logo",
     "requirements": [
       {
-        "name": "Windows/286",
-        "cpu": ["8088 processor", "80286 processor recommended"],
-        "ram": ["512 KB of memory"],
-        "storage": ["A hard disk"],
-        "media": null,
-        "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "sound": null,
-        "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "id": 1,
+        "name": "Minimum",
+        "cpu": [
+          "Windows/286: 8086/8088 processor",
+          "Windows/386: 80386 processor"
+        ],
+        "ram": ["Windows/286: 512 KB of memory", "Windows/386: 1 MB"],
+        "vga": ["EGA adapters", "VGA adapters", "CGA adapters"],
+        "display": "640x200 in monochrome (Hercules/CGA) or 640x350 in 16-color EGA",
+        "storage": ["2 MB"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       },
       {
-        "name": "Windows/386",
-        "cpu": ["80386 processor"],
-        "ram": ["1 MB of memory"],
-        "storage": ["2 MB of hard disk space"],
-        "media": null,
-        "vga": ["EGA adapters", "VGA adapters", "Work with CGA adapters"],
-        "sound": null,
-        "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Windows/286: 80286 processor", "Windows/386: 80386 processor"],
+        "ram": ["1 MB of memory or more"],
+        "vga": ["EGA adapters", "VGA adapters", "CGA adapters"],
+        "display": "640×480 px in 16 colors",
+        "storage": ["2 MB"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "If necessary, use an external network software package (e.g. LAN Manager for MS-DOS) and the appropriate network interface cards and cables that are configured in the MS-DOS environment.",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

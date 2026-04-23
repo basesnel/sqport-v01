@@ -137,13 +137,17 @@
     "id": 6,
     "name": "Windows 2.03",
     "codename": null,
-    "release": "December 9, 1987",
     "version": "2.03",
-    "editions": null,
     "build": null,
-    "architectures": ["x86-16", "IA-32"],
-    "obsolete": "December 31, 2001",
+    "editions": null,
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16", "IA-32"],
+    "rtm": "December 9, 1987",
+    "ga": "December 9, 1987",
+    "eos": "December 31, 2001",
+    "facts": [
+      "The product includes two different variants: a base edition for 8086 real mode, and Windows/386, an enhanced edition for i386 protected mode."
+    ],
     "logo": "W2.0-logo",
     "requirements": [
       {

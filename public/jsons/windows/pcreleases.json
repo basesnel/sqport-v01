@@ -354,34 +354,71 @@
     "id": 12,
     "name": "Windows NT 3.1",
     "codename": "Razzle",
-    "release": "July 27, 1993",
     "version": "NT 3.1",
-    "editions": ["Windows NT 3.1"],
     "build": 528,
-    "architectures": ["IA-32", "Alpha", "MIPS"],
-    "obsolete": "December 31, 2000",
+    "editions": ["Windows NT 3.1"],
     "licenses": ["Commercial software"],
+    "architectures": ["IA-32", "Alpha", "MIPS"],
+    "ui": "Program Manager",
+    "rtm": "July 27, 1993",
+    "ga": "July 27, 1993",
+    "eos": "December 31, 2000",
+    "facts": [
+      "Windows NT 3.1 is the first major release of the Windows NT operating system developed by Microsoft"
+    ],
     "logo": "WNT3.1-logo",
     "requirements": [
       {
-        "name": "Windows NT 3.1",
+        "id": 1,
+        "name": "Minimum",
         "cpu": [
           "Minimum 25 MHz 80386 processor",
           "MIPS (R4000 and R4400) processors"
         ],
         "ram": [
-          "at least 12 megabytes of memory",
+          "At least 12 megabytes of memory",
           "RISC systems require 16 megabytes of memory"
         ],
+        "vga": ["VGA adapters"],
+        "display": "640×480 px in 16 colors",
         "storage": [
           "75 megabytes of hard drive space",
           "RISC systems require 92 megabytes of hard drive space"
         ],
-        "media": ["RISC systems require CD-ROM drive"],
-        "vga": ["VGA adapters"],
-        "sound": null,
-        "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "ports": [
+          {
+            "media": ["RISC systems require CD-ROM drive"],
+            "sound": null,
+            "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": [
+          "Intel 486 (25 MHz or faster) on x86",
+          "Intel 486DX, DX2, or DX4",
+          "RISC processors like MIPS R4000/R4400 and DEC Alpha"
+        ],
+        "ram": ["16 MB"],
+        "vga": [
+          "SVGA adapters",
+          "S3 Trio64/Trio32/Trio64V+",
+          "Cirrus Logic CL-GD542x/543x Series",
+          "Matrox G450/G400 (PCI)"
+        ],
+        "display": "800×680 px in 256 colors",
+        "storage": ["200-500 MB"],
+        "ports": [
+          {
+            "media": ["RISC systems require CD-ROM drive"],
+            "sound": null,
+            "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

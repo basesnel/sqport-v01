@@ -389,38 +389,54 @@
     "id": 13,
     "name": "Windows 3.11",
     "codename": null,
-    "release": "November 8, 1993",
     "version": "3.11",
-    "editions": ["Windows 3.11"],
     "build": null,
-    "architectures": ["x86-16", "IA-32"],
-    "obsolete": "December 31, 2001",
+    "editions": ["Windows 3.11"],
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16", "IA-32"],
+    "ui": "Program Manager",
+    "rtm": "November 8, 1993",
+    "ga": "November 8, 1993",
+    "eos": "December 31, 2001",
+    "facts": [
+      "Windows 3.11 was introduced with fixes for network problems which were present on Windows 3.1",
+      "Microsoft replaced all retail and OEM versions of Windows 3.1 with Windows 3.11 and provided a free upgrade to anyone who owned Windows 3.1"
+    ],
     "logo": "W3.1-logo",
     "requirements": [
       {
-        "name": "Windows 3.1",
-        "cpu": ["80286 processor for standard mode", "80386 for enhanced mode"],
-        "ram": ["1 MB of memory (640 KB of conventional memory)"],
-        "storage": [
-          "A hard disk with at least 6.5 MB of free space (8 MB for enhanced mode users), and at least one floppy disk drive"
-        ],
-        "media": null,
+        "id": 1,
+        "name": "Minimum",
+        "cpu": ["Intel 80386SX processor"],
+        "ram": ["3 MB of memory"],
         "vga": ["VGA adapters"],
-        "sound": null,
-        "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "display": "640×480 px in 16 colors",
+        "storage": ["6.2-14.5 MB"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       },
       {
-        "name": "Modular Windows",
-        "cpu": ["80386 processor"],
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["386DX or 486 processor"],
         "ram": ["4 MB of memory"],
-        "storage": ["A hard disk with at least 20 MB of free space"],
-        "media": null,
-        "vga": ["VGA-NTSC adapter"],
-        "sound": null,
-        "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
-        "mouse": "A mouse is required to perform many of the multimedia operations"
+        "vga": ["SVGA adapters"],
+        "display": "800×600 or 1024×768 px in 256 colors",
+        "storage": ["20 MB"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "If necessary, use a network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC. In addition it provides new support for 32-bit file access that has improvement significantly",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },
@@ -474,7 +490,7 @@
           "Cirrus Logic GD5464 Laguna 3D"
         ],
         "display": "800×600 px in 256 colors",
-        "storage": ["14 MB"],
+        "storage": ["14.5 MB"],
         "ports": [
           {
             "media": null,

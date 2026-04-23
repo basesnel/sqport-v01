@@ -531,6 +531,7 @@
     "editions": ["Windows NT 3.51 Workstation"],
     "licenses": ["Commercial software", "Proprietary software"],
     "architectures": ["IA-32", "Alpha", "MIPS", "PowerPC"],
+    "ui": "Program Manager",
     "rtm": "May 30, 1995",
     "ga": "May 30, 1995",
     "eos": "December 31, 2001",

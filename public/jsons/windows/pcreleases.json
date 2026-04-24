@@ -181,28 +181,55 @@
     "editions": null,
     "licenses": ["Commercial software"],
     "architectures": ["x86-16", "IA-32"],
+    "ui": "MS-DOS Executive",
     "rtm": "December 9, 1987",
     "ga": "December 9, 1987",
     "eos": "December 31, 2001",
     "facts": [
-      "The product includes two different variants: a base edition for 8086 real mode, and Windows/386, an enhanced edition for i386 protected mode."
+      "The product includes two different variants: a base edition for 8086 real mode, and Windows/386, an enhanced edition for i386 protected mode.",
+      "Unlike its predecessor, Windows 2.0 allows the user to overlap and resize application windows.",
+      "Support for 16-color VGA graphics, EMS memory, and new capabilities of the i386 CPU in some versions were also added.",
+      "Windows 2.0 is the last version of Windows that ran solely on floppy disks.",
+      "Windows 2.0 was dependent on the DOS system and random-access memory was restricted to a maximum of 1 MB due to running in real mode."
     ],
     "logo": "W2.0-logo",
     "requirements": [
       {
-        "name": "Windows 2.03",
-        "cpu": [
-          "8088 processor",
-          "80286 processor recommended",
-          "80386 processor recommended"
-        ],
+        "id": 1,
+        "name": "Minimum",
+        "cpu": ["Intel 8086 or 8088 processor"],
         "ram": ["512 KB of memory"],
-        "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "media": null,
-        "vga": ["EGA adapters", "VGA adapters"],
-        "sound": null,
-        "network": null,
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "vga": ["EGA or VGA adapters"],
+        "display": "640×350 px in 16 colors",
+        "storage": ["At least 1.2 MB of free space on a hard drive"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Intel 80286 processor"],
+        "ram": ["At least 640 KB or more"],
+        "vga": ["EGA or VGA adapters"],
+        "display": "640×480 px in 16 colors",
+        "storage": [
+          "Two double-sided floppy disk drives or a hard disk",
+          "At least 1.2 MB of free space on a hard drive"
+        ],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

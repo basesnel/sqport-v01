@@ -3,25 +3,56 @@
     "id": 1,
     "name": "Windows 1.01",
     "codename": "Interface Manager",
-    "release": "November 20, 1985",
     "version": "1.01",
-    "editions": null,
     "build": null,
-    "architectures": ["x86-16"],
-    "obsolete": "December 31, 2001",
+    "editions": null,
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16"],
+    "ui": "MS-DOS Executive",
+    "rtm": "November 20, 1985",
+    "ga": "November 20, 1985",
+    "eos": "December 31, 2001",
+    "facts": [
+      "Microsoft first demonstrated a window manager to the press in September 1983.",
+      "By supporting cooperative multitasking in tiled windows when using well-behaved applications that only used DOS system calls and permitting non-well-behaved applications to run in a full screen, Windows differed from both Visi On and Apple Computer's Lisa by immediately offering many applications.",
+      "Unlike Visi On, Windows developers did not need to use Unix to develop IBM PC applications; Microsoft planned to encourage other companies, including competitors, to develop programs for Windows by not requiring a Microsoft user interface in their applications.",
+      "On November 20, 1985 (40 years ago), the first retail release, Windows 1.01, was released in the United States at a cost of US$99 (equivalent to about $296.00 in 2025)."
+    ],
     "logo": "W1.0-logo",
     "requirements": [
       {
-        "name": "Windows 1.01",
+        "id": 1,
+        "name": "Minimum",
         "cpu": ["8088 processor"],
         "ram": ["256 KB of memory"],
-        "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
-        "sound": null,
-        "network": null,
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "display": "640×350 px in 16 colors",
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Intel 8086 or 80286"],
+        "ram": ["256 KB of memory or more"],
+        "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
+        "display": "640×350 px in 16 colors",
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },
@@ -81,13 +112,16 @@
     "id": 4,
     "name": "Windows 1.04",
     "codename": null,
-    "release": "April 10, 1987",
     "version": "1.04",
-    "editions": null,
     "build": null,
-    "architectures": ["x86-16"],
-    "obsolete": "December 31, 2001",
+    "editions": null,
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16"],
+    "ui": "MS-DOS Executive",
+    "rtm": "April 10, 1987",
+    "ga": "April 10, 1987",
+    "eos": "December 31, 2001",
+    "facts": [],
     "logo": "W1.0-logo",
     "requirements": [
       {

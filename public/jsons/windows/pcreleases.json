@@ -107,29 +107,68 @@
     "id": 5,
     "name": "Windows 2.01",
     "codename": null,
-    "release": "December 9, 1987",
     "version": "2.01",
-    "editions": null,
     "build": null,
-    "architectures": ["x86-16", "IA-32"],
-    "obsolete": "December 31, 2001",
+    "editions": null,
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16", "IA-32"],
+    "ui": "MS-DOS Executive",
+    "rtm": "December 9, 1987",
+    "ga": "December 9, 1987",
+    "eos": "December 31, 2001",
+    "facts": [
+      "The Windows/386 release is labeled 2.01 and is dated September 1987",
+      "The Windows/386 2.01 variant was finalized and released as an OEM version for the Compaq DeskPro 386 in September 1987.",
+      "This version was finalized early to meet contractual obligations to bundle it with new 386 computers.",
+      "The more widely known Windows 2.03 was released shortly after on December 9, 1987.",
+      "It allowed multiple DOS applications to run in parallel using virtual 8086 mode, a significant improvement over the base Windows 2.0.",
+      "While 'Windows 2.01' is technically a version number, this specific release was labeled and marketed as Windows/386, differentiating it from the standard Windows 2.03 that ran in Real Mode.",
+      "In summary, Windows/386 2.01 is a version of Windows 2.0, but specifically the '386' variant, not the standard, generic Windows 2.01 release. "
+    ],
     "logo": "W2.0-logo",
     "requirements": [
       {
-        "name": "Windows 2.01",
-        "cpu": [
-          "8088 processor",
-          "80286 processor recommended",
-          "80386 processor recommended"
-        ],
+        "id": 1,
+        "name": "Minimum",
+        "cpu": ["Intel 8088 processor"],
         "ram": ["512 KB of memory"],
+        "vga": ["CGA, EGA, or VGA adapter"],
+        "display": "640×350 px in 16 colors",
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "media": null,
-        "vga": ["EGA adapters", "VGA adapters"],
-        "sound": null,
-        "network": null,
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Intel 80286 processor", "Intel 80386 processor"],
+        "ram": [
+          "640 KB of memory",
+          "1024 KB was often needed if using SCSI drives"
+        ],
+        "vga": [
+          "VGA adapters",
+          "seng Labs ET3000/ET4000",
+          "Cirrus Logic CL-GD54xx Series"
+        ],
+        "display": "640×350 px or 640×480 px in 16 colors",
+        "storage": [
+          "A hard disk drive (SCSI was often highlighted for performance)"
+        ],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

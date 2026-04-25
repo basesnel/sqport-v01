@@ -60,25 +60,53 @@
     "id": 2,
     "name": "Windows 1.02",
     "codename": null,
-    "release": "May 14, 1986",
     "version": "1.02",
-    "editions": null,
     "build": null,
-    "architectures": ["x86-16"],
-    "obsolete": "December 31, 2001",
+    "editions": null,
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16"],
+    "ui": "MS-DOS Executive",
+    "rtm": "May 14, 1986",
+    "ga": "May 14, 1986",
+    "eos": "December 31, 2001",
+    "facts": [
+      "Release 1.02, was published in May 1986 mainly for the European market, also introducing non-English versions of Windows 1.0."
+    ],
     "logo": "W1.0-logo",
     "requirements": [
       {
-        "name": "Windows 1.02",
+        "id": 1,
+        "name": "Minimum",
         "cpu": ["8088 processor"],
         "ram": ["256 KB of memory"],
-        "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
-        "sound": null,
-        "network": null,
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "display": "640×350 px in 16 colors",
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Intel 8086 or 80286"],
+        "ram": ["256 KB of memory or more"],
+        "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
+        "display": "640×350 px in 16 colors",
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

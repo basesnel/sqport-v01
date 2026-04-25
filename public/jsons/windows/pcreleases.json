@@ -177,19 +177,44 @@
     "rtm": "April 10, 1987",
     "ga": "April 10, 1987",
     "eos": "December 31, 2001",
-    "facts": [],
+    "facts": [
+      "Version 1.04, released in April 1987, added support for the new IBM PS/2 computers."
+    ],
     "logo": "W1.0-logo",
     "requirements": [
       {
-        "name": "Windows 1.04",
+        "id": 1,
+        "name": "Minimum",
         "cpu": ["8088 processor"],
         "ram": ["320 KB of memory"],
-        "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "media": null,
         "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
-        "sound": null,
-        "network": null,
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "display": "640×350 px in 16 colors",
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Intel 8086 or 80286"],
+        "ram": ["256 KB of memory or more"],
+        "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
+        "display": "640×350 px in 16 colors",
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

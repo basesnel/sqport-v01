@@ -114,25 +114,53 @@
     "id": 3,
     "name": "Windows 1.03",
     "codename": null,
-    "release": "August 21, 1986",
     "version": "1.03",
-    "editions": null,
     "build": null,
-    "architectures": ["x86-16"],
-    "obsolete": "December 31, 2001",
+    "editions": null,
     "licenses": ["Commercial software"],
+    "architectures": ["x86-16"],
+    "ui": "MS-DOS Executive",
+    "rtm": "August 21, 1986",
+    "ga": "August 21, 1986",
+    "eos": "December 31, 2001",
+    "facts": [
+      "The version 1.03, released in August 1986, included enhancements that made it consistent with the international release like drivers for non-U.S. keyboards and additional screen and printer drivers, and superseded both version 1.01 in the US and version 1.02 in Europe."
+    ],
     "logo": "W1.0-logo",
     "requirements": [
       {
-        "name": "Windows 1.03",
+        "id": 1,
+        "name": "Minimum",
         "cpu": ["8088 processor"],
         "ram": ["320 KB of memory"],
+        "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
+        "display": "640×350 px in 16 colors",
         "storage": ["Two double-sided floppy disk drives or a hard disk"],
-        "media": null,
-        "vga": ["CGA adapters", "HGC adapters", "EGA adapters"],
-        "sound": null,
-        "network": null,
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": ["Intel 8086 or 80286"],
+        "ram": ["256 KB of memory or more"],
+        "vga": ["CGA adapters", "HGC adapters", "EGA adapters", "VGA adapters"],
+        "display": "640×350 px in 16 colors",
+        "storage": ["Two double-sided floppy disk drives or a hard disk"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": null,
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

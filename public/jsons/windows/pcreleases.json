@@ -2838,7 +2838,8 @@
     "facts": [
       "The update has reached end of service on November 10, 2020 for Home, Pro, Pro Education, Pro for Workstations and IoT Core editions.",
       "The Enterprise, IoT Enterprise and Education editions have reached end of service on May 11, 2021.",
-      "The Enterprise LTSC, IoT Enterprise LTSC and IoT Core LTSC editions will reach end of service on January 9, 2029."
+      "The Enterprise LTSC, IoT Enterprise LTSC and IoT Core LTSC editions will reach end of service on January 9, 2029.",
+      "Windows 10 Long-Term Servicing Branch (LTSB) was rebranded to Long-Term Servicing Channel (LTSC) in late 2018, specifically with the release of the Windows 10 Enterprise LTSC 2019 version (version 1809)."
     ],
     "logo": "W10-logo",
     "requirements": [
@@ -2959,10 +2960,14 @@
           "1 GHz or faster processor, or System on a Chip (SoC)",
           "It must be compatible with standard or instruction sets, including PAE, NX, and SSE2"
         ],
-        "ram": ["32 GB or greater"],
+        "ram": [
+          "IA-32 edition: 1 GB",
+          "x64 edition: 2 GB",
+          "4 GB is the practical minimum recommended for reasonable performance"
+        ],
         "vga": ["DirectX 9 graphics device WDDM 1.0 or higher driver"],
         "display": "1024×768 px",
-        "storage": ["IA-32 edition: 16 GB", "x64 edition: 20 GB"],
+        "storage": ["32 GB or greater"],
         "ports": [
           {
             "id": 1,
@@ -3029,9 +3034,9 @@
   {
     "id": 43,
     "name": "Windows 10 version 1909",
-    "codename": "Vanadium",
-    "release": "November 12, 2019",
+    "codename": "Vanadium (19H2)",
     "version": "1909",
+    "build": 18363,
     "editions": [
       "Windows 10 Home",
       "Windows 10 Pro",
@@ -3042,58 +3047,99 @@
       "Windows 10 S",
       "Windows 10 Enterprise LTSC"
     ],
-    "build": 18363,
-    "architectures": ["IA-32", "x86-64", "ARM64"],
-    "obsolete": "May 11, 2021",
     "licenses": [
       "Trialware",
       "Microsoft Software Assurance",
       "MSDN subscription",
       "Microsoft Imagine"
     ],
-    "logo": "W10-logo",
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "ui": "Windows shell",
+    "rtm": "November 12, 2019",
+    "ga": "November 12, 2019",
+    "eos": "May 11, 2021",
     "facts": [
-      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
-      "This is the latest version, which officially does not check the processor model before installation.",
-      "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
-      "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
+      "The build of Windows 10, version 1909, codenamed '19H2', was released to the public on November 12, 2019, after being on the Insider Release Preview branch since August 26, 2019.",
+      "The update has reached end of service on May 11, 2021 for Home, Pro, Pro Education and Pro for Workstations editions.",
+      "The Enterprise, IoT Enterprise and Education editions have reached end of service on May 10, 2022."
     ],
+    "logo": "W10-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": [
           "1 GHz clock rate IA-32 or x86-64 architecture with at least 2 cores",
           "Support for PAE, NX and SSE2",
           "x86-64 CPUs must also support CMPXCHG16B, PrefetchW, and LAHF/SAHF instructions"
         ],
-        "ram": ["IA-32 edition: 1 GB", "x64 edition: 2 GB"],
-        "storage": ["IA-32 edition: 20 GB", "x64 edition: 32 GB"],
-        "media": ["Any optical disc drive capable of reading DVD-ROM media."],
-        "vga": [
-          "DirectX 9 graphics device WDDM 1.0 or higher driver",
-          "800x600 pixels"
+        "ram": [
+          "IA-32 edition: 1 GB",
+          "x64 edition: 2 GB",
+          "4 GB is the practical minimum recommended for reasonable performance"
         ],
-        "sound": null,
-        "network": "",
-        "mouse": "Keyboard and mouse"
+        "vga": ["DirectX 9 graphics device WDDM 1.0 or higher driver"],
+        "display": "1024×768 px",
+        "storage": ["32 GB or greater"],
+        "ports": [
+          {
+            "id": 1,
+            "ports": [13],
+            "purposes": [
+              "USB Ports (Standard 2.0 or higher)",
+              "They are required to install Windows 10 from a USB drive, since most modern computers do not have CD/DVD drives",
+              "At a minimum, you need to connect a bootable USB drive for the installation",
+              "This is required to connect a keyboard and mouse during setup"
+            ]
+          },
+          {
+            "id": 2,
+            "ports": [1],
+            "purposes": [
+              "Necessary to display old-format analog video on the screen"
+            ]
+          },
+          {
+            "id": 3,
+            "ports": [2, 3, 4, 9, 10],
+            "purposes": [
+              "Necessary to display new-format digital video on the screen"
+            ]
+          },
+          {
+            "id": 4,
+            "ports": [16, 17],
+            "purposes": [
+              "Required to create a Microsoft account, download updates, and activate the operating system"
+            ]
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": [
-          "1 GHz clock rate IA-32 or x86-64 architecture with at least 2 cores",
-          "Support for PAE, NX and SSE2",
-          "x86-64 CPUs must also support CMPXCHG16B, PrefetchW, and LAHF/SAHF instructions"
+          "Intel: 10th Generation Core (i3/i5/i7/i9-10xxx), 9th Gen Core, Xeon E-22xx, and various Intel Celeron/Pentium/Atom J4xxx/J5xxx/N4xxx/N5xxx.",
+          "AMD: 3rd Generation Ryzen (e.g., Ryzen 9 3900X), up to AMD 7th Gen A-Series, E-Series, FX-9000, and Athlon 2xx",
+          "Qualcomm: Qualcomm Snapdragon 850 and 8cx"
         ],
-        "ram": ["4 GB"],
-        "storage": [""],
-        "media": ["Any optical disc drive capable of reading DVD-ROM media."],
+        "ram": ["8 GB"],
         "vga": ["WDDM 1.3 or higher driver"],
-        "sound": null,
-        "network": "",
-        "mouse": "Keyboard, mouse and multi-touch display",
-        "other": [
-          "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
-          "Trusted Platform Module (TPM) Internet connectivity"
+        "display": "1920×1080 px",
+        "storage": ["256GB to 512GB SSD"],
+        "ports": [
+          {
+            "media": [
+              "Any optical disc drive capable of reading DVD-ROM media."
+            ],
+            "sound": null,
+            "network": "",
+            "mouse": "Keyboard, mouse and multi-touch display",
+            "other": [
+              "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+              "Trusted Platform Module (TPM) Internet connectivity"
+            ]
+          }
         ]
       }
     ]

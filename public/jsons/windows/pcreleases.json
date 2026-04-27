@@ -2173,11 +2173,14 @@
     "eos": "May 9, 2017",
     "facts": [
       "Windows 10 received generally positive reviews.",
-      "Praise was given to the return of the desktop interface, improved bundled software compared to Windows 8.1, and other capabilities, while criticism was directed at behavioral changes such as mandatory update installation, privacy concerns over data collection, and adware-like tactics to promote the operating system on release.",
       "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
       "This is the latest version, which officially does not check the processor model before installation.",
       "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
-      "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
+      "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista.",
+      "Mainstream builds of Windows 10 are labeled 'YYMM', with YY representing the two-digit year and MM representing the month of planned release.",
+      "Starting with version 20H2, Windows 10 release nomenclature changed from the year and month pattern to a year and half-year pattern (YYH1, YYH2).",
+      "The update has reached end of service on May 9, 2017 in the Current Branch and Current Branch for Business.",
+      "The Enterprise LTSB edition has reached end of service on October 14, 2025."
     ],
     "logo": "W10-logo",
     "requirements": [

@@ -2618,46 +2618,82 @@
     "rtm": "October 17, 2017",
     "ga": "October 17, 2017",
     "eos": "April 9, 2019",
-    "logo": "W10-logo",
     "facts": [
       "The update has reached end of service on April 9, 2019 for Home, Pro, Pro Education, Pro for Workstations, and IoT Core editions.",
       "The Enterprise and Education editions would have originally reached end of service on April 14, 2020, but this was postponed to October 13 of the same year due to the COVID-19 pandemic."
     ],
+    "logo": "W10-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": [
           "1 GHz clock rate IA-32 or x86-64 architecture with at least 2 cores",
           "1.4 GHz minimum is often cited for 64-bit editions to ensure stable performance."
         ],
         "ram": ["IA-32 edition: 1 GB", "x64 edition: 2 GB"],
+        "vga": ["DirectX 9 graphics device WDDM 1.0 or higher driver"],
+        "display": "800×600 px",
         "storage": ["IA-32 edition: 16 GB", "x64 edition: 20 GB"],
-        "media": ["Any optical disc drive capable of reading DVD-ROM media."],
-        "vga": [
-          "DirectX 9 graphics device WDDM 1.0 or higher driver",
-          "800x600 pixels"
-        ],
-        "sound": null,
-        "network": "",
-        "mouse": "Keyboard and mouse"
+        "ports": [
+          {
+            "id": 1,
+            "ports": [13],
+            "purposes": [
+              "USB Ports (Standard 2.0 or higher)",
+              "They are required to install Windows 10 from a USB drive, since most modern computers do not have CD/DVD drives",
+              "At a minimum, you need to connect a bootable USB drive for the installation",
+              "This is required to connect a keyboard and mouse during setup"
+            ]
+          },
+          {
+            "id": 2,
+            "ports": [1],
+            "purposes": [
+              "Necessary to display old-format analog video on the screen"
+            ]
+          },
+          {
+            "id": 3,
+            "ports": [2, 3, 4, 9, 10],
+            "purposes": [
+              "Necessary to display new-format digital video on the screen"
+            ]
+          },
+          {
+            "id": 4,
+            "ports": [16, 17],
+            "purposes": [
+              "Required to create a Microsoft account, download updates, and activate the operating system"
+            ]
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": [
           "Intel Core: 6th Generation (Skylake), 7th Generation (Kaby Lake), or 8th Generation (Coffee Lake)",
           "Ryzen 3, 5, or 7 processors, particularly A-Series (A10, A12, A6) and early Athlon/EPYC chips supported in 2017",
           "Budget/Mobile: Intel Celeron 3000/4000 series (e.g., J4005, N4000) or Intel Core m3-6Y30/m5-6Y54."
         ],
-        "ram": ["4 GB"],
-        "storage": [""],
-        "media": ["Any optical disc drive capable of reading DVD-ROM media."],
+        "ram": ["8 GB"],
         "vga": ["WDDM 1.3 or higher driver"],
-        "sound": null,
-        "network": "",
-        "mouse": "Keyboard, mouse and multi-touch display",
-        "other": [
-          "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
-          "Trusted Platform Module (TPM) Internet connectivity"
+        "display": "1920×1080 px",
+        "storage": ["256GB to 512GB SSD"],
+        "ports": [
+          {
+            "media": [
+              "Any optical disc drive capable of reading DVD-ROM media."
+            ],
+            "sound": null,
+            "network": "",
+            "mouse": "Keyboard, mouse and multi-touch display",
+            "other": [
+              "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+              "Trusted Platform Module (TPM) Internet connectivity"
+            ]
+          }
         ]
       }
     ]

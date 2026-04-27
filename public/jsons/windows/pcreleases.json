@@ -2595,8 +2595,8 @@
     "id": 39,
     "name": "Windows 10 version 1709",
     "codename": "Redstone 3",
-    "release": "October 17, 2017",
     "version": "1709",
+    "build": 16299,
     "editions": [
       "Windows 10 Home",
       "Windows 10 Pro",
@@ -2607,29 +2607,28 @@
       "Windows 10 S",
       "Windows 10 Enterprise LTSC"
     ],
-    "build": 16299,
-    "architectures": ["IA-32", "x86-64", "ARM64"],
-    "obsolete": "April 9, 2019",
     "licenses": [
       "Trialware",
       "Microsoft Software Assurance",
       "MSDN subscription",
       "Microsoft Imagine"
     ],
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "ui": "Windows shell",
+    "rtm": "October 17, 2017",
+    "ga": "October 17, 2017",
+    "eos": "April 9, 2019",
     "logo": "W10-logo",
     "facts": [
-      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
-      "This is the latest version, which officially does not check the processor model before installation.",
-      "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
-      "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
+      "The update has reached end of service on April 9, 2019 for Home, Pro, Pro Education, Pro for Workstations, and IoT Core editions.",
+      "The Enterprise and Education editions would have originally reached end of service on April 14, 2020, but this was postponed to October 13 of the same year due to the COVID-19 pandemic."
     ],
     "requirements": [
       {
         "name": "Minimum",
         "cpu": [
           "1 GHz clock rate IA-32 or x86-64 architecture with at least 2 cores",
-          "Support for PAE, NX and SSE2",
-          "x86-64 CPUs must also support CMPXCHG16B, PrefetchW, and LAHF/SAHF instructions"
+          "1.4 GHz minimum is often cited for 64-bit editions to ensure stable performance."
         ],
         "ram": ["IA-32 edition: 1 GB", "x64 edition: 2 GB"],
         "storage": ["IA-32 edition: 16 GB", "x64 edition: 20 GB"],
@@ -2645,9 +2644,9 @@
       {
         "name": "Recommended",
         "cpu": [
-          "1 GHz clock rate IA-32 or x86-64 architecture with at least 2 cores",
-          "Support for PAE, NX and SSE2",
-          "x86-64 CPUs must also support CMPXCHG16B, PrefetchW, and LAHF/SAHF instructions"
+          "Intel Core: 6th Generation (Skylake), 7th Generation (Kaby Lake), or 8th Generation (Coffee Lake)",
+          "Ryzen 3, 5, or 7 processors, particularly A-Series (A10, A12, A6) and early Athlon/EPYC chips supported in 2017",
+          "Budget/Mobile: Intel Celeron 3000/4000 series (e.g., J4005, N4000) or Intel Core m3-6Y30/m5-6Y54."
         ],
         "ram": ["4 GB"],
         "storage": [""],

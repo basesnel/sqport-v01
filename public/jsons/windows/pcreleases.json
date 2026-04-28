@@ -3720,17 +3720,96 @@
     "licenses": ["Proprietary"],
     "architectures": ["x86-64", "ARM64"],
     "ui": "Fluent Design System",
-    "rtm": "October 18, 2022",
-    "ga": "October 18, 2022",
+    "rtm": "October 5, 2021",
+    "ga": "October 5, 2021",
     "eos": "October 10, 2023",
     "facts": [
-      "The core of Windows 11 version 21H2 is codenamed Cobalt;[7] the 'Sun Valley' codename refers to the UI layer of Windows 11 version 21H2 and is commonly used to address Windows 11 version 21H2 as a whole.",
+      "The core of Windows 11 version 21H2 is codenamed Cobalt; the 'Sun Valley' codename refers to the UI layer of Windows 11 version 21H2 and is commonly used to address Windows 11 version 21H2 as a whole.",
       "The original version of Windows 11 (also known as version 21H2 and codenamed 'Sun Valley') was released in October 2021. It carries the build number 10.0.22000.",
       "The first public preview build was made available to Windows Insiders who opted in to the Dev Channel on June 28, 2021.",
       "The update has reached end of service on October 10, 2023 for Home, Pro, Pro Education and Pro for Workstations editions.",
-      "The Enterprise, Enterprise multi-session, IoT Enterprise and Education editions have reached end of service on October 8, 2024."
+      "The Enterprise, Enterprise multi-session, IoT Enterprise and Education editions have reached end of service on October 8, 2024.",
+      "Compatibility Check: It's possible to use Microsoft's official PC Health Check App to verify your CPU",
+      "Older CPUs: While 8th gen+ is required, some older CPUs may technically run it, but they are not officially supported.",
+      "21H2 vs 24H2: While 21H2 allows 8th Gen, newer versions (like 24H2) are narrowing support towards 10th Gen and newer for newer devices."
     ],
-    "logo": "W11-logo"
+    "logo": "W11-logo",
+    "requirements": [
+      {
+        "id": 1,
+        "name": "Minimum",
+        "cpu": [
+          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security",
+          "Intel 8th Generation or newer",
+          "AMD Ryzen 2000 series or newer"
+        ],
+        "ram": ["4 GB"],
+        "vga": ["DirectX 12 graphics device WDDM 2.0 or higher driver"],
+        "display": "1280×720 px",
+        "storage": ["64 GB or greater"],
+        "ports": [
+          {
+            "id": 1,
+            "ports": [13],
+            "purposes": [
+              "USB Ports (Standard 2.0 or higher)",
+              "They are required to install Windows 10 from a USB drive, since most modern computers do not have CD/DVD drives",
+              "At a minimum, you need to connect a bootable USB drive for the installation",
+              "This is required to connect a keyboard and mouse during setup"
+            ]
+          },
+          {
+            "id": 2,
+            "ports": [1],
+            "purposes": [
+              "Necessary to display old-format analog video on the screen"
+            ]
+          },
+          {
+            "id": 3,
+            "ports": [2, 3, 4, 9, 10],
+            "purposes": [
+              "Necessary to display new-format digital video on the screen"
+            ]
+          },
+          {
+            "id": 4,
+            "ports": [16, 17],
+            "purposes": [
+              "Required to create a Microsoft account, download updates, and activate the operating system"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": [
+          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security",
+          "Intel: Generally 8th Generation Core processors or higher (Core i3-8xxx, i5-8xxx, i7-8xxx, etc.), including some Pentium and Celeron chips",
+          "AMD: Ryzen 2000 series (Zen+) or newer (e.g., Ryzen 5 2600, Ryzen 7 3700X, Ryzen 5 3500U)",
+          "Qualcomm: Snapdragon 850, 7c, 8c, 8cx, and newer"
+        ],
+        "ram": ["8 GB"],
+        "vga": ["WDDM 1.3 or higher driver"],
+        "display": "1920×1080 px",
+        "storage": ["256GB to 512GB SSD"],
+        "ports": [
+          {
+            "media": [
+              "Any optical disc drive capable of reading DVD-ROM media."
+            ],
+            "sound": null,
+            "network": "",
+            "mouse": "Keyboard, mouse and multi-touch display",
+            "other": [
+              "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+              "Trusted Platform Module (TPM) Internet connectivity"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 50,

@@ -2084,7 +2084,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64"],
-    "ui": "Windows shell",
+    "ui": "Modern UI or Metro",
     "rtm": "August 27, 2013",
     "ga": "October 17, 2013",
     "eos": "January 10, 2023",
@@ -2167,7 +2167,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "July 15, 2015",
     "ga": "July 29, 2015",
     "eos": "May 9, 2017",
@@ -2281,7 +2281,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "November 10, 2015",
     "ga": "November 12, 2015",
     "eos": "October 10, 2017",
@@ -2390,7 +2390,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "August 2, 2016",
     "ga": "August 2, 2016",
     "eos": "April 10, 2018",
@@ -2504,7 +2504,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": null,
     "ga": " April 11, 2017",
     "eos": "October 9, 2018",
@@ -2614,7 +2614,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "October 17, 2017",
     "ga": "October 17, 2017",
     "eos": "April 9, 2019",
@@ -2721,6 +2721,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "April 30, 2018",
     "ga": "April 30, 2018",
     "eos": "November 12, 2019",
@@ -2831,7 +2832,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "November 13, 2018",
     "ga": "November 13, 2018",
     "eos": "November 10, 2020",
@@ -2944,7 +2945,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "May 21, 2019",
     "ga": "May 21, 2019",
     "eos": "December 8, 2020",
@@ -3054,7 +3055,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "November 12, 2019",
     "ga": "November 12, 2019",
     "eos": "May 11, 2021",
@@ -3167,7 +3168,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "April 16, 2020",
     "ga": "May 27, 2020",
     "eos": "December 14, 2021",
@@ -3276,7 +3277,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "October 20, 2020",
     "ga": "October 20, 2020",
     "eos": "May 10, 2022",
@@ -3388,7 +3389,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "April 28, 2021",
     "ga": "May 18, 2021",
     "eos": "December 13, 2022",
@@ -3496,7 +3497,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "July 15, 2021",
     "ga": "November 16, 2021",
     "eos": "June 13, 2023",
@@ -3611,7 +3612,7 @@
       "Microsoft Imagine"
     ],
     "architectures": ["IA-32", "x86-64", "ARM64"],
-    "ui": "Windows shell",
+    "ui": "Universal Windows Platform (UWP)",
     "rtm": "October 18, 2022",
     "ga": "October 18, 2022",
     "eos": "October 14, 2025",
@@ -3705,8 +3706,8 @@
     "id": 49,
     "name": "Windows 11",
     "codename": "Cobalt",
-    "release": "October 18, 2022",
     "version": "21H2",
+    "build": 22000,
     "editions": [
       "Windows 11 Home",
       "Windows 11 Pro",
@@ -3716,10 +3717,19 @@
       "Windows 11 Enterprise",
       "Windows 11 SE"
     ],
-    "build": 22000,
-    "architectures": ["x86-64", "ARM64"],
-    "obsolete": "October 10, 2023",
     "licenses": ["Proprietary"],
+    "architectures": ["x86-64", "ARM64"],
+    "ui": "Fluent Design System",
+    "rtm": "October 18, 2022",
+    "ga": "October 18, 2022",
+    "eos": "October 10, 2023",
+    "facts": [
+      "The core of Windows 11 version 21H2 is codenamed Cobalt;[7] the 'Sun Valley' codename refers to the UI layer of Windows 11 version 21H2 and is commonly used to address Windows 11 version 21H2 as a whole.",
+      "The original version of Windows 11 (also known as version 21H2 and codenamed 'Sun Valley') was released in October 2021. It carries the build number 10.0.22000.",
+      "The first public preview build was made available to Windows Insiders who opted in to the Dev Channel on June 28, 2021.",
+      "The update has reached end of service on October 10, 2023 for Home, Pro, Pro Education and Pro for Workstations editions.",
+      "The Enterprise, Enterprise multi-session, IoT Enterprise and Education editions have reached end of service on October 8, 2024."
+    ],
     "logo": "W11-logo"
   },
   {

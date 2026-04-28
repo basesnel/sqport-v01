@@ -3927,8 +3927,8 @@
     "id": 51,
     "name": "Windows 11 version 23H2",
     "codename": "Nickel",
-    "release": "October 31, 2023",
     "version": "23H2",
+    "build": 22631,
     "editions": [
       "Windows 11 Home",
       "Windows 11 Pro",
@@ -3938,11 +3938,96 @@
       "Windows 11 Enterprise",
       "Windows 11 SE"
     ],
-    "build": 22631,
-    "architectures": ["x86-64", "ARM64"],
-    "obsolete": "November 11, 2025",
     "licenses": ["Proprietary"],
-    "logo": "W11-logo"
+    "architectures": ["x86-64", "ARM64"],
+    "ui": "Fluent Design System",
+    "rtm": "October 31, 2023",
+    "ga": "October 31, 2023",
+    "eos": "November 11, 2025",
+    "facts": [
+      "The Windows 11 2023 Update (also known as version 23H2 and codenamed 'Sun Valley 3') is the second major update to Windows 11.",
+      "This is the last version of Windows 11 where the DNS Cache Service DNScache is used as an optional service.",
+      "This behavior was changed on version 24H2 onwards, where the DNS Cache Service is now mandatory to access the Internet thus if disabled, the system will not be able to access the internet anymore.",
+      "The update has reach end of service on November 11, 2025 for Home, Pro, Pro Education, Pro for Workstations and SE editions.",
+      "The Enterprise, Enterprise multi-session, IoT Enterprise and Education editions will reach end of service on November 10, 2026."
+    ],
+    "logo": "W11-logo",
+    "requirements": [
+      {
+        "id": 1,
+        "name": "Minimum",
+        "cpu": [
+          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security, UEFI and Secure Boot capable",
+          "Intel 8th Generation or newer",
+          "AMD Ryzen 2000 series or newer"
+        ],
+        "ram": ["4 GB"],
+        "vga": ["DirectX 12 graphics device WDDM 2.0 or higher driver"],
+        "display": "1280×720 px",
+        "storage": ["64 GB or greater"],
+        "ports": [
+          {
+            "id": 1,
+            "ports": [13],
+            "purposes": [
+              "USB Ports (Standard 2.0 or higher)",
+              "They are required to install Windows 10 from a USB drive, since most modern computers do not have CD/DVD drives",
+              "At a minimum, you need to connect a bootable USB drive for the installation",
+              "This is required to connect a keyboard and mouse during setup"
+            ]
+          },
+          {
+            "id": 2,
+            "ports": [1],
+            "purposes": [
+              "Necessary to display old-format analog video on the screen"
+            ]
+          },
+          {
+            "id": 3,
+            "ports": [2, 3, 4, 9, 10],
+            "purposes": [
+              "Necessary to display new-format digital video on the screen"
+            ]
+          },
+          {
+            "id": 4,
+            "ports": [16, 17],
+            "purposes": [
+              "Required to create a Microsoft account, download updates, and activate the operating system"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": [
+          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security, UEFI and Secure Boot capable",
+          "Intel: Generally 8th Generation Core processors or higher (Core i3-8xxx, i5-8xxx, i7-8xxx, etc.), including some Pentium and Celeron chips",
+          "AMD: Ryzen 2000 series (Zen+) or newer (e.g., Ryzen 5 2600, Ryzen 7 3700X, Ryzen 5 3500U)",
+          "Qualcomm: Snapdragon 850, 7c, 8c, 8cx, and newer"
+        ],
+        "ram": ["8 GB"],
+        "vga": ["WDDM 1.3 or higher driver"],
+        "display": "1920×1080 px",
+        "storage": ["256GB to 512GB SSD"],
+        "ports": [
+          {
+            "media": [
+              "Any optical disc drive capable of reading DVD-ROM media."
+            ],
+            "sound": null,
+            "network": "",
+            "mouse": "Keyboard, mouse and multi-touch display",
+            "other": [
+              "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+              "Trusted Platform Module (TPM) Internet connectivity"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 52,

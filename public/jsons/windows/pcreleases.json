@@ -3477,8 +3477,8 @@
     "id": 47,
     "name": "Windows 10 version 21H2",
     "codename": "Vibranium",
-    "release": "November 16, 2021",
     "version": "21H2",
+    "build": 19044,
     "editions": [
       "Windows 10 Home",
       "Windows 10 Pro",
@@ -3489,58 +3489,101 @@
       "Windows 10 S",
       "Windows 10 Enterprise LTSC"
     ],
-    "build": 19044,
-    "architectures": ["IA-32", "x86-64", "ARM64"],
-    "obsolete": "June 13, 2023",
     "licenses": [
       "Trialware",
       "Microsoft Software Assurance",
       "MSDN subscription",
       "Microsoft Imagine"
     ],
-    "logo": "W10-logo",
+    "architectures": ["IA-32", "x86-64", "ARM64"],
+    "ui": "Windows shell",
+    "rtm": "July 15, 2021",
+    "ga": "November 16, 2021",
+    "eos": "June 13, 2023",
     "facts": [
-      "It is the last version of Windows that supports 32-bit processors, BIOS firmware, and systems with no TPM or TPM 1.2.",
-      "This is the latest version, which officially does not check the processor model before installation.",
-      "Windows 10 is distributed digitally through the 'Media Creation Tool', which is functionally identical to the Windows 8 online installer, and can also be used to generate an ISO image or USB install media.",
-      "The basic hardware requirements to install Windows 10 were initially the same as those for Windows 8 and Windows 8.1, and only slightly higher than for Windows 7 and Windows Vista."
+      "The thirteenth stable build of Windows 10, version 21H2, was released to the public on November 16, 2021, after being on the Beta Channel since July 15, 2021.",
+      "Added GPU compute support in the Windows Subsystem for Linux (WSL) and Azure IoT Edge for Linux on Windows (EFLOW) deployments.",
+      "Added support for NVMe 2.0.",
+      "The update has reached end of service on June 13, 2023 for Home, Pro, Pro Education and Pro for Workstations editions.",
+      "The Enterprise, Enterprise multi-session, IoT Enterprise and Education editions have reached end of service on June 11, 2024.",
+      "The Enterprise LTSC and IoT Enterprise LTSC editions will reach end of service on January 12, 2027 and January 13, 2032, respectively."
     ],
+    "logo": "W10-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": [
-          "1 GHz clock rate IA-32 or x86-64 architecture with at least 2 cores",
-          "Support for PAE, NX and SSE2",
-          "x86-64 CPUs must also support CMPXCHG16B, PrefetchW, and LAHF/SAHF instructions"
+          "1 GHz or faster processor (1.4 GHz for x64)",
+          "System on a Chip (SoC)"
         ],
-        "ram": ["IA-32 edition: 1 GB", "x64 edition: 2 GB"],
-        "storage": ["IA-32 edition: 20 GB", "x64 edition: 32 GB"],
-        "media": ["Any optical disc drive capable of reading DVD-ROM media."],
-        "vga": [
-          "DirectX 9 graphics device WDDM 1.0 or higher driver",
-          "800x600 pixels"
+        "ram": [
+          "IA-32 edition: 1 GB",
+          "x64 edition: 2 GB",
+          "4 GB is the practical minimum recommended for reasonable performance"
         ],
-        "sound": null,
-        "network": "",
-        "mouse": "Keyboard and mouse"
+        "vga": ["DirectX 9 graphics device WDDM 1.0 or higher driver"],
+        "display": "800×600 px",
+        "storage": ["32 GB or greater"],
+        "ports": [
+          {
+            "id": 1,
+            "ports": [13],
+            "purposes": [
+              "USB Ports (Standard 2.0 or higher)",
+              "They are required to install Windows 10 from a USB drive, since most modern computers do not have CD/DVD drives",
+              "At a minimum, you need to connect a bootable USB drive for the installation",
+              "This is required to connect a keyboard and mouse during setup"
+            ]
+          },
+          {
+            "id": 2,
+            "ports": [1],
+            "purposes": [
+              "Necessary to display old-format analog video on the screen"
+            ]
+          },
+          {
+            "id": 3,
+            "ports": [2, 3, 4, 9, 10],
+            "purposes": [
+              "Necessary to display new-format digital video on the screen"
+            ]
+          },
+          {
+            "id": 4,
+            "ports": [16, 17],
+            "purposes": [
+              "Required to create a Microsoft account, download updates, and activate the operating system"
+            ]
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": [
-          "1 GHz clock rate IA-32 or x86-64 architecture with at least 2 cores",
-          "Support for PAE, NX and SSE2",
-          "x86-64 CPUs must also support CMPXCHG16B, PrefetchW, and LAHF/SAHF instructions"
+          "64-bit (x64) recommended, though 32-bit (x86) is supported",
+          "Supports up to Intel Core 12th Gen (including hybrid architectures), and modern AMD Ryzen/EPYC processors",
+          "A dual-core or quad-core processor is generally recommended for smooth operation"
         ],
-        "ram": ["4 GB"],
-        "storage": [""],
-        "media": ["Any optical disc drive capable of reading DVD-ROM media."],
+        "ram": ["8 GB"],
         "vga": ["WDDM 1.3 or higher driver"],
-        "sound": null,
-        "network": "",
-        "mouse": "Keyboard, mouse and multi-touch display",
-        "other": [
-          "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
-          "Trusted Platform Module (TPM) Internet connectivity"
+        "display": "1920×1080 px",
+        "storage": ["256GB to 512GB SSD"],
+        "ports": [
+          {
+            "media": [
+              "Any optical disc drive capable of reading DVD-ROM media."
+            ],
+            "sound": null,
+            "network": "",
+            "mouse": "Keyboard, mouse and multi-touch display",
+            "other": [
+              "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+              "Trusted Platform Module (TPM) Internet connectivity"
+            ]
+          }
         ]
       }
     ]

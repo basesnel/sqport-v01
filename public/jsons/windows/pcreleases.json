@@ -3720,7 +3720,7 @@
     "licenses": ["Proprietary"],
     "architectures": ["x86-64", "ARM64"],
     "ui": "Fluent Design System",
-    "rtm": "October 5, 2021",
+    "rtm": "June 24, 2021",
     "ga": "October 5, 2021",
     "eos": "October 10, 2023",
     "facts": [

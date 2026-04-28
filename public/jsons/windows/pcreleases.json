@@ -3739,7 +3739,7 @@
         "id": 1,
         "name": "Minimum",
         "cpu": [
-          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security",
+          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security, UEFI and Secure Boot capable",
           "Intel 8th Generation or newer",
           "AMD Ryzen 2000 series or newer"
         ],
@@ -3785,7 +3785,7 @@
         "id": 2,
         "name": "Recommended",
         "cpu": [
-          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security",
+          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security, UEFI and Secure Boot capable",
           "Intel: Generally 8th Generation Core processors or higher (Core i3-8xxx, i5-8xxx, i7-8xxx, etc.), including some Pentium and Celeron chips",
           "AMD: Ryzen 2000 series (Zen+) or newer (e.g., Ryzen 5 2600, Ryzen 7 3700X, Ryzen 5 3500U)",
           "Qualcomm: Snapdragon 850, 7c, 8c, 8cx, and newer"
@@ -3815,8 +3815,8 @@
     "id": 50,
     "name": "Windows 11 version 22H2",
     "codename": "Nickel",
-    "release": "September 20, 2022",
     "version": "22H2",
+    "build": 22621,
     "editions": [
       "Windows 11 Home",
       "Windows 11 Pro",
@@ -3826,11 +3826,102 @@
       "Windows 11 Enterprise",
       "Windows 11 SE"
     ],
-    "build": 22621,
-    "architectures": ["x86-64", "ARM64"],
-    "obsolete": "October 8, 2024",
     "licenses": ["Proprietary"],
-    "logo": "W11-logo"
+    "architectures": ["x86-64", "ARM64"],
+    "ui": "Fluent Design System",
+    "rtm": "May 24, 2022",
+    "ga": "September 20, 2022",
+    "eos": "October 8, 2024",
+    "facts": [
+      "The Windows 11 2022 Update (also known as version 22H2 and codenamed 'Sun Valley 2') is the first major update to Windows 11.",
+      "The first preview was released to Insiders who opted in to the Dev Channel on September 2, 2021.",
+      "As of build 22567, the version string has been changed from 'Dev' to '22H2'.",
+      "The update began rolling out on September 20, 2022.",
+      "The update has reached end of service on October 8, 2024 for Home, Pro, Pro Education, Pro for Workstations and SE editions.",
+      "The first component update to Windows 11, version 22H2, codenamed 'Moment 1', was released on October 18, 2022, with build 22621.675.",
+      "The second component update to Windows 11, version 22H2, codenamed 'Moment 2', was released on February 28, 2023, with build 22621.1344.",
+      "The third component update to Windows 11, version 22H2, codenamed 'Moment 3', was released on May 24, 2023, with build 22621.1778.",
+      "The fourth component update to Windows 11, version 22H2, codenamed 'Moment 4', was released on September 26, 2023, with build 22621.2361.",
+      "The fifth component update to Windows 11, version 22H2, codenamed 'Moment 5', was released on February 29, 2024, with build 22621.3235.",
+      "The Enterprise, Enterprise multi-session, IoT Enterprise and Education editions have reached end of service on October 14, 2025."
+    ],
+    "logo": "W11-logo",
+    "requirements": [
+      {
+        "id": 1,
+        "name": "Minimum",
+        "cpu": [
+          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security, UEFI and Secure Boot capable",
+          "Intel 8th Generation or newer",
+          "AMD Ryzen 2000 series or newer"
+        ],
+        "ram": ["4 GB"],
+        "vga": ["DirectX 12 graphics device WDDM 2.0 or higher driver"],
+        "display": "1280×720 px",
+        "storage": ["64 GB or greater"],
+        "ports": [
+          {
+            "id": 1,
+            "ports": [13],
+            "purposes": [
+              "USB Ports (Standard 2.0 or higher)",
+              "They are required to install Windows 10 from a USB drive, since most modern computers do not have CD/DVD drives",
+              "At a minimum, you need to connect a bootable USB drive for the installation",
+              "This is required to connect a keyboard and mouse during setup"
+            ]
+          },
+          {
+            "id": 2,
+            "ports": [1],
+            "purposes": [
+              "Necessary to display old-format analog video on the screen"
+            ]
+          },
+          {
+            "id": 3,
+            "ports": [2, 3, 4, 9, 10],
+            "purposes": [
+              "Necessary to display new-format digital video on the screen"
+            ]
+          },
+          {
+            "id": 4,
+            "ports": [16, 17],
+            "purposes": [
+              "Required to create a Microsoft account, download updates, and activate the operating system"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": [
+          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security, UEFI and Secure Boot capable",
+          "Intel: Generally 8th Generation Core processors or higher (Core i3-8xxx, i5-8xxx, i7-8xxx, etc.), including some Pentium and Celeron chips",
+          "AMD: Ryzen 2000 series (Zen+) or newer (e.g., Ryzen 5 2600, Ryzen 7 3700X, Ryzen 5 3500U)",
+          "Qualcomm: Snapdragon 850, 7c, 8c, 8cx, and newer"
+        ],
+        "ram": ["8 GB"],
+        "vga": ["WDDM 1.3 or higher driver"],
+        "display": "1920×1080 px",
+        "storage": ["256GB to 512GB SSD"],
+        "ports": [
+          {
+            "media": [
+              "Any optical disc drive capable of reading DVD-ROM media."
+            ],
+            "sound": null,
+            "network": "",
+            "mouse": "Keyboard, mouse and multi-touch display",
+            "other": [
+              "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+              "Trusted Platform Module (TPM) Internet connectivity"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 51,

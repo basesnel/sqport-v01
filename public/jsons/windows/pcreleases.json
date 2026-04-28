@@ -4033,8 +4033,8 @@
     "id": 52,
     "name": "Windows 11 version 24H2",
     "codename": "Germanium",
-    "release": "October 1, 2024",
     "version": "24H2",
+    "build": 26100,
     "editions": [
       "Windows 11 Home",
       "Windows 11 Pro",
@@ -4044,10 +4044,95 @@
       "Windows 11 Enterprise",
       "Windows 11 SE"
     ],
-    "build": 26100,
-    "architectures": ["x86-64", "ARM64"],
-    "obsolete": "October 13, 2026",
     "licenses": ["Proprietary"],
-    "logo": "W11-logo"
+    "architectures": ["x86-64", "ARM64"],
+    "ui": "Fluent Design System",
+    "rtm": "October 1, 2024",
+    "ga": "October 1, 2024",
+    "eos": "October 13, 2026",
+    "facts": [
+      "A x86-64-v2 CPU supporting SSE4.2 and POPCNT CPU instructions is now required, otherwise the Windows kernel is unbootable.",
+      "IoT Enterprise editions (LTSC and non-LTSC) have officially eliminated a TPM and UEFI requirement, and lowers the minimum DirectX version to 10 from 12, which was previously required on 23H2.",
+      "The new IoT Enterprise LTSC edition lowers the minimum required RAM to 2 GB, and storage space to 16 GB.",
+      "ARMv8.1 is now required for ARM variants, dropping unofficial support for ARMv8.0.",
+      "ARM variants drop support for 32-bit ARM applications."
+    ],
+    "logo": "W11-logo",
+    "requirements": [
+      {
+        "id": 1,
+        "name": "Minimum",
+        "cpu": [
+          "Intel 8th Gen (or newer) or AMD Ryzen 2000 (Zen+) series processor or later",
+          "Key additions include a strict requirement for SSE4.2 or the POPCNT instruction, which prevents booting on very old CPUs."
+        ],
+        "ram": ["4 GB"],
+        "vga": ["DirectX 12 graphics device WDDM 2.0 or higher driver"],
+        "display": "1280×720 px",
+        "storage": ["64 GB or greater"],
+        "ports": [
+          {
+            "id": 1,
+            "ports": [13],
+            "purposes": [
+              "USB Ports (Standard 2.0 or higher)",
+              "They are required to install Windows 10 from a USB drive, since most modern computers do not have CD/DVD drives",
+              "At a minimum, you need to connect a bootable USB drive for the installation",
+              "This is required to connect a keyboard and mouse during setup"
+            ]
+          },
+          {
+            "id": 2,
+            "ports": [1],
+            "purposes": [
+              "Necessary to display old-format analog video on the screen"
+            ]
+          },
+          {
+            "id": 3,
+            "ports": [2, 3, 4, 9, 10],
+            "purposes": [
+              "Necessary to display new-format digital video on the screen"
+            ]
+          },
+          {
+            "id": 4,
+            "ports": [16, 17],
+            "purposes": [
+              "Required to create a Microsoft account, download updates, and activate the operating system"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": [
+          "1 GHz or faster, 2 or more cores, 64-bit processor, and TPM 2.0 security, UEFI and Secure Boot capable",
+          "Intel: Officially supports 8th to 14th Gen, Core Ultra, and specific Pentium/Celeron chips",
+          "AMD: Officially supports Ryzen 2000 series (Zen+) to 9000 series",
+          "ARM: Snapdragon 850 or newer",
+          "Instruction Set: SSE4.2 support is mandatory"
+        ],
+        "ram": ["8 GB"],
+        "vga": ["WDDM 1.3 or higher driver"],
+        "display": "1920×1080 px",
+        "storage": ["256GB to 512GB SSD"],
+        "ports": [
+          {
+            "media": [
+              "Any optical disc drive capable of reading DVD-ROM media."
+            ],
+            "sound": null,
+            "network": "",
+            "mouse": "Keyboard, mouse and multi-touch display",
+            "other": [
+              "UEFI v2.3.1 Errata B with Microsoft Windows Certification Authority in its database",
+              "Trusted Platform Module (TPM) Internet connectivity"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

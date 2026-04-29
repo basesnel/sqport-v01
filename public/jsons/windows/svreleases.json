@@ -76,30 +76,65 @@
     "id": 2,
     "name": "Windows NT 3.5",
     "codename": "Daytona",
-    "release": "September 21, 1994",
     "version": "NT 3.5",
-    "editions": ["Windows NT 3.5 Server"],
     "build": 807,
-    "architectures": ["IA-32", " Alpha", "MIPS", "PowerPC"],
-    "obsolete": "December 31, 2001",
+    "editions": ["Windows NT 3.5 Server"],
     "licenses": ["Commercial software", "Proprietary software"],
+    "architectures": ["IA-32", " Alpha", "MIPS", "PowerPC"],
+    "ui": "Program Manager",
+    "rtm": "September 21, 1994",
+    "release": "September 21, 1994",
+    "obsolete": "December 31, 2001",
+    "facts": null,
     "logo": "WNT3.5-logo",
     "requirements": [
       {
-        "name": "Windows NT 3.5 Server",
+        "id": 1,
+        "name": "Minimum",
         "cpu": [
-          "Minimum 25 MHz 80386 processor",
-          "Minimum 25 MHz 80486 processor",
+          "25 MHz 80386 processor",
+          "25 MHz 80486 processor",
           "DEC Alpha or MIPS processors were also supported",
           "A computer with multiple processors was also supported"
         ],
-        "ram": ["at least 16 megabytes of memory"],
-        "storage": ["90 megabytes of hard drive space"],
-        "media": ["CD-ROM drive recomended"],
+        "ram": ["At least 16 megabytes of memory"],
         "vga": ["VGA adapters or better"],
-        "sound": null,
-        "network": "A 16- or 32-bit Ethernet or Token Ring NIC was necessary for network connectivity. This release introduced significant enhancements to the TCP/IP stack, including support for NetBIOS over TCP/IP (NetBT) and Microsoft's DHCP and WINS clients and servers.",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "display": "800×600 or 1024×768 with 256+ colors",
+        "storage": ["90 megabytes of hard drive space"],
+        "ports": [
+          {
+            "media": ["CD-ROM drive recomended"],
+            "sound": null,
+            "network": "A 16- or 32-bit Ethernet or Token Ring NIC was necessary for network connectivity. This release introduced significant enhancements to the TCP/IP stack, including support for NetBIOS over TCP/IP (NetBT) and Microsoft's DHCP and WINS clients and servers.",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Recommended",
+        "cpu": [
+          "33 MHz 80486 processor",
+          "DEC Alpha or MIPS processors were also supported",
+          "A computer with multiple processors was also supported"
+        ],
+        "ram": ["16MB to 32MB"],
+        "vga": [
+          "S3 Trio64 / Trio64V+ (PCI/VLB)",
+          "Matrox Millennium / Mystique (PCI)",
+          "ATI Mach64 GX / Rage II",
+          "Tseng ET4000/W32"
+        ],
+        "display": "640×480 px in 16 colors",
+        "storage": ["100 megabytes of hard drive space"],
+        "ports": [
+          {
+            "media": ["CD-ROM drive recomended"],
+            "sound": null,
+            "network": "A 16- or 32-bit Ethernet or Token Ring NIC was necessary for network connectivity. This release introduced significant enhancements to the TCP/IP stack, including support for NetBIOS over TCP/IP (NetBT) and Microsoft's DHCP and WINS clients and servers.",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

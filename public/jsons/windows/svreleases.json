@@ -3,28 +3,72 @@
     "id": 1,
     "name": "Windows NT 3.1",
     "codename": "Razzle",
-    "release": "July 27, 1993",
     "version": "NT 3.1",
-    "editions": ["Windows NT 3.1 Advanced Server"],
     "build": 528,
-    "architectures": ["IA-32", " Alpha", "MIPS"],
-    "obsolete": "December 31, 2000",
+    "editions": ["Windows NT 3.1 Advanced Server"],
     "licenses": ["Commercial software"],
+    "architectures": ["IA-32", " Alpha", "MIPS"],
+    "ui": "Program Manager",
+    "rtm": "July 27, 1993",
+    "ga": "July 27, 1993",
+    "eos": "December 31, 2000",
+    "facts": [
+      "Windows NT 3.1 is the first major release of the Windows NT operating system developed by Microsoft.",
+      "It marked the company's entry into the corporate computing environment, designed to support large networks and to be portable, compiled for Intel x86, DEC Alpha and MIPS based workstations and servers.",
+      "It was Microsoft's first 32-bit operating system, providing advantages over the constrictive 16-bit architecture of previous versions.",
+      "Windows NT 3.1 was the first version of Windows to use 32-bit flat virtual memory addressing on 32-bit processors."
+    ],
     "logo": "WNT3.1-logo",
     "requirements": [
       {
-        "name": "Windows NT 3.1 Advanced Server",
-        "cpu": ["80386 processor"],
+        "id": 1,
+        "name": "Minimum",
+        "cpu": [
+          "25 MHz 80386 (386DX) processor for x86-based systems",
+          "MIPS (R4000/R4400)",
+          "DEC Alpha processors"
+        ],
+        "ram": ["12 KB of memory"],
+        "vga": ["VGA graphics card"],
+        "display": "640×480 px in 16 colors",
+        "storage": ["75 MB on x86 systems", "92 MB on RISC systems"],
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "A network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Recommended",
+        "cpu": [
+          "Intel 486 or 486 DX2",
+          "MIPS (R4000/R4400)",
+          "DEC Alpha processors"
+        ],
         "ram": ["16 KB of memory"],
+        "vga": [
+          "S3 Vision864/964 (PCI)",
+          "ATI Mach8 / Mach32 (ISA/VGA)",
+          "Tseng Labs ET4000/W32 (ISA/VLB)",
+          "irrus Logic GD542x/543x Series (ISA/VLB/PCI)"
+        ],
+        "display": "800×600 or 1024×768 with 256+ colors",
         "storage": [
-          "90 megabytes of hard drive space",
+          "90 megabytes of hard drive space in x86",
           "110 megabytes of hard drive space in RISC"
         ],
-        "media": null,
-        "vga": ["VGA graphics card"],
-        "sound": null,
-        "network": "A network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "ports": [
+          {
+            "media": null,
+            "sound": null,
+            "network": "A network interface card (NIC) and appropriate drivers that support multiple network protocols: NetBEUI (NBF), TCP/IP, and DLC",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },

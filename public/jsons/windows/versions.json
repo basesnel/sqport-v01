@@ -211,7 +211,7 @@
     "ga": "October 5, 2021",
     "preceded": ["Windows 10 (2015)"],
     "succeded": null,
-    "pcreleases": [49, 50, 51, 52],
+    "pcreleases": [49, 50, 51, 52, 53],
     "svreleases": [23],
     "mbreleases": null
   }

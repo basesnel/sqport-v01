@@ -375,7 +375,7 @@
         ],
         "ram": ["Windows/286: 512 KB of memory", "Windows/386: 1 MB"],
         "vga": ["EGA adapters", "VGA adapters", "CGA adapters"],
-        "display": "640x200 in monochrome (Hercules/CGA) or 640x350 in 16-color EGA",
+        "display": "640×200 in monochrome (Hercules/CGA) or 640×350 in 16-color EGA",
         "storage": ["2 MB"],
         "ports": [
           {
@@ -432,7 +432,7 @@
         ],
         "ram": ["Windows/286: 512 KB of memory", "Windows/386: 1 MB"],
         "vga": ["EGA adapters", "VGA adapters", "CGA adapters"],
-        "display": "640x200 in monochrome (Hercules/CGA) or 640x350 in 16-color EGA",
+        "display": "640×200 in monochrome (Hercules/CGA) or 640×350 in 16-color EGA",
         "storage": ["2 MB"],
         "ports": [
           {

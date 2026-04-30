@@ -207,40 +207,58 @@
     "id": 4,
     "name": "Windows NT 4.0",
     "codename": "Shell Update Release",
-    "release": "July 29, 1996",
     "version": "NT 4.0",
+    "build": 1381,
     "editions": [
       "Windows NT 4.0 Server",
       "Windows NT 4.0 Server Enterprise",
       "Windows NT 4.0 Terminal Server Edition"
     ],
-    "build": 1381,
-    "architectures": ["IA-32", " Alpha", "MIPS", "PowerPC"],
-    "obsolete": "December 31, 2004",
     "licenses": ["Commercial software", "Proprietary software"],
+    "architectures": ["IA-32", " Alpha", "MIPS", "PowerPC"],
+    "ui": "Windows Explorer shell",
+    "rtm": "July 31, 1996",
+    "ga": "August 24, 1996",
+    "eos": "December 31, 2004",
+    "facts": [
+      "Windows NT 4.0 is the last major release of Microsoft Windows to support the Alpha, MIPS or PowerPC CPU architectures as Windows 2000 runs solely on IA-32.",
+      "It was the last release in the Windows NT family to be branded as Windows NT although Windows 2000 carried the designation 'Built on NT Technology'"
+    ],
     "logo": "WNT4.0-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": ["Intel 486 at 33 MHz"],
         "ram": ["16 MB"],
-        "storage": ["IDE, EIDE, SCSI or ESDI with 128 MB free spice"],
-        "media": ["CD-ROM drive"],
         "vga": ["VGA adapters"],
-        "sound": null,
-        "network": "Network Interface Card (NIC) needed",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "display": "640×480 px in 16 colors",
+        "storage": ["IDE, EIDE, SCSI or ESDI with 128 MB free spice"],
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "Network Interface Card (NIC) needed",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": ["Pentium or Pentium Pro"],
         "ram": ["32 MB or higher"],
-        "storage": ["IDE, EIDE, SCSI or ESDI with 256 MB free spice"],
-        "media": ["CD-ROM drive"],
         "vga": ["SVGA adapters"],
-        "sound": null,
-        "network": "Network Interface Card (NIC) needed",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "display": "800×600 or 1024×768 with 256+ colors",
+        "storage": ["IDE, EIDE, SCSI or ESDI with 256 MB free spice"],
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "Network Interface Card (NIC) needed",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       }
     ]
   },

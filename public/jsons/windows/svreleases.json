@@ -266,41 +266,59 @@
     "id": 5,
     "name": "Windows 2000",
     "codename": "NT 5.0",
-    "release": "February 17, 2000",
     "version": "NT 5.0",
+    "build": 2195,
     "editions": [
       "Windows 2000 Server",
       "Windows 2000 Advanced Server",
       "Windows 2000 Small Business Server",
       "Windows 2000 Datacenter Server"
     ],
-    "build": 2195,
-    "architectures": ["IA-32"],
-    "obsolete": "July 13, 2010",
     "licenses": ["Commercial software", "Proprietary software"],
+    "architectures": ["IA-32"],
+    "ui": "Windows Shell",
+    "rtm": "December 15, 1999",
+    "ga": "February 17, 2000",
+    "eos": "July 13, 2010",
+    "facts": [
+      "Microsoft marketed Windows 2000 as the most secure Windows version ever at the time; however, it became the target of a number of high-profile virus attacks such as Code Red[17] and Nimda.",
+      "Windows 2000 introduces a client-side DNS caching service."
+    ],
     "logo": "W2000-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": ["Pentium 133 MHz"],
         "ram": ["128 MB"],
+        "vga": ["VGA"],
+        "display": "800×600 px",
         "storage": ["Free spice 2 GB"],
-        "media": ["CD-ROM drive"],
-        "vga": ["800x600 VGA or better monitor"],
-        "sound": null,
-        "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": ["Pentium II 300 MHz"],
         "ram": ["256 MB"],
+        "vga": ["SVGA"],
+        "display": "1024×768 px",
         "storage": ["Free spice 5 GB"],
-        "media": ["CD-ROM drive"],
-        "vga": ["1024x768 VGA or better monitor"],
-        "sound": null,
-        "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "A network card (Ethernet, etc.) is necessary to physically connect to a network",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       }
     ]
   },

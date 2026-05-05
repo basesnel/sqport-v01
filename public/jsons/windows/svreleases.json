@@ -342,7 +342,7 @@
       "With client access licenses"
     ],
     "architectures": ["IA-32", "x86-64", "Itanium"],
-    "ui": "Luna",
+    "ui": "Windows Classic",
     "rtm": "March 28, 2003",
     "ga": "April 24, 2003",
     "eos": "July 14, 2015",
@@ -358,7 +358,7 @@
         "name": "Minimum",
         "cpu": [
           "Standard server: 133MHz",
-          "Enterprise server: 133MHz for x86-based computers; 733MHz for Itanium-based computers"
+          "Enterprise server: 133MHz for x86-based computers, 733MHz for Itanium-based computers"
         ],
         "ram": ["Standard server: 128MB", "Enterprise server: 128MB"],
         "vga": [
@@ -420,7 +420,7 @@
         ],
         "vga": [
           "VGA or higher-resolution required",
-          "SVGA 800x600 or higher recommended"
+          "SVGA 800×600 or higher recommended"
         ],
         "display": "800×600 px",
         "storage": [
@@ -451,7 +451,7 @@
         ],
         "vga": [
           "VGA or higher-resolution required",
-          "SVGA 800x600 or higher recommended"
+          "SVGA 800×600 or higher recommended"
         ],
         "display": "800×600 px",
         "storage": [
@@ -484,7 +484,7 @@
         ],
         "vga": [
           "VGA or higher-resolution required",
-          "SVGA 800x600 or higher recommended"
+          "SVGA 800×600 or higher recommended"
         ],
         "display": "800×600 px",
         "storage": [
@@ -518,7 +518,7 @@
         ],
         "vga": [
           "VGA or higher-resolution required",
-          "SVGA 800x600 or higher recommended"
+          "SVGA 800×600 or higher recommended"
         ],
         "display": "800×600 px",
         "storage": [
@@ -540,8 +540,8 @@
     "id": 7,
     "name": "Windows Server 2003 R2",
     "codename": "Whistler Server",
-    "release": "December 6, 2005",
     "version": "NT 5.2",
+    "build": 3790,
     "editions": [
       "Windows Server Web",
       "Windows Server Standard",
@@ -550,55 +550,73 @@
       "Windows Storage Server",
       "Windows Unified Data Storage Server"
     ],
-    "build": 3790,
-    "architectures": ["IA-32", "x86-64", "Itanium"],
-    "obsolete": "July 14, 2015",
     "licenses": [
       "Trialware",
       "Volume licensing",
       "With client access licenses"
     ],
+    "architectures": ["IA-32", "x86-64", "Itanium"],
+    "ui": "Windows classic",
+    "rtm": "December 6, 2005",
+    "ga": "March 5, 2006",
+    "eos": "July 14, 2015",
+    "facts": [
+      "The main differences from Windows Server 2003 include native Active Directory Federation Services (ADFS), updated .NET Framework 2.0, improved Print Management, and improved File Server Resource Manager"
+    ],
     "logo": "W2003-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": [
           "Standard server: 133MHz",
-          "Enterprise server: 133MHz for x86-based computers; 733MHz for Itanium-based computers"
+          "Enterprise server: 133MHz for x86-based computers, 733MHz for Itanium-based computers"
         ],
         "ram": ["Standard server: 128MB", "Enterprise server: 128MB"],
+        "vga": [
+          "Monitor and adapter with minimum resolution of the VGA standard"
+        ],
+        "display": "640×480 px",
         "storage": [
           "Standard server: disk space: 1,5GB",
           "Enterprise server:  1.5GB for x86-based for setup computers; 2.0GB for Itanium-based computers"
         ],
-        "media": ["CD-ROM drive"],
-        "vga": [
-          "Monitor and adapter with minimum resolution of the VGA standard"
-        ],
-        "sound": null,
-        "network": "A compotable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "A compotable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": [
           "Standard server: Pentium III 550MHz",
           "Enterprise server: Pentium III 733MHz"
         ],
         "ram": ["Standard server: 256MB", "Enterprise server: 256MB"],
+        "vga": [
+          "Monitor and adapter with minimum resolution of the VGA standard"
+        ],
+        "display": "1024×768 px",
         "storage": [
           "Standard server: disk space: 1,5GB",
           "Enterprise server:  1.5GB for x86-based for setup computers; 2.0GB for Itanium-based computers"
         ],
-        "media": ["CD-ROM drive"],
-        "vga": [
-          "Monitor and adapter with minimum resolution of the VGA standard"
-        ],
-        "sound": null,
-        "network": "A compatable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "ports": [
+          {
+            "media": ["CD-ROM drive"],
+            "sound": null,
+            "network": "A compatable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 3,
         "name": "Web-edition",
         "cpu": [
           "Minimum CPU Speed: 133MHz",
@@ -612,20 +630,26 @@
           "Maximum RAM: x64 - none",
           "Maximum RAM: IA-64 Itanium - none"
         ],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800×600 or higher recommended"
+        ],
+        "display": "800×600 px",
         "storage": [
           "Disk space for setup: 1.5 GB",
           "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
         ],
-        "media": ["Optional CD-ROM drive"],
-        "vga": [
-          "VGA or higher-resolution required",
-          "SVGA 800x600 or higher recommended"
-        ],
-        "sound": null,
-        "network": "A compatable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "ports": [
+          {
+            "media": ["Optional CD-ROM drive"],
+            "sound": null,
+            "network": "A compatable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 4,
         "name": "Standard-edition",
         "cpu": [
           "Minimum CPU Speed: 133MHz",
@@ -637,20 +661,26 @@
           "Recomended RAM: IA-32 x86 - 256MB",
           "Maximum RAM: IA-32 x86 - 4GB"
         ],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800×600 or higher recommended"
+        ],
+        "display": "800×600 px",
         "storage": [
           "Disk space for setup: 1.5 GB",
           "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
         ],
-        "media": ["Optional CD-ROM drive"],
-        "vga": [
-          "VGA or higher-resolution required",
-          "SVGA 800x600 or higher recommended"
-        ],
-        "sound": null,
-        "network": "A compatable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "ports": [
+          {
+            "media": ["Optional CD-ROM drive"],
+            "sound": null,
+            "network": "A compatable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 5,
         "name": "Enterprise-edition",
         "cpu": [
           "Minimum CPU Speed: 133 MHz for x86-based computers",
@@ -664,20 +694,26 @@
           "Maximum RAM: IA-32 x86 - 32GB",
           "Maximum RAM: IA-64 Itanium - 64GB"
         ],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800×600 or higher recommended"
+        ],
+        "display": "800×600 px",
         "storage": [
           "Minimum space: 1.5 GB for x86-based computers",
           "Minimum space: 2 GB for Itanium-based computers"
         ],
-        "media": ["Optional CD-ROM drive"],
-        "vga": [
-          "VGA or higher-resolution required",
-          "SVGA 800x600 or higher recommended"
-        ],
-        "sound": null,
-        "network": "A compatable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "ports": [
+          {
+            "media": ["Optional CD-ROM drive"],
+            "sound": null,
+            "network": "A compatable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 6,
         "name": "Datacenter-edition",
         "cpu": [
           "Minimum CPU Speed: 400 MHz for x86-based computers",
@@ -692,18 +728,23 @@
           "Maximum RAM: IA-32 x86 - 64GB",
           "Maximum RAM: IA-64 Itanium - 512GB"
         ],
+        "vga": [
+          "VGA or higher-resolution required",
+          "SVGA 800×600 or higher recommended"
+        ],
+        "display": "800×600 px",
         "storage": [
           "Minimum space: 1.5 GB for x86-based computers",
           "Minimum space: 2 GB for Itanium-based computers"
         ],
-        "media": ["Optional CD-ROM drive"],
-        "vga": [
-          "VGA or higher-resolution required",
-          "SVGA 800x600 or higher recommended"
-        ],
-        "sound": null,
-        "network": "A compatable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "ports": [
+          {
+            "media": ["Optional CD-ROM drive"],
+            "sound": null,
+            "network": "A compatable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       }
     ]
   },
@@ -745,7 +786,7 @@
           "Other editions, 64-bit: 32 GB"
         ],
         "media": ["DVD-ROM drive or compatible"],
-        "vga": ["800x600 or higher display"],
+        "vga": ["800×600 or higher display"],
         "sound": null,
         "network": "A compatible network adapter is needed (either wired or wireless)",
         "mouse": "Mouse or compatible pointing device"
@@ -766,7 +807,7 @@
         ],
         "storage": ["40 GB or greater"],
         "media": ["DVD-ROM drive"],
-        "vga": ["800x600 or higher display"],
+        "vga": ["800×600 or higher display"],
         "sound": null,
         "network": "A compatible network adapter is needed (either wired or wireless)",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
@@ -807,7 +848,7 @@
         "ram": ["512 MB"],
         "storage": ["Foundation: 10 GB", "Other editions: 32 GB"],
         "media": ["DVD-ROM drive or compatible"],
-        "vga": ["800x600 or higher display"],
+        "vga": ["800×600 or higher display"],
         "sound": null,
         "network": "A compatible network adapter is needed (either wired or wireless)",
         "mouse": "Mouse or compatible pointing device"
@@ -827,7 +868,7 @@
         ],
         "storage": ["Foundation: 10 GB or greater", "40 GB or greater"],
         "media": ["DVD-ROM drive"],
-        "vga": ["800x600 or higher display"],
+        "vga": ["800×600 or higher display"],
         "sound": null,
         "network": "A compatible network adapter is needed (either wired or wireless)",
         "mouse": "A Microsoft-compatible pointing device is recommended, but not required"

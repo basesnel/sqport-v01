@@ -404,6 +404,7 @@
         ]
       },
       {
+        "id": 3,
         "name": "Web-edition",
         "cpu": [
           "Minimum CPU Speed: 133MHz",
@@ -417,20 +418,26 @@
           "Maximum RAM: x64 - none",
           "Maximum RAM: IA-64 Itanium - none"
         ],
-        "storage": [
-          "Disk space for setup: 1.5 GB",
-          "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
-        ],
-        "media": ["Optional CD-ROM drive"],
         "vga": [
           "VGA or higher-resolution required",
           "SVGA 800x600 or higher recommended"
         ],
-        "sound": null,
-        "network": "A compatable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "display": "800×600 px",
+        "storage": [
+          "Disk space for setup: 1.5 GB",
+          "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
+        ],
+        "ports": [
+          {
+            "media": ["Optional CD-ROM drive"],
+            "sound": null,
+            "network": "A compatable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 4,
         "name": "Standard-edition",
         "cpu": [
           "Minimum CPU Speed: 133MHz",
@@ -442,20 +449,26 @@
           "Recomended RAM: IA-32 x86 - 256MB",
           "Maximum RAM: IA-32 x86 - 4GB"
         ],
-        "storage": [
-          "Disk space for setup: 1.5 GB",
-          "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
-        ],
-        "media": ["Optional CD-ROM drive"],
         "vga": [
           "VGA or higher-resolution required",
           "SVGA 800x600 or higher recommended"
         ],
-        "sound": null,
-        "network": "A compatable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "display": "800×600 px",
+        "storage": [
+          "Disk space for setup: 1.5 GB",
+          "Realistic Requirement: It is highly recommended to have 4 GB or more to accommodate service packs, paging files, and applications"
+        ],
+        "ports": [
+          {
+            "media": ["Optional CD-ROM drive"],
+            "sound": null,
+            "network": "A compatable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 5,
         "name": "Enterprise-edition",
         "cpu": [
           "Minimum CPU Speed: 133 MHz for x86-based computers",
@@ -469,20 +482,26 @@
           "Maximum RAM: IA-32 x86 - 32GB",
           "Maximum RAM: IA-64 Itanium - 64GB"
         ],
-        "storage": [
-          "Minimum space: 1.5 GB for x86-based computers",
-          "Minimum space: 2 GB for Itanium-based computers"
-        ],
-        "media": ["Optional CD-ROM drive"],
         "vga": [
           "VGA or higher-resolution required",
           "SVGA 800x600 or higher recommended"
         ],
-        "sound": null,
-        "network": "A compatable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "display": "800×600 px",
+        "storage": [
+          "Minimum space: 1.5 GB for x86-based computers",
+          "Minimum space: 2 GB for Itanium-based computers"
+        ],
+        "ports": [
+          {
+            "media": ["Optional CD-ROM drive"],
+            "sound": null,
+            "network": "A compatable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 6,
         "name": "Datacenter-edition",
         "cpu": [
           "Minimum CPU Speed: 400 MHz for x86-based computers",
@@ -497,18 +516,23 @@
           "Maximum RAM: IA-32 x86 - 64GB",
           "Maximum RAM: IA-64 Itanium - 512GB"
         ],
-        "storage": [
-          "Minimum space: 1.5 GB for x86-based computers",
-          "Minimum space: 2 GB for Itanium-based computers"
-        ],
-        "media": ["Optional CD-ROM drive"],
         "vga": [
           "VGA or higher-resolution required",
           "SVGA 800x600 or higher recommended"
         ],
-        "sound": null,
-        "network": "A compatable network adapter and related cables",
-        "mouse": "A Microsoft mouse or compatible pointing device"
+        "display": "800×600 px",
+        "storage": [
+          "Minimum space: 1.5 GB for x86-based computers",
+          "Minimum space: 2 GB for Itanium-based computers"
+        ],
+        "ports": [
+          {
+            "media": ["Optional CD-ROM drive"],
+            "sound": null,
+            "network": "A compatable network adapter and related cables",
+            "mouse": "A Microsoft mouse or compatible pointing device"
+          }
+        ]
       }
     ]
   },

@@ -752,8 +752,8 @@
     "id": 8,
     "name": "Windows Server 2008",
     "codename": "Longhorn Server",
-    "release": "February 27, 2008",
     "version": "NT 6.0",
+    "build": 6003,
     "editions": [
       "Windows Server 2008 Foundation (codenamed 'Lima'; x86-64) for OEMs only",
       "Windows Server 2008 Standard (IA-32 and x86-64)",
@@ -766,32 +766,41 @@
       "Windows Small Business Server 2008 (codenamed 'Cougar'; x86-64) for small businesses",
       "Windows Essential Business Server 2008 (codenamed 'Centro'; x86-64) for medium-sized businesses[40] - this edition was discontinued in 2010"
     ],
-    "build": 6003,
-    "architectures": ["IA-32", "x86-64", "Itanium"],
-    "obsolete": "January 14, 2020",
     "licenses": ["Commercial software", "Proprietary software"],
-    "logo": "W2008-logo",
+    "architectures": ["IA-32", "x86-64", "Itanium"],
+    "ui": "Windows shell",
+    "rtm": "February 4, 2008",
+    "ga": "February 27, 2008",
+    "eos": "January 14, 2020",
     "facts": [
       "It removed support for computers without ACPI, and is the first version that includes Hyper-V",
       "It is the last version of Windows Server that supports 32-bit processors (IA-32)"
     ],
+    "logo": "W2008-logo",
     "requirements": [
       {
+        "id": 1,
         "name": "Minimum",
         "cpu": ["1 GHz (IA-32)", "1.4 GHz (x86-64 or Itanium)"],
         "ram": ["512 MB"],
+        "vga": ["Super VGA"],
+        "display": "800×600 px",
         "storage": [
           "Foundation: 10 GB",
           "Other editions, 32-bit: 20 GB",
           "Other editions, 64-bit: 32 GB"
         ],
-        "media": ["DVD-ROM drive or compatible"],
-        "vga": ["800×600 or higher display"],
-        "sound": null,
-        "network": "A compatible network adapter is needed (either wired or wireless)",
-        "mouse": "Mouse or compatible pointing device"
+        "ports": [
+          {
+            "media": ["DVD-ROM drive or compatible"],
+            "sound": null,
+            "network": "A compatible network adapter is needed (either wired or wireless)",
+            "mouse": "Mouse or compatible pointing device"
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "Recommended",
         "cpu": [
           "2 GHz or faster",
@@ -805,12 +814,17 @@
           "Maximum memory on x64: Standard, Web - 32 GB; HPC - 128 GB; Enterprise, Datacenter - 1 TB",
           "Maximum memory on Itanium: 2 TB"
         ],
+        "vga": ["Super VGA"],
+        "display": "1024×768 px",
         "storage": ["40 GB or greater"],
-        "media": ["DVD-ROM drive"],
-        "vga": ["800×600 or higher display"],
-        "sound": null,
-        "network": "A compatible network adapter is needed (either wired or wireless)",
-        "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+        "ports": [
+          {
+            "media": ["DVD-ROM drive"],
+            "sound": null,
+            "network": "A compatible network adapter is needed (either wired or wireless)",
+            "mouse": "A Microsoft-compatible pointing device is recommended, but not required"
+          }
+        ]
       }
     ]
   },
